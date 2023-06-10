@@ -1,7 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import workbook from './App_fichiers/fichier_csv';
 
 function App() {
+
+  // Convertir la feuille de calcul en un tableau JSON
+  const jsonData = XLSX.utils.sheet_to_json(workbook, { header: 1 });
+
+  console.table(jsonData);
+
   return (
     <div className="App">
       <header className="App-header">
