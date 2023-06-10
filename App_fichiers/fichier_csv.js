@@ -1,24 +1,32 @@
-const fichier_csv = '/fichier_csv/Contacts.csv'
+const fichier_csv = 'src/fichier_csv/Contacts.csv'
 
 const fs = require('fs');
 const XLSX = require('xlsx');
 
 // Lire le contenu du fichier CSV
-const csvContent = fs.readFileSync('fichier.csv', 'utf-8');
+const csvContent = fs.readFileSync(fichier_csv, 'utf-8');
 
-// Convertir le contenu CSV en un tableau d'objets JavaScript (ou utilisez votre propre logique de traitement CSV ici)
-const data = processData(csvContent);
+const jsonData = csvToJson(csvContent);
 
-// Créer un nouveau classeur XLSX
-const workbook = XLSX.utils.book_new();
+function csvToJson(csvContent) {
 
-// Créer une feuille de calcul à partir des données
-const worksheet = XLSX.utils.json_to_sheet(data);
+    const lines = csvContent.split('\n');
+    const headers = lines[0].split(';');
+  
+    const jsonData = [];
+  
+    for (let i = 1; i < lines.length; i++) {
+      const values = lines[i].split(';');
+      const obj = {};
+  
+      for (let j = 0; j < headers.length; j++) {
+        obj[headers[j]] = values[j];
+      }
+  
+      jsonData.push(obj);
+    }
+  
+    return jsonData;
+  }
 
-// Ajouter la feuille de calcul au classeur
-XLSX.utils.book_append_sheet(workbook, worksheet, 'Feuille1');
-
-// Écrire le classeur dans un fichier XLSX
-XLSX.writeFile(workbook, 'fichier.xlsx');
-
-export default workbook;
+export default jsonData;

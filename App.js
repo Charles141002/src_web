@@ -1,30 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-import workbook from './App_fichiers/fichier_csv';
+import jsonData from './App_fichiers/fichier_csv';
+import BarreRecherche from './App_fichiers/barre_de_recherche';
+import { jsxOpeningElement } from '@babel/types';
 
 function App() {
 
-  // Convertir la feuille de calcul en un tableau JSON
-  const jsonData = XLSX.utils.sheet_to_json(workbook, { header: 1 });
-
-  console.table(jsonData);
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React 2
-        </a>
-      </header>
+      <BarreRecherche donnees={jsonData}/>
+      {jsonData.map((data, index) => (
+        <div key={index}>
+          <p>Société: {data.Société}</p>
+          <p>Réseau: {data.Réseau}</p>
+          <p>Genre: {data.Genre}</p>
+          <p>Nom: {data.Nom}</p>
+          <p>Prénom: {data.Prénom}</p>
+          <p>Adresse e-mail: {data["Adresse e-mail"]}</p>
+          <p>Ville: {data.Ville}</p>
+          <p>Code postal: {data["Code postal"]}</p>
+          <p>Pays/région: {data["Pays/région"]}</p>
+        </div>
+      ))}
     </div>
   );
 }
