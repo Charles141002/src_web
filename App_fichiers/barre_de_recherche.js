@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import {useEffect} from 'react';
-import Fiche from './Fiche';
+import PetiteFiche from './Petite_fiche';
 
 function BarreRecherche (donnees) {
 
@@ -78,10 +78,11 @@ function BarreRecherche (donnees) {
             </datalist>
             <p className="newline"></p>
             <button className="rounded-button" onClick={FindObject}>Recherche</button>
+            <div className="newline"/>
             <button className="rounded-button" onClick={handleSearch}>Reinitialiser</button>
 
         <div>
-            {tableauFiches.map((fiche, index) => (<Fiche key={index} entite={fiche} />))}
+            {tableauFiches.map((fiche, index) => (<PetiteFiche key={index} entite={fiche} />))}
         </div>
         </div>
     );
