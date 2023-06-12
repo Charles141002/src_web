@@ -2,20 +2,36 @@ import React from 'react';
 import Information from './Information';
 import Fiche from './Fiche';
 import App from '../App';
+import { useState } from 'react';
+
+
+
 
 function PetiteFiche (props) {
 
+    const [ouvrirFichebool, setouvrirFichebool] = useState(false);
+
+    
     console.log(props.entite);
 
-    function ey(){
+    function ouvrirFiche(){
         console.log('a');
-
-        return (<Fiche entite={props.entite} />)  // il faudra surement ouvrir une page avec la grande fiche ça sera plus simple
+    
+        setouvrirFichebool(true);
     }
+    
 
+
+    if (ouvrirFichebool)
+{
+    return (<div>
+        <Fiche entite={props.entite} />
+    </div>)
+}
+    else{
     return (
         <div>
-        <button onClick={() => ey()}>
+        <button className= "rounded-button" onClick={() => ouvrirFiche()}>
         <div class="fiche-petite">
             {Object.entries(props.entite).map((array) => <Information name={array[0]} value={array[1]}/>)}            
         </div>
@@ -23,6 +39,8 @@ function PetiteFiche (props) {
         </div>
     );
 }
+}
+
 
 
 

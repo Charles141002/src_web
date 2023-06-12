@@ -22,7 +22,9 @@ function Menu(props){
       };
   
     const dictionnaireReseauxEntreprises = creerDictionnaireReseauxEntreprises(props.datas);
+    const dictionnaireEntreprisesClients = creerDictionnaireEntreprisesClients(props.datas);
   
+// TROUVER LES RESEAUX
 
     function trouverReseaux(tableauDonnees) {
         const reseaux = new Set(); // Utilisation d'un Set pour éliminer les doublons
@@ -41,6 +43,7 @@ function Menu(props){
       
       console.log(reseaux);
 
+// TROUVER LES ENTREPRISES CORRESPONDANTES AUX RESEAUX
 
       function creerDictionnaireReseauxEntreprises(tableauDonnees) {
         const dictionnaire = {};
@@ -64,13 +67,62 @@ function Menu(props){
       
         return dictionnaire;
       }
+
+// TROUVER LES ENTREPRISES CORRESPONDANTES AUX CLIENTS
+
+      function creerDictionnaireEntreprisesClients(tableauDonnees) {
+        const dictionnaire = {};
+      
+        tableauDonnees.forEach((ligne) => {
+          const entreprise = ligne["﻿Société"];
+          const client = ligne["Nom"]
+      
+          if (client && entreprise) {
+            if (!dictionnaire[entreprise]) {
+              dictionnaire[entreprise] = new Set();
+            }
+            dictionnaire[entreprise].add(client);
+          }
+        });
+      
+        // Tri des entreprises par ordre alphabétique
+        for (const entreprise in dictionnaire) {
+          dictionnaire[entreprise] = Array.from(dictionnaire[entreprise]).sort();
+        }
+      
+        return dictionnaire;
+      }
       
       
-    console.log(dictionnaireReseauxEntreprises);
+    console.log(dictionnaireEntreprisesClients);
+
+    console.log(dictionnaireReseauxEntreprises.Promodis);
 
     
-      
+// FONCTIONS QUI AFFICHE LES ENTREPRISES SI LE RESEAU EST CLIQUÉ
 
+  const [montrer, setMontrer] = useState(false); 
+
+  function montrerEntreprise(reseau) {
+
+    if (montrer || dictionnaireReseauxEntreprises[reseau] == entreprises) {
+      setEntreprises([]);
+    }
+
+    else {
+    setEntreprises(dictionnaireReseauxEntreprises[reseau]);
+    //setEntreprises(dictionnaireReseauxEntreprises.Promodis);
+    setMontrer(true);
+    }
+
+
+  }
+
+
+  console.log(entreprises);
+
+
+// IL Y A LES LIENS ENTRE TOUS LES RESEAUX/ENTREPRISES/CLIENTS, IL SUFFIT MAINTENANT DE FAIRE LE HTML/CSS DE DEROULEMENT
 
     return (
         <div id="menu-deroulant">
@@ -79,19 +131,20 @@ function Menu(props){
               <div key={reseau}>
                 <button
                   className="reseau-button"
-                  onClick={() => handleSelectionReseau(reseau)}
+                  onClick={() => montrerEntreprise(reseau)}
                 >
                   {reseau}
                 </button>
-                {reseau === selectedReseau && (
-                  <div className="entreprises-container">
-                    {entreprises.map((entreprise) => (
-                      <button key={entreprise} className="entreprise-button">
-                        {entreprise}
-                      </button>
-                    ))}
-                  </div>
-                )}
+                {entreprises.map((entreprise) => (
+                <div>
+                <button
+                  className="reseau-button"
+                >
+                  {entreprise}
+                </button>
+                </div>
+                ))}
+
               </div>
             ))}
           </div>

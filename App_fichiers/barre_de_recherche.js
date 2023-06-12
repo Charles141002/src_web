@@ -68,6 +68,7 @@ function BarreRecherche (donnees) {
     const handleSearch = () => {
         setTableauFiches([]);
       };
+      
 
     return (
 
@@ -78,14 +79,17 @@ function BarreRecherche (donnees) {
             </datalist>
             <p className="newline"></p>
             <button className="rounded-button" onClick={FindObject}>Recherche</button>
-            <div className="newline"/>
+            <p className="newline"></p>
             <button className="rounded-button" onClick={handleSearch}>Reinitialiser</button>
-
+            <p className="newline"></p>
         <div>
             {tableauFiches.map((fiche, index) => (<PetiteFiche key={index} entite={fiche} />))}
+            <p className="newline"></p>
         </div>
         </div>
     );
+
+
 }
 
 export default BarreRecherche;
