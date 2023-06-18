@@ -4,11 +4,13 @@ import { useState , useEffect } from "react";
 
 
 
-function Menu(props){
+function Menu2(props){
 
     const [reseaux, setReseaux] = useState([]); // État pour stocker les réseaux
     const [entreprises, setEntreprises] = useState([]); // État pour stocker les entreprises correspondantes
     const [clients, setClients] = useState([]); // État pour stocker les clients des entreprises
+    const [open, setOpen] = useState(false);
+
 
   
     useEffect(() => {
@@ -22,7 +24,7 @@ function Menu(props){
       };
   
     const dictionnaireReseauxEntreprises = creerDictionnaireReseauxEntreprises(props.datas);
-    const dictionnaireEntreprisesClients = creerDictionnaireEntreprisesClients(props.datas);
+    //const dictionnaireEntreprisesClients = creerDictionnaireEntreprisesClients(props.datas);
   
 // TROUVER LES RESEAUX
 
@@ -70,91 +72,60 @@ function Menu(props){
 
 // TROUVER LES ENTREPRISES CORRESPONDANTES AUX CLIENTS
 
-      function creerDictionnaireEntreprisesClients(tableauDonnees) {
-        const dictionnaire = {};
-      
-        tableauDonnees.forEach((ligne) => {
-          const entreprise = ligne["﻿Société"];
-          const client = ligne["Nom"]
-      
-          if (client && entreprise) {
-            if (!dictionnaire[entreprise]) {
-              dictionnaire[entreprise] = new Set();
-            }
-            dictionnaire[entreprise].add(client);
-          }
-        });
-      
-        // Tri des entreprises par ordre alphabétique
-        for (const entreprise in dictionnaire) {
-          dictionnaire[entreprise] = Array.from(dictionnaire[entreprise]).sort();
-        }
-      
-        return dictionnaire;
+function creerDictionnaireEntreprisesClients(tableauDonnees) {
+  const dictionnaire = {};
+
+  tableauDonnees.forEach((ligne) => {
+    const entreprise = ligne["﻿Société"];
+    const client = ligne["Nom"];
+
+    if (client && entreprise) {
+      if (!dictionnaire[entreprise]) {
+        dictionnaire[entreprise] = [];
       }
-      
-      
-    console.log(dictionnaireEntreprisesClients);
-
-    console.log(dictionnaireReseauxEntreprises.Promodis);
-
-    
-// FONCTIONS QUI AFFICHE LES ENTREPRISES SI LE RESEAU EST CLIQUÉ
-
-  const [montrer, setMontrer] = useState(false); 
-
-  function montrerEntreprise(reseau) {
-
-    if (montrer || dictionnaireReseauxEntreprises[reseau] == entreprises) {
-      setEntreprises([]);
+      dictionnaire[entreprise].push(client);
     }
+  });
 
-    else {
-    setEntreprises(dictionnaireReseauxEntreprises[reseau]);
-    //setEntreprises(dictionnaireReseauxEntreprises.Promodis);
-    setMontrer(true);
-    }
-
-
+  // Tri des entreprises par ordre alphabétique
+  for (const entreprise in dictionnaire) {
+    dictionnaire[entreprise].sort();
   }
 
+  return dictionnaire;
+}
 
-  console.log(entreprises);
+      
+      
+    //console.log(dictionnaireEntreprisesClients);
 
+    console.log(dictionnaireReseauxEntreprises);
+
+    
 
 // IL Y A LES LIENS ENTRE TOUS LES RESEAUX/ENTREPRISES/CLIENTS, IL SUFFIT MAINTENANT DE FAIRE LE HTML/CSS DE DEROULEMENT
 
     return (
-        <div id="menu-deroulant">
-          <div className="reseaux-container">
-            {reseaux.map((reseau) => (
-              <div key={reseau}>
-                <button
-                  className="reseau-button"
-                  onClick={() => montrerEntreprise(reseau)}
-                >
-                  {reseau}
-                </button>
-                {entreprises.map((entreprise) => (
-                <div>
-                <button
-                  className="reseau-button"
-                >
-                  {entreprise}
-                </button>
-                </div>
-                ))}
+      <div className="dossier" >
 
-              </div>
-            ))}
-          </div>
+        <div class="bloc-titre-deroulant" onDoubleClick={() => setOpen(!(open))} >
+            
+            <h1>kkkk</h1>
+          
+            <h1 onClick={() => setOpen(!(open))}>(open && {reseaux.map(elt => 
+                <div className="bloc-titre-deroulant"><p>{elt}</p></div>)})
+            </h1>
+                vv
         </div>
-      );
+      </div>
+);
 }
-
-
-
 
   
 
-export default Menu;
+export default Menu2;
+
+
+
+
+
