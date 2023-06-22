@@ -3,12 +3,17 @@ import React, { useState, useRef } from 'react';
 import jsonData from './App_fichiers/fichier_csv';
 import BarreRecherche from './App_fichiers/barre_de_recherche';
 import { jsxOpeningElement } from '@babel/types';
-import Menu from './App_fichiers/Menu_deroulant';
-
+import Menu from './App_fichiers/menu_deroulant';
+import CreerListe from './App_fichiers/creer_liste';
+import { Liste_reseaux, Liste_entreprises, Liste_clients_agences } from './App_fichiers/liste';
+import BarreRechercheEntreprises from './App_fichiers/barre_recherche_entreprises';
+import BarreRechercheClients from './App_fichiers/barre_recherche_client';
 
 function App() {
 
+
   console.log(jsonData);
+
 
   const showFenetreGaucheRef = useRef(true);
 
@@ -35,8 +40,11 @@ function App() {
     <div className="menu">
       <button onClick={() => handleClick('afficherBarreRecherche')}>Afficher Barre de Recherche</button>
       <Menu datas={jsonData}/>
+      
     </div>
     <div className="content">
+    <BarreRechercheClients entreprise={"ABRAM DISTRIBUTION"}/>
+
       {renderActivePage()}
     </div>
   </div>

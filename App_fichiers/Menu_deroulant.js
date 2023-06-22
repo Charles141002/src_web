@@ -1,125 +1,108 @@
 import { useState , useEffect } from "react";
-
+import { Liste_reseaux, Liste_entreprises, Liste_clients_agences, Dictionnaire_reseaux_entreprises, Dictionnaire_entreprises_clients } from "./liste.js";
+import Reseau from "./reseau.js";
+import { ReactDOM } from "react-dom";
 
 
 
 
 function Menu2(props){
 
-    const [reseaux, setReseaux] = useState([]); // État pour stocker les réseaux
-    const [entreprises, setEntreprises] = useState([]); // État pour stocker les entreprises correspondantes
-    const [clients, setClients] = useState([]); // État pour stocker les clients des entreprises
-    const [open, setOpen] = useState(false);
+
+  const liste_reseaux = Liste_reseaux();
+  const dictionnaireReseauxEntreprises = Dictionnaire_reseaux_entreprises();
+  const liste_entreprises = Liste_entreprises();
+  const liste_client_agences = Liste_clients_agences();
+  const dictionnaireEntreprisesClients = Dictionnaire_entreprises_clients();
+
+  const [entreprisesFiltrees, setEntreprisesFiltrees] = useState([]);
+  const [open, setOpen] = useState(false);
+  const [selectedReseau, setSelectedReseau] = useState("");
 
 
-  
-    useEffect(() => {
-      const reseaux = trouverReseaux(props.datas);
-      setReseaux(reseaux);
-    }, [props.datas]);
-  
-    const handleSelectionReseau = (reseau) => {
-        const entreprises = dictionnaireReseauxEntreprises[reseau] || [];
-        setEntreprises(entreprises);
-      };
-  
-    const dictionnaireReseauxEntreprises = creerDictionnaireReseauxEntreprises(props.datas);
-    //const dictionnaireEntreprisesClients = creerDictionnaireEntreprisesClients(props.datas);
-  
-// TROUVER LES RESEAUX
-
-    function trouverReseaux(tableauDonnees) {
-        const reseaux = new Set(); // Utilisation d'un Set pour éliminer les doublons
-        
-        tableauDonnees.forEach((ligne) => {
-          const reseau = ligne.Réseau;
-          if (reseau) {
-            reseaux.add(reseau);
-          }
-        });
-        
-        const reseauxTries = Array.from(reseaux).sort(); // Tri des réseaux par ordre alphabétique
-        return reseauxTries;
+  const handleOnDoubleClickReseau = (reseau) => {
+    if (reseau === selectedReseau && open) {
+      setEntreprisesFiltrees([]);
+      setOpen(false);
+    } else {
+      setEntreprisesFiltrees(liste_entreprises.filter(entreprise =>
+        dictionnaireReseauxEntreprises[reseau].includes(entreprise))
+      );
+      setOpen(true);
 
     }
-      
-      console.log(reseaux);
+    setSelectedReseau(reseau);
+  };
 
-// TROUVER LES ENTREPRISES CORRESPONDANTES AUX RESEAUX
 
-      function creerDictionnaireReseauxEntreprises(tableauDonnees) {
-        const dictionnaire = {};
-      
-        tableauDonnees.forEach((ligne) => {
-          const reseau = ligne.Réseau;
-          const entreprise = ligne["﻿Société"];
-      
-          if (reseau && entreprise) {
-            if (!dictionnaire[reseau]) {
-              dictionnaire[reseau] = new Set();
-            }
-            dictionnaire[reseau].add(entreprise);
-          }
-        });
-      
-        // Tri des entreprises par ordre alphabétique
-        for (const reseau in dictionnaire) {
-          dictionnaire[reseau] = Array.from(dictionnaire[reseau]).sort();
-        }
-      
-        return dictionnaire;
-      }
 
-// TROUVER LES ENTREPRISES CORRESPONDANTES AUX CLIENTS
+  const [clientsFiltrees, setClientsFiltrees] = useState([]);
+  const [open_clients, setOpenClients] = useState(false);
+  const [selectedEnterprise, setSelectedEnterprise] = useState("");
 
-function creerDictionnaireEntreprisesClients(tableauDonnees) {
-  const dictionnaire = {};
+  const handleOnDoubleClickEntreprise = (entreprise) => {
+    if (entreprise === selectedEnterprise && open_clients) {
+      setClientsFiltrees([]);
+      setOpenClients(false);
+    } else {
+      setClientsFiltrees(liste_client_agences.filter(client_agence =>
+        dictionnaireEntreprisesClients[entreprise].includes(client_agence))
+      );
+      setOpenClients(true);
 
-  tableauDonnees.forEach((ligne) => {
-    const entreprise = ligne["﻿Société"];
-    const client = ligne["Nom"];
-
-    if (client && entreprise) {
-      if (!dictionnaire[entreprise]) {
-        dictionnaire[entreprise] = [];
-      }
-      dictionnaire[entreprise].push(client);
     }
-  });
+    setSelectedEnterprise(entreprise);
+  };
 
-  // Tri des entreprises par ordre alphabétique
-  for (const entreprise in dictionnaire) {
-    dictionnaire[entreprise].sort();
-  }
+  const [ouvrirFichebool, setouvrirFichebool] = useState(false);
+  const [FICHE, setFiche] = useState('');
 
-  return dictionnaire;
+
+
+  function ouvrirFiche(reseau){
+
+    setouvrirFichebool(true);
+    setFiche(reseau);
 }
 
-      
-      
-    //console.log(dictionnaireEntreprisesClients);
 
-    console.log(dictionnaireReseauxEntreprises);
 
-    
+if (ouvrirFichebool)
+{
+  const res = FICHE;
 
-// IL Y A LES LIENS ENTRE TOUS LES RESEAUX/ENTREPRISES/CLIENTS, IL SUFFIT MAINTENANT DE FAIRE LE HTML/CSS DE DEROULEMENT
+ReactDOM.render(<Reseau reseau={FICHE} />, document.getElementById('root'));
+}
 
     return (
-      <div className="dossier" >
 
-        <div class="bloc-titre-deroulant" onDoubleClick={() => setOpen(!(open))} >
-            
-            <h1>kkkk</h1>
-          
-            <h1 onClick={() => setOpen(!(open))}>(open && {reseaux.map(elt => 
-                <div className="bloc-titre-deroulant"><p>{elt}</p></div>)})
-            </h1>
-                vv
-        </div>
+      <div>
+        {liste_reseaux.map(reseau => (
+          <div key={reseau}>
+            <button onDoubleClick={() => handleOnDoubleClickReseau(reseau)} onClick={() => ouvrirFiche(reseau)}>{reseau}</button>
+            {liste_entreprises.map(entreprise => {
+              if (dictionnaireReseauxEntreprises[reseau].includes(entreprise) && entreprisesFiltrees.includes(entreprise) && open) {
+                return <div key={entreprise}><button onDoubleClick={() => handleOnDoubleClickEntreprise(entreprise)}>{entreprise}</button>
+                  {liste_client_agences.map(client_agence => {
+                    if (dictionnaireEntreprisesClients[entreprise].includes(client_agence) && clientsFiltrees.includes(client_agence) && open) {
+                      return <div key={client_agence}><button>{client_agence}</button></div>;
+                    } else {
+                      return null;
+                    }
+                })}</div>;
+              } else {
+                return null;
+              }
+            })}
+          </div>
+        ))}
+
       </div>
+
 );
 }
+
+
 
   
 

@@ -30,6 +30,7 @@ function BarreRecherche (donnees) {
         setOptions(optionTemp);
       }, [donnees.donnees]);
 
+      console.log(options);
     
     
     const FindObject = (e) => {
@@ -83,8 +84,7 @@ function BarreRecherche (donnees) {
             <button className="rounded-button" onClick={handleSearch}>Reinitialiser</button>
             <p className="newline"></p>
         <div>
-            {tableauFiches.map((fiche, index) => (<PetiteFiche key={index} entite={fiche} />))}
-            <p className="newline"></p>
+            {tableauFiches.map((fiche, index) => (<div><PetiteFiche key={index} entite={fiche} /><p className="newline"></p></div>))}
         </div>
         </div>
     );
