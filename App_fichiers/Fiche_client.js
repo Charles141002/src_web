@@ -34,6 +34,9 @@ function Fiche(props) {
     link.href = url;
     link.download = 'fichier_json.json';
     link.click();
+    console.log('AAAA');
+    console.log(jsonDataStr);
+    console.log(updatedData);
   };
 
 
