@@ -1,107 +1,99 @@
-import {useState, useEffect} from "react";
 import jsonData from "./fichier_csv";
 import { Liste_reseaux, Liste_clients_agences, Dictionnaire_entreprises_clients, Liste_entreprises, Dictionnaire_reseaux_entreprises } from "./liste";
+import {useState} from 'react';
+import {useEffect} from 'react';
+import PetiteFiche from './Petite_fiche';
+
+function BarreRecherche (props) {
 
 
-function BarreRechercheClientsReseau(props){
 
-    const dictionnaireEntreprisesClients = Dictionnaire_entreprises_clients();
-    const dictionnaireReseauxEntreprises = Dictionnaire_reseaux_entreprises();
 
-    console.log(dictionnaireReseauxEntreprises[props.reseau]);
-
-    const liste_client_agences = Liste_clients_agences();
-    const liste_entreprises = Liste_entreprises();
-
-    const [tableauClients, setTableauClients] = useState([]);
+    const [tableauFiches, setTableauFiches] = useState([]);
     const [options, setOptions] = useState([]);
 
     useEffect(() => {
-
         const optionTemp = [];
     
-        for (let k = 0; k <  liste_entreprises.length; k++) {
+        for (let k = 0; k < jsonData.length; k++) {
 
             
-            const entreprise = liste_entreprises[k];
+            const ligne = jsonData[k];
 
-            for (let i=0; i< liste_client_agences.length; i++){
-
-                const client_agence = liste_client_agences[k];
-
+            if (props.reseau == Object.entries(ligne)[1][1]) {
     
-            if (!optionTemp.includes(client_agence)  && dictionnaireEntreprisesClients[entreprise].includes(client_agence) && dictionnaireReseauxEntreprises[props.reseau].includes(entreprise)){
-              optionTemp.push(client_agence);
+            for (let j = 0; j < Object.entries(ligne).length; j++) {
+                if (!optionTemp.includes(Object.entries(ligne)[j][1])){
+              optionTemp.push(Object.entries(ligne)[j][1]);
                 }
+            }
+        }
           
         }
-    }
     
         setOptions(optionTemp);
-      }, []);
+      }, [jsonData]);
 
+      console.log(options);
     
     
     const FindObject = (e) => {
 
         e.preventDefault();
 
-        const RechercheData = document.getElementById('recherche-client').value;
-        const clientsagencesTrouves = [];
+        const RechercheData = document.getElementById('recherche-nom').value;
+        const fichesTrouvees = [];
         const optionTemp = [];
 
-        for ( let k =0; k < liste_entreprises.length; k++){
+        for ( let k =0; k < jsonData.length; k++){
 
-            const entreprise = liste_entreprises[k];
-
-
-
-                for (let i =0; i<liste_client_agences.length; i++){
-
-                    const client_agence = liste_client_agences[k];
+                const ligne = jsonData[k];
 
 
+                for (let j=0; j<Object.entries(ligne).length; j++) {
+                    if (RechercheData === Object.entries(ligne)[j][1] && props.reseau == Object.entries(ligne)[1][1]) {
+                        fichesTrouvees.push(ligne);
 
-                    if (RechercheData === client_agence  && dictionnaireEntreprisesClients[entreprise].includes(client_agence) && dictionnaireReseauxEntreprises[props.reseau].includes(entreprise)) {
-                        clientsagencesTrouves.push(client_agence);
 
-
-                    
+                    }
 
                 }
-                
-            }
+
                 
             }
             
         //setTableauFiches([]);
         //console.log(tableauFiches)
-        setTableauClients(clientsagencesTrouves);
+        setTableauFiches(fichesTrouvees);
 
     };
 
+    console.log(tableauFiches);
 
     const handleSearch = () => {
-        setTableauClients([]);
+        setTableauFiches([]);
       };
       
 
     return (
 
         <div>
-            <input type="text" list="suggestions" id="recherche-client"/>
+            <input type="text" list="suggestions" id="recherche-nom"/>
             <datalist id="suggestions">
-            {options.map((option, index) => (<option key={index} value={option} />))}
+                {options.map((option, index) => (<option key={index} value={option} />))}
             </datalist>
             <p className="newline"></p>
             <button className="rounded-button" onClick={FindObject}>Recherche</button>
             <p className="newline"></p>
+            <button className="rounded-button" onClick={handleSearch}>Reinitialiser</button>
+            <p className="newline"></p>
         <div>
-            {tableauClients.map( mail_client => (<div>{mail_client}<p className="newline"></p></div>))}
+            {tableauFiches.map((fiche, index) => (<div><PetiteFiche key={index} entite={fiche} /><p className="newline"></p></div>))}
         </div>
         </div>
     );
 
+
 }
 
-export default BarreRechercheClientsReseau;
+export default BarreRecherche;

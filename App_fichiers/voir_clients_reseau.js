@@ -40,6 +40,9 @@ function VoirClientsReseau(props){
     return (
 
         <div>
+              <BarreRechercheClientsReseau reseau={props.reseau}/>
+              <p className="newline"></p>
+
             {liste_clients_du_reseau.map(client => <div><PetiteFiche entite={Retrouver_infos_clients(client)} /><p className="newline"></p></div>)}
 <p className="newline"></p>
             <button className="rounded-button" onClick={() => ReactDOM.render(<App />, document.getElementById('root'))}> Retour au menu </button>
