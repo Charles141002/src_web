@@ -1,6 +1,8 @@
 import {useState, useEffect} from "react";
 import jsonData from "./fichier_csv";
 import { Liste_reseaux, Liste_entreprises, Dictionnaire_reseaux_entreprises } from "./liste";
+import ReactDOM from "react-dom";
+import Entreprise from "./entreprise";
 
 
 function BarreRechercheEntreprises(props){
@@ -83,7 +85,7 @@ function BarreRechercheEntreprises(props){
             <button className="rounded-button" onClick={FindObject}>Recherche</button>
             <p className="newline"></p>
         <div>
-            {tableauEntreprises.map( nom_entreprise => (<div>{nom_entreprise}<p className="newline"></p></div>))}
+            {tableauEntreprises.map( nom_entreprise => (<div><button className="rounded-button" onClick={() => ReactDOM.render(<Entreprise entreprise={nom_entreprise} />, document.getElementById('root'))}>{nom_entreprise}</button><p className="newline"></p></div>))}
         </div>
         </div>
     );

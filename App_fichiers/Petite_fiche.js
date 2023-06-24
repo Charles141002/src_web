@@ -13,6 +13,8 @@ import ReactDOM from 'react-dom';
 
 function PetiteFiche (props) {
 
+    console.log(props.entite);
+
     const [ouvrirFichebool, setouvrirFichebool] = useState(false);
 
     

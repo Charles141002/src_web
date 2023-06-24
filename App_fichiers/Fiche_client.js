@@ -10,38 +10,6 @@ function Fiche(props) {
   console.log(liste[1]["CONSEIL SERVICE AGRI"]);
 
 
-  function faireApparaitreListe(){
-
-    const nom_societe = props.entite["﻿Société"]
-    const nom_reseau = props.entite["Réseau"]
-
-
-    if (nom_societe){
-      console.log('a');
-      const liste_clients = liste[1][nom_societe];
-      console.log(liste_clients);
-      // TROUVER LES PROPS DE LA LISTE CLIENTS
-
-      const liste_fiche_client = []
-
-      for (const client in liste_clients) {
-
-        for (const fiche in jsonData){
-
-          if (fiche["Nom"] == client){
-            liste_fiche_client.push(fiche);
-          }
-
-        }
-
-      }
-      if (liste_fiche_client){console.log(liste_fiche_client)};
-      return liste_fiche_client;
-    }
-
-
-  };
-
   const [data, setData] = useState(jsonData);
   console.log(props.entite["﻿Société"])
 
@@ -75,9 +43,6 @@ function Fiche(props) {
         {Object.entries(props.entite).map(([key, value]) => (
           <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />
         ))}
-        <button className="rounded-button" onClick={() => faireApparaitreListe()}>
-          Faire apparaître les fiches lier à l'Entreprise ou au Réseau
-        </button>
         <input type="submit" value="Sauvegarder" />
       </form>
 

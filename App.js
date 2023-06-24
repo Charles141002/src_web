@@ -8,6 +8,8 @@ import CreerListe from './App_fichiers/creer_liste';
 import { Liste_reseaux, Liste_entreprises, Liste_clients_agences } from './App_fichiers/liste';
 import BarreRechercheEntreprises from './App_fichiers/barre_recherche_entreprises';
 import BarreRechercheClients from './App_fichiers/barre_recherche_client';
+import Reseau from './App_fichiers/reseau';
+import VoirClientsReseau from './App_fichiers/voir_clients_reseau';
 
 function App() {
 
@@ -43,8 +45,6 @@ function App() {
       
     </div>
     <div className="content">
-    <BarreRechercheClients entreprise={"ABRAM DISTRIBUTION"}/>
-
       {renderActivePage()}
     </div>
   </div>

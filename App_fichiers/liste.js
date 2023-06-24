@@ -72,7 +72,7 @@ export function Liste_clients_agences(){
 
     function trouverClientsAgences(tableauDonnees) {
         const clients_agences = new Set(); // Utilisation d'un Set pour éliminer les doublons
-        
+
         tableauDonnees.forEach((ligne) => {
         const client_agence = ligne["Adresse e-mail"];
         if (client_agence) {
@@ -157,5 +157,37 @@ export function Dictionnaire_entreprises_clients(){
     }
 
     return dictionnaireEntreprisesClients;
+
+}
+
+// RETOUVER LES INFOS D'UN CLIENT A L AIDE DE SON ADRESSE MAIL
+
+
+export function Retrouver_infos_clients(adresse_e_mail){
+
+
+    const clients_agences = trouverClientsAgences(adresse_e_mail, jsonData);
+
+
+    function trouverClientsAgences(adresse_e_mail,tableauDonnees) {
+        const clients_agences = new Set(); // Utilisation d'un Set pour éliminer les doublons
+
+        tableauDonnees.forEach((ligne) => {
+        const client_agence = ligne["Adresse e-mail"];
+        if (client_agence == adresse_e_mail) {
+            clients_agences.add(ligne);
+        }
+        });
+
+        const iterator = clients_agences.values();
+        const firstEntry = iterator.next().value;
+        console.log(firstEntry);
+        
+        return firstEntry;
+
+    }
+    console.log(clients_agences);
+
+    return clients_agences;
 
 }

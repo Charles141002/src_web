@@ -1,7 +1,9 @@
 import { useState , useEffect } from "react";
-import { Liste_reseaux, Liste_entreprises, Liste_clients_agences, Dictionnaire_reseaux_entreprises, Dictionnaire_entreprises_clients } from "./liste.js";
+import { Liste_reseaux, Liste_entreprises, Liste_clients_agences, Dictionnaire_reseaux_entreprises, Dictionnaire_entreprises_clients, Retrouver_infos_clients } from "./liste.js";
 import Reseau from "./reseau.js";
-import { ReactDOM } from "react-dom";
+import ReactDOM from 'react-dom';
+import Entreprise from "./entreprise.js";
+import Fiche from "./Fiche_client.js";
 
 
 
@@ -24,6 +26,7 @@ function Menu2(props){
     if (reseau === selectedReseau && open) {
       setEntreprisesFiltrees([]);
       setOpen(false);
+      
     } else {
       setEntreprisesFiltrees(liste_entreprises.filter(entreprise =>
         dictionnaireReseauxEntreprises[reseau].includes(entreprise))
@@ -54,38 +57,36 @@ function Menu2(props){
     setSelectedEnterprise(entreprise);
   };
 
-  const [ouvrirFichebool, setouvrirFichebool] = useState(false);
-  const [FICHE, setFiche] = useState('');
+  function afficher(reseau){
+
+    return <Reseau reseau={reseau}/>
+  }
 
 
-
-  function ouvrirFiche(reseau){
-
-    setouvrirFichebool(true);
-    setFiche(reseau);
-}
-
-
-
-if (ouvrirFichebool)
-{
-  const res = FICHE;
-
-ReactDOM.render(<Reseau reseau={FICHE} />, document.getElementById('root'));
-}
 
     return (
 
       <div>
         {liste_reseaux.map(reseau => (
           <div key={reseau}>
-            <button onDoubleClick={() => handleOnDoubleClickReseau(reseau)} onClick={() => ouvrirFiche(reseau)}>{reseau}</button>
+            <div>
+            <button onClick={() => handleOnDoubleClickReseau(reseau)} onDoubleClick={() => {
+  const element = <Reseau reseau={reseau} />;
+  ReactDOM.render(element, document.getElementById('root'));
+}}>{reseau}</button>
+            </div>
             {liste_entreprises.map(entreprise => {
               if (dictionnaireReseauxEntreprises[reseau].includes(entreprise) && entreprisesFiltrees.includes(entreprise) && open) {
-                return <div key={entreprise}><button onDoubleClick={() => handleOnDoubleClickEntreprise(entreprise)}>{entreprise}</button>
+                return <div key={entreprise}><button onClick={() => handleOnDoubleClickEntreprise(entreprise)} onDoubleClick={() => {
+                  const element = <Entreprise entreprise={entreprise} />;
+                  ReactDOM.render(element, document.getElementById('root'));
+                }}>{entreprise}</button>
                   {liste_client_agences.map(client_agence => {
                     if (dictionnaireEntreprisesClients[entreprise].includes(client_agence) && clientsFiltrees.includes(client_agence) && open) {
-                      return <div key={client_agence}><button>{client_agence}</button></div>;
+                      return <div key={client_agence}><button onClick={() => {
+                        const element = <Fiche entite={Retrouver_infos_clients(client_agence)} />;
+                        ReactDOM.render(element, document.getElementById('root'));
+                      }}>{client_agence}</button></div>;
                     } else {
                       return null;
                     }
@@ -103,8 +104,6 @@ ReactDOM.render(<Reseau reseau={FICHE} />, document.getElementById('root'));
 }
 
 
-
-  
 
 export default Menu2;
 
