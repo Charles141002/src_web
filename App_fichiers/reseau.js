@@ -54,19 +54,22 @@ function Reseau(props){
     return (
 
       <div className="container">
-      <div className="menu">
+      <div id="menu">
         <button onClick={() => handleClick('afficherBarreRecherche')}>Afficher Barre de Recherche</button>
         <Menu2 datas={jsonData}/>
         
       </div>
 
-      <div className="content">
+      <div id="content">
       {renderActivePage()}
    
             <BarreRechercheEntreprises reseau={props.reseau}/>
             <button onClick={() =>ReactDOM.render(<VoirClientsReseau reseau={props.reseau}/>, document.getElementById('root'))}>Voir les clients de ce réseau</button>
-            {liste_entreprises_du_reseau.map(entreprise => <div><button className="rounded-button" onClick={() => ReactDOM.render(<Entreprise entreprise={entreprise} />, document.getElementById('root'))}>{entreprise}</button><p className="newline"></p></div>)}
-<p className="newline"></p>
+            
+            <div id="liste-reseau">
+              {liste_entreprises_du_reseau.map(entreprise => <div><button className="rounded-button" onClick={() => ReactDOM.render(<Entreprise entreprise={entreprise} />, document.getElementById('root'))}>{entreprise}</button><p className="newline"></p></div>)}
+            </div>
+
             <button className="rounded-button" onClick={() => ReactDOM.render(<App />, document.getElementById('root'))}> Retour au menu </button>
         </div>
 

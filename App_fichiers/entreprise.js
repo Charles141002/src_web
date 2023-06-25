@@ -53,13 +53,13 @@ function Entreprise(props){
     return (
 
       <div className="container">
-      <div className="menu">
+      <div id="menu">
         <button onClick={() => handleClick('afficherBarreRecherche')}>Afficher Barre de Recherche</button>
         <Menu2 datas={jsonData}/>
         
       </div>
 
-      <div className="content">
+      <div id="content">
       {renderActivePage()}
             <BarreRechercheClients entreprise={props.entreprise}/>
             <p className="newline"></p>

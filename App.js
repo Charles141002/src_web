@@ -42,12 +42,12 @@ function App() {
   return (
 
     <div className="container">
-    <div className="menu">
+    <div id="menu">
       <button onClick={() => handleClick('afficherBarreRecherche')}>Afficher Barre de Recherche</button>
       <Menu datas={jsonData}/>
       
     </div>
-    <div className="content">
+    <div id="content">
       {renderActivePage()}
     </div>
   </div>

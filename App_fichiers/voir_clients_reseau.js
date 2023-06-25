@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import BarreRechercheClients from "./barre_recherche_client";
 import { Liste_entreprises, Dictionnaire_reseaux_entreprises } from "./liste";
 import App from "../App";
@@ -7,6 +7,10 @@ import { Liste_clients_agences, Dictionnaire_entreprises_clients } from "./liste
 import BarreRechercheClientsReseau from "./barre_recherche_clients_reseau";
 import { Retrouver_infos_clients } from "./liste";
 import PetiteFiche from "./Petite_fiche";
+import Menu2 from "./menu_deroulant";
+import jsonData from "./fichier_csv";
+import BarreRecherche from "./barre_recherche_clients_reseau";
+
 
 
 function VoirClientsReseau(props){
@@ -35,11 +39,34 @@ function VoirClientsReseau(props){
         setListeClientsDuReseau(optionTemp);
       }, [reseau]);
 
+      const [activePage, setActivePage] = useState('');
+
+      const handleClick = (page) => {
+        setActivePage(page);
+      };
+      const showFenetreGaucheRef = useRef(true);
+
+      const renderActivePage = () => {
+        showFenetreGaucheRef.current = false;
+        switch (activePage) {
+          case 'afficherBarreRecherche':
+            return <BarreRecherche donnees={jsonData}/>
+          default:
+            return null;
+        }
+      };
+
     
 
     return (
-
-        <div>
+      <div className="container">
+    <div id="menu">
+      <button onClick={() => handleClick('afficherBarreRecherche')}>Afficher Barre de Recherche</button>
+      <Menu2 datas={jsonData}/>
+      
+    </div>
+    <div id="content">
+      {renderActivePage()}
               <BarreRechercheClientsReseau reseau={props.reseau}/>
               <p className="newline"></p>
 
@@ -47,6 +74,10 @@ function VoirClientsReseau(props){
 <p className="newline"></p>
             <button className="rounded-button" onClick={() => ReactDOM.render(<App />, document.getElementById('root'))}> Retour au menu </button>
         </div>
+    
+  </div>
+
+        
     )
 }
 
