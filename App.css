@@ -237,13 +237,34 @@ font-size: medium;
 font-weight: normal;
 }
 
+#menu-deroulant {
+ 
+}
 
 
-#menu-deroulant p {
-margin: 0.05em 2em;
+
+#menu-deroulant h3 {
+margin: 0.05em 4em;
 padding: 0em;
 font-size: small;
 font-weight: normal;
 font-style: italic;
+text-align: left;
 }
 
+#menu-deroulant h2 {
+  margin: 0.05em 2em;
+  padding: 0em;
+  font-size: medium;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  }
+#menu-deroulant h1 {
+    margin: 0.05em 0.1em;
+    padding: 0em;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    }

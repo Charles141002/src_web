@@ -1,11 +1,76 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Information from './Information';
 import jsonData from './fichier_csv';
 import App from '../App';
 import ReactDOM from 'react-dom';
 import CreerListe from './creer_liste';
+import { Retrouver_ligne_clients } from './liste';
+import BarreRecherche from './barre_de_recherche';
+import Menu2 from './menu_deroulant';
+
 
 function Fiche(props) {
+
+// MODIFICATION FICHE
+
+const fs = require('fs');
+const csv = require('csv-parser');
+const createCsvWriter = require('csv-writer').createObjectCsvWriter;
+
+// Chemin du fichier CSV à modifier
+const filePath = 'src/fichier_csv/Contacts.csv';
+
+// Ligne spécifique que vous souhaitez modifier
+const ligneAmodifier = 3815; // Retrouver_ligne_clients(props.entite["Adresse e-mail"])
+
+// Fonction pour modifier le fichier CSV
+function modifierFichierCSV() {
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Une erreur s\'est produite lors de la lecture du fichier CSV :', err);
+      return;
+    }
+
+    // Remplacer "Promodis" par "Promododo" dans la colonne "Réseau"
+    const lignes = data.split('\n');
+    const entetes = lignes[0].split(';');
+    const reseauIndex = entetes.indexOf('Réseau');
+    const adressemailIndex = entetes.indexOf('Adresse e-mail');
+
+    for (let i = 1; i < lignes.length; i++) {
+      
+      const colonnes = lignes[i].split(';');
+
+      if (props.entite["Adresse e-mail"]==adressemailIndex){
+        colonnes[reseauIndex] = 'AAAA AA AA AA AA';
+      
+      lignes[i] = colonnes.join(';');
+    }
+  }
+
+    const fichierModifie = lignes.join('\n');
+
+    // Écrire les données modifiées dans le fichier CSV
+    fs.writeFile(filePath, fichierModifie, 'utf8', (err) => {
+      if (err) {
+        console.error('Une erreur s\'est produite lors de l\'écriture du fichier CSV :', err);
+        return;
+      }
+      console.log('Le fichier CSV a été modifié avec succès.');
+    });
+  });
+}
+
+// Appel de la fonction pour modifier le fichier CSV
+modifierFichierCSV();
+
+
+
+
+// AFFICHAGE FICHE
+
+
+
   const liste = CreerListe(jsonData);
   console.log(liste[1]["CONSEIL SERVICE AGRI"]);
 
@@ -39,8 +104,37 @@ function Fiche(props) {
     console.log(updatedData);
   };
 
+  const showFenetreGaucheRef = useRef(true);
+
+  const [activePage, setActivePage] = useState('');
+
+  const handleClick = (page) => {
+    setActivePage(page);
+  };
+
+  const renderActivePage = () => {
+    showFenetreGaucheRef.current = false;
+    switch (activePage) {
+      case 'afficherBarreRecherche':
+        return <BarreRecherche donnees={jsonData}/>
+      default:
+        return null;
+    }
+  };
+
 
   return (
+
+
+    <div className="container">
+    <div className="menu">
+      <button onClick={() => handleClick('afficherBarreRecherche')}>Afficher Barre de Recherche</button>
+      <Menu2 datas={jsonData}/>
+      
+    </div>
+
+    <div className="content">
+    {renderActivePage()}
     <div className="fiche">
       <form className="fiche-modifiable" onSubmit={handleSubmit}>
         {Object.entries(props.entite).map(([key, value]) => (
@@ -54,6 +148,9 @@ function Fiche(props) {
       </button>
 
     </div>
+    </div>
+    </div>
+
   );
 }
 

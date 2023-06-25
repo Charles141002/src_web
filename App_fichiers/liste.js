@@ -191,3 +191,36 @@ export function Retrouver_infos_clients(adresse_e_mail){
     return clients_agences;
 
 }
+
+// TROUVER LE NUMERO DE LIGNE DU CLIENT
+
+export function Retrouver_ligne_clients(adresse_e_mail){
+
+
+    const ligne = trouverClientsAgences(adresse_e_mail, jsonData);
+
+
+    function trouverClientsAgences(adresse_e_mail,tableauDonnees) {
+
+        let ligne=0;
+
+
+        for (let k = 0; k < tableauDonnees.length; k++) {
+            const client_agence = tableauDonnees[k]["Adresse e-mail"];
+
+
+        if (client_agence == adresse_e_mail) {
+        
+            ligne = k+2;
+        }
+        };
+    
+
+        return ligne;
+
+    }
+    console.log(ligne);
+
+    return ligne;
+
+}

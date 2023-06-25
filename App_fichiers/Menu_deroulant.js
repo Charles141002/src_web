@@ -4,6 +4,8 @@ import Reseau from "./reseau.js";
 import ReactDOM from 'react-dom';
 import Entreprise from "./entreprise.js";
 import Fiche from "./Fiche_client.js";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGlobe, faCircle, faBuilding} from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -66,27 +68,27 @@ function Menu2(props){
 
     return (
 
-      <div>
+      <div id="menu-deroulant">
         {liste_reseaux.map(reseau => (
           <div key={reseau}>
             <div>
-            <button onClick={() => handleOnDoubleClickReseau(reseau)} onDoubleClick={() => {
+            <h1 onClick={() => handleOnDoubleClickReseau(reseau)} onDoubleClick={() => {
   const element = <Reseau reseau={reseau} />;
   ReactDOM.render(element, document.getElementById('root'));
-}}>{reseau}</button>
+}}><FontAwesomeIcon icon={faGlobe} /> {reseau} </h1>
             </div>
             {liste_entreprises.map(entreprise => {
-              if (dictionnaireReseauxEntreprises[reseau].includes(entreprise) && entreprisesFiltrees.includes(entreprise) && open) {
-                return <div key={entreprise}><button onClick={() => handleOnDoubleClickEntreprise(entreprise)} onDoubleClick={() => {
+              if (dictionnaireReseauxEntreprises[reseau].includes(entreprise) && entreprisesFiltrees.includes(entreprise) && open && selectedReseau==reseau) {
+                return <div key={entreprise}><h2 onClick={() => handleOnDoubleClickEntreprise(entreprise)} onDoubleClick={() => {
                   const element = <Entreprise entreprise={entreprise} />;
                   ReactDOM.render(element, document.getElementById('root'));
-                }}>{entreprise}</button>
+                }}><FontAwesomeIcon icon={faBuilding} /> {entreprise}</h2>
                   {liste_client_agences.map(client_agence => {
                     if (dictionnaireEntreprisesClients[entreprise].includes(client_agence) && clientsFiltrees.includes(client_agence) && open) {
-                      return <div key={client_agence}><button onClick={() => {
+                      return <div key={client_agence}><h3 onClick={() => {
                         const element = <Fiche entite={Retrouver_infos_clients(client_agence)} />;
                         ReactDOM.render(element, document.getElementById('root'));
-                      }}>{client_agence}</button></div>;
+                      }}><FontAwesomeIcon icon={faCircle} /> {client_agence}</h3></div>;
                     } else {
                       return null;
                     }
@@ -106,8 +108,3 @@ function Menu2(props){
 
 
 export default Menu2;
-
-
-
-
-

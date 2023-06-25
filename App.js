@@ -11,6 +11,7 @@ import BarreRechercheClients from './App_fichiers/barre_recherche_client';
 import Reseau from './App_fichiers/reseau';
 import VoirClientsReseau from './App_fichiers/voir_clients_reseau';
 import BarreRechercheClientsReseau from './App_fichiers/barre_recherche_clients_reseau';
+import { Retrouver_ligne_clients } from './App_fichiers/liste';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         return null;
     }
   };
+
 
 
   return (
