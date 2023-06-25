@@ -11,6 +11,8 @@ import Menu2 from './menu_deroulant';
 
 function Fiche(props) {
 
+
+
 // MODIFICATION FICHE
 
 const fs = require('fs');
@@ -21,10 +23,14 @@ const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const filePath = 'src/fichier_csv/Contacts.csv';
 
 // Ligne spécifique que vous souhaitez modifier
-const ligneAmodifier = 3815; // Retrouver_ligne_clients(props.entite["Adresse e-mail"])
+const ligneAmodifier = Retrouver_ligne_clients(props.entite["Adresse e-mail"]); // Retrouver_ligne_clients(props.entite["Adresse e-mail"])
 
 // Fonction pour modifier le fichier CSV
 function modifierFichierCSV() {
+
+
+  console.log(document.getElementById('Code postal').value);
+  console.log(document.getElementById('Nom').value);
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
       console.error('Une erreur s\'est produite lors de la lecture du fichier CSV :', err);
@@ -34,19 +40,65 @@ function modifierFichierCSV() {
     // Remplacer "Promodis" par "Promododo" dans la colonne "Réseau"
     const lignes = data.split('\n');
     const entetes = lignes[0].split(';');
-    const reseauIndex = entetes.indexOf('Réseau');
+
+    const nomIndex = entetes.indexOf('Nom');
+    const prenomIndex = entetes.indexOf('Prénom');
+    const villeIndex = entetes.indexOf('Ville');
+    const codepostalIndex = entetes.indexOf('Code Postal');
     const adressemailIndex = entetes.indexOf('Adresse e-mail');
+    const societeIndex = entetes.indexOf("﻿Société");
+    const paysIndex = entetes.indexOf('Pays/région\r')
+    const reseauIndex = entetes.indexOf('Réseau');
+    const genreIndex = entetes.indexOf('Genre');
 
-    for (let i = 1; i < lignes.length; i++) {
-      
-      const colonnes = lignes[i].split(';');
 
-      if (props.entite["Adresse e-mail"]==adressemailIndex){
-        colonnes[reseauIndex] = 'AAAA AA AA AA AA';
+
+
+
+
+
+    console.log(nomIndex);
+
+            // Ajouter les nouvelles données à la feuille de calcul
+            const newData = [
+              [
+                document.getElementById('Nom').value,
+                document.getElementById('Prénom').value,
+                document.getElementById('Ville').value,
+                document.getElementById('Code postal').value,
+                document.getElementById('Adresse e-mail').value,
+                document.getElementById("﻿Société").value,
+                document.getElementById('Pays/région\r').value,
+                document.getElementById('Réseau').value,
+                document.getElementById('Genre').value,
+                document.getElementById('Code postal').value
+            ]
+            ];
+    
+            console.log(newData[0][0]);
+            console.log(newData);
+    
+    
+      const colonnes = lignes[ligneAmodifier].split(';');
+
+
+        colonnes[nomIndex] =newData[0][0];
+        colonnes[prenomIndex] = newData[0][1];
+        colonnes[villeIndex] = newData[0][2];
+        colonnes[codepostalIndex] = newData[0][3];
+        colonnes[adressemailIndex]= newData[0][4];
+        colonnes[societeIndex]= newData[0][5];
+        colonnes[paysIndex]= newData[0][6];
+        colonnes[reseauIndex]= newData[0][7];
+        colonnes[genreIndex]= newData[0][8];
+        colonnes[codepostalIndex]= newData[0][9];
+
       
-      lignes[i] = colonnes.join(';');
-    }
-  }
+      lignes[ligneAmodifier] = colonnes.join(';');
+
+      console.log(newData[0][4])
+      console.log(lignes[ligneAmodifier]);
+  
 
     const fichierModifie = lignes.join('\n');
 
@@ -62,7 +114,6 @@ function modifierFichierCSV() {
 }
 
 // Appel de la fonction pour modifier le fichier CSV
-modifierFichierCSV();
 
 
 
@@ -70,39 +121,6 @@ modifierFichierCSV();
 // AFFICHAGE FICHE
 
 
-
-  const liste = CreerListe(jsonData);
-  console.log(liste[1]["CONSEIL SERVICE AGRI"]);
-
-
-  const [data, setData] = useState(jsonData);
-  console.log(props.entite["﻿Société"])
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    
-    // Mise à jour des données avec les nouvelles valeurs
-    const updatedData = { ...data };
-    Object.entries(props.entite).forEach(([key, value]) => {
-      updatedData[props.entite.__rowNum__][key] = document.getElementById(key).value;
-    });
-    setData(updatedData);
-
-    // Enregistrement des données au format JSON (facultatif)
-    const jsonDataStr = JSON.stringify(updatedData);
-    // Faites ce que vous souhaitez avec les données JSON mises à jour
-
-    // Par exemple, vous pouvez télécharger le fichier JSON
-    const blob = new Blob([jsonDataStr], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'fichier_json.json';
-    link.click();
-    console.log('AAAA');
-    console.log(jsonDataStr);
-    console.log(updatedData);
-  };
 
   const showFenetreGaucheRef = useRef(true);
 
@@ -136,7 +154,7 @@ modifierFichierCSV();
     <div className="content">
     {renderActivePage()}
     <div className="fiche">
-      <form className="fiche-modifiable" onSubmit={handleSubmit}>
+      <form className="fiche-modifiable" >
         {Object.entries(props.entite).map(([key, value]) => (
           <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />
         ))}
@@ -146,6 +164,9 @@ modifierFichierCSV();
       <button className="rounded-button" onClick={() => ReactDOM.render(<App />, document.getElementById('root'))}>
         Retour au menu
       </button>
+
+      <button className="rounded-button" onClick={() => modifierFichierCSV()}>
+Tester chagement info fiche      </button>
 
     </div>
     </div>

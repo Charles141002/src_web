@@ -211,7 +211,7 @@ export function Retrouver_ligne_clients(adresse_e_mail){
 
         if (client_agence == adresse_e_mail) {
         
-            ligne = k+2;
+            ligne = k+1;
         }
         };
     
