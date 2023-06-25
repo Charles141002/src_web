@@ -127,13 +127,13 @@ modifierFichierCSV();
 
 
     <div className="container">
-    <div className="menu">
+    <div id="menu">
       <button onClick={() => handleClick('afficherBarreRecherche')}>Afficher Barre de Recherche</button>
       <Menu2 datas={jsonData}/>
       
     </div>
 
-    <div className="content">
+    <div id="content">
     {renderActivePage()}
     <div className="fiche">
       <form className="fiche-modifiable" onSubmit={handleSubmit}>
