@@ -7,6 +7,7 @@ import CreerListe from './creer_liste';
 import { Retrouver_ligne_clients } from './liste';
 import BarreRecherche from './barre_de_recherche';
 import Menu2 from './menu_deroulant';
+import { SupprimerClient } from './ajout_client';
 
 
 function Fiche(props) {
@@ -71,7 +72,6 @@ function modifierFichierCSV() {
                 document.getElementById('Pays/région\r').value,
                 document.getElementById('Réseau').value,
                 document.getElementById('Genre').value,
-                document.getElementById('Code postal').value
             ]
             ];
     
@@ -91,7 +91,6 @@ function modifierFichierCSV() {
         colonnes[paysIndex]= newData[0][6];
         colonnes[reseauIndex]= newData[0][7];
         colonnes[genreIndex]= newData[0][8];
-        colonnes[codepostalIndex]= newData[0][9];
 
       
       lignes[ligneAmodifier] = colonnes.join(';');
@@ -160,13 +159,21 @@ function modifierFichierCSV() {
         ))}
         <input type="submit" value="Sauvegarder" />
       </form>
+      <p className="newline"></p>
+
+
 
       <button className="rounded-button" onClick={() => ReactDOM.render(<App />, document.getElementById('root'))}>
         Retour au menu
       </button>
+      <p className="newline"></p>
 
       <button className="rounded-button" onClick={() => modifierFichierCSV()}>
 Tester chagement info fiche      </button>
+
+<p className="newline"></p>
+<SupprimerClient ligne={ligneAmodifier}/>
+
 
     </div>
     </div>

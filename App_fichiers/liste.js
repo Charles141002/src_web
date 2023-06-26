@@ -25,7 +25,6 @@ export function Liste_reseaux(){
         return reseauxTries;
 
     }
-    console.log(reseaux);
 
     return reseaux;
 
@@ -84,7 +83,6 @@ export function Liste_clients_agences(){
         return clients_agencesTries;
 
     }
-    console.log(clients_agences);
 
     return clients_agences;
 
@@ -181,12 +179,10 @@ export function Retrouver_infos_clients(adresse_e_mail){
 
         const iterator = clients_agences.values();
         const firstEntry = iterator.next().value;
-        console.log(firstEntry);
         
         return firstEntry;
 
     }
-    console.log(clients_agences);
 
     return clients_agences;
 
@@ -219,7 +215,6 @@ export function Retrouver_ligne_clients(adresse_e_mail){
         return ligne;
 
     }
-    console.log(ligne);
 
     return ligne;
 

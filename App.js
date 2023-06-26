@@ -12,11 +12,12 @@ import Reseau from './App_fichiers/reseau';
 import VoirClientsReseau from './App_fichiers/voir_clients_reseau';
 import BarreRechercheClientsReseau from './App_fichiers/barre_recherche_clients_reseau';
 import { Retrouver_ligne_clients } from './App_fichiers/liste';
+import { AjoutClient }  from './App_fichiers/ajout_client';
 
 function App() {
 
+//AjoutClient();
 
-  console.log(jsonData);
 
 
   const showFenetreGaucheRef = useRef(true);
@@ -32,6 +33,8 @@ function App() {
     switch (activePage) {
       case 'afficherBarreRecherche':
         return <BarreRecherche donnees={jsonData}/>
+        case 'afficherAjoutlient':
+          return <AjoutClient />
       default:
         return null;
     }
@@ -44,6 +47,8 @@ function App() {
     <div className="container">
     <div id="menu">
       <button onClick={() => handleClick('afficherBarreRecherche')}>Afficher Barre de Recherche</button>
+      <button onClick={() => handleClick('afficherAjoutlient')}> afficherAjoutlient  </button>
+
       <Menu2 datas={jsonData}/>
       
     </div>
