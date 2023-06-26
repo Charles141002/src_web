@@ -8,6 +8,7 @@ import { Retrouver_ligne_clients } from './liste';
 import BarreRecherche from './barre_de_recherche';
 import Menu2 from './menu_deroulant';
 import { SupprimerClient } from './ajout_client';
+import { AjoutClient } from './ajout_client';
 
 
 function Fiche(props) {
@@ -134,6 +135,8 @@ function modifierFichierCSV() {
     switch (activePage) {
       case 'afficherBarreRecherche':
         return <BarreRecherche donnees={jsonData}/>
+        case 'afficherAjoutlient':
+          return <AjoutClient />
       default:
         return null;
     }
@@ -146,6 +149,8 @@ function modifierFichierCSV() {
     <div className="container">
     <div id="menu">
       <button onClick={() => handleClick('afficherBarreRecherche')}>Afficher Barre de Recherche</button>
+      <button onClick={() => handleClick('afficherAjoutlient')}> Ajout Client  </button>
+
       <Menu2 datas={jsonData}/>
       
     </div>

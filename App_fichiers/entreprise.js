@@ -60,6 +60,7 @@ function Entreprise(props){
       </div>
 
       <div id="content">
+      <h1>{props.entreprise}</h1>
       {renderActivePage()}
             <BarreRechercheClients entreprise={props.entreprise}/>
             

@@ -61,6 +61,9 @@ function Reseau(props){
       </div>
 
       <div id="content">
+
+        <h1>{props.reseau}</h1>
+
       {renderActivePage()}
    
             <BarreRechercheEntreprises reseau={props.reseau}/>

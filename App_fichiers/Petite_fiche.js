@@ -5,6 +5,7 @@ import App from '../App';
 import { useState } from 'react';
 import root from 'root';
 import ReactDOM from 'react-dom';
+import EviterBug from './eviter_le bug';
 
 
 
@@ -31,7 +32,7 @@ function PetiteFiche (props) {
 
     if (ouvrirFichebool)
 {
-    ReactDOM.render(<Fiche entite={props.entite} />, document.getElementById('root'));
+    ReactDOM.render(<EviterBug entite={props.entite} />, document.getElementById('root'));
 }
     else{
     return (

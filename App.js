@@ -47,7 +47,7 @@ function App() {
     <div className="container">
     <div id="menu">
       <button onClick={() => handleClick('afficherBarreRecherche')}>Afficher Barre de Recherche</button>
-      <button onClick={() => handleClick('afficherAjoutlient')}> afficherAjoutlient  </button>
+      <button onClick={() => handleClick('afficherAjoutlient')}> Ajout Client</button>
 
       <Menu2 datas={jsonData}/>
       
