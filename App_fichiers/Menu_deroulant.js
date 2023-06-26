@@ -85,10 +85,17 @@ function Menu2(props){
                 }}><FontAwesomeIcon icon={faBuilding} /> {entreprise}</h2>
                   {liste_client_agences.map(client_agence => {
                     if (dictionnaireEntreprisesClients[entreprise].includes(client_agence) && clientsFiltrees.includes(client_agence) && open) {
+                      if (Retrouver_infos_clients(client_agence)["Nom"] && Retrouver_infos_clients(client_agence)["Prénom"]){
+                      return <div key={client_agence}><h3 onClick={() => {
+                        const element = <Fiche entite={Retrouver_infos_clients(client_agence)} />;
+                        ReactDOM.render(element, document.getElementById('root'));
+                      }}><FontAwesomeIcon icon={faCircle} /> {Retrouver_infos_clients(client_agence)["Nom"]}{Retrouver_infos_clients(client_agence)["Prénom"]}</h3></div>;
+                    } else {
                       return <div key={client_agence}><h3 onClick={() => {
                         const element = <Fiche entite={Retrouver_infos_clients(client_agence)} />;
                         ReactDOM.render(element, document.getElementById('root'));
                       }}><FontAwesomeIcon icon={faCircle} /> {client_agence}</h3></div>;
+                    }
                     } else {
                       return null;
                     }
