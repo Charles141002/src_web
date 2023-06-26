@@ -12,13 +12,14 @@ import ReactDOM from 'react-dom';
 
 
 function PetiteFiche (props) {
-
-    console.log(props.entite);
-
+    console.log(props.entite)
+    console.log(props.entite.Nom);
+    console.log(props.entite.Prénom);
+    console.log(props.entite.Ville);
     const [ouvrirFichebool, setouvrirFichebool] = useState(false);
 
     
-    console.log(props);
+    
 
     function ouvrirFiche(){
         console.log('a');
@@ -34,13 +35,14 @@ function PetiteFiche (props) {
 }
     else{
     return (
-        <div>
-        <button className= "rounded-button" onClick={() => ouvrirFiche()}>
-        <div class="fiche-petite">
-            {Object.entries(props.entite).map((array) => <Information name={array[0]} value={array[1]}/>)}            
+        <div style={{margin: "0px", border: "0px", padding: "0px"}}>
+            {(props.entite.Nom=="") ?  
+            <div class="petite-fiche" onClick={() => ouvrirFiche()}><p>Agence {props.entite.Ville}</p> </div>:
+            <div class="petite-fiche" onClick={() => ouvrirFiche()}><p>{props.entite.Nom}  </p> <p>  {props.entite.Prénom}</p></div>}         
         </div>
-        </button>
-        </div>
+        
+            
+        
     );
 }
 }
