@@ -304,4 +304,17 @@ text-align: left;
   height: 100%;
 }
 
+.petite-fiche {
+  font-size: 1em;
+  display: flex;
+  font-weight: bold;
+  background-color: #92bedc;
+  margin: 0.5em 1em;
+  padding: 0.5em 1em;
+}
+
+.petite-fiche p {
+  margin-right: 3px;
+}
+
 

@@ -62,8 +62,8 @@ function Entreprise(props){
       <div id="content">
       {renderActivePage()}
             <BarreRechercheClients entreprise={props.entreprise}/>
-            <p className="newline"></p>
-            {liste_clients_de_l_entreprise.map(client => <div><PetiteFiche entite={Retrouver_infos_clients(client)} /><p className="newline"></p></div>)}
+            
+            {liste_clients_de_l_entreprise.map(client => <PetiteFiche entite={Retrouver_infos_clients(client)} />)}
 <p className="newline"></p>
             <button className="rounded-button" onClick={() => ReactDOM.render(<App />, document.getElementById('root'))}> Retour au menu </button>
         </div>
