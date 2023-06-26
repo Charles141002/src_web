@@ -10,6 +10,7 @@ import { faGlobe, faCircle, faBuilding} from '@fortawesome/free-solid-svg-icons'
 
 
 
+
 function Menu2(props){
 
 

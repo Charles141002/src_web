@@ -32,7 +32,7 @@ function PetiteFiche (props) {
 
     if (ouvrirFichebool)
 {
-    ReactDOM.render(<EviterBug entite={props.entite} />, document.getElementById('root'));
+    ReactDOM.render(<Fiche entite={props.entite} />, document.getElementById('root'));
 }
     else{
     return (
