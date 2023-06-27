@@ -6,6 +6,7 @@ import Entreprise from "./entreprise.js";
 import Fiche from "./Fiche_client.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faCircle, faBuilding} from '@fortawesome/free-solid-svg-icons';
+import EviterBug from "./eviter_le bug.js";
 
 
 
@@ -87,12 +88,12 @@ function Menu2(props){
                     if (dictionnaireEntreprisesClients[entreprise].includes(client_agence) && clientsFiltrees.includes(client_agence) && open) {
                       if (Retrouver_infos_clients(client_agence)["Nom"] && Retrouver_infos_clients(client_agence)["Prénom"]){
                       return <div key={client_agence}><h3 onClick={() => {
-                        const element = <Fiche entite={Retrouver_infos_clients(client_agence)} />;
+                        const element = <EviterBug entite={Retrouver_infos_clients(client_agence)} />;
                         ReactDOM.render(element, document.getElementById('root'));
                       }}><FontAwesomeIcon icon={faCircle} /> {Retrouver_infos_clients(client_agence)["Nom"]}{Retrouver_infos_clients(client_agence)["Prénom"]}</h3></div>;
                     } else {
                       return <div key={client_agence}><h3 onClick={() => {
-                        const element = <Fiche entite={Retrouver_infos_clients(client_agence)} />;
+                        const element = <EviterBug entite={Retrouver_infos_clients(client_agence)} />;
                         ReactDOM.render(element, document.getElementById('root'));
                       }}><FontAwesomeIcon icon={faCircle} /> {client_agence}</h3></div>;
                     }
