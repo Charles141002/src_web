@@ -8,6 +8,7 @@ import VoirClientsReseau from "./voir_clients_reseau";
 import Entreprise from "./entreprise";
 import Menu2 from "./menu_deroulant";
 import BarreRecherche from "./barre_de_recherche";
+import ChangementTauxNiveauReseau  from "./changement_taux";
 
 function Reseau(props){
 
@@ -67,6 +68,7 @@ function Reseau(props){
       {renderActivePage()}
    
             <BarreRechercheEntreprises reseau={props.reseau}/>
+            <ChangementTauxNiveauReseau reseau={props.reseau}/>
             <button onClick={() =>ReactDOM.render(<VoirClientsReseau reseau={props.reseau}/>, document.getElementById('root'))}>Voir les clients de ce réseau</button>
             
             <div id="liste-reseau">

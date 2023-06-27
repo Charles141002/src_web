@@ -54,6 +54,10 @@ function modifierFichierCSV() {
     const paysIndex = entetes.indexOf('Pays/région')
     const reseauIndex = entetes.indexOf('Réseau');
     const genreIndex = entetes.indexOf('Genre');
+    const tauxIndex = entetes.indexOf('Taux');
+    const infoIndex = entetes.indexOf('Informations quelconques');
+
+
 
 
 
@@ -75,6 +79,8 @@ function modifierFichierCSV() {
                 document.getElementById('Pays/région').value,
                 document.getElementById('Réseau').value,
                 document.getElementById('Genre').value,
+                document.getElementById('Taux').value,
+                document.getElementById('Informations quelconques').value,
             ]
             ];
     
@@ -94,6 +100,8 @@ function modifierFichierCSV() {
         colonnes[paysIndex]= newData[0][6];
         colonnes[reseauIndex]= newData[0][7];
         colonnes[genreIndex]= newData[0][8];
+        colonnes[tauxIndex]= newData[0][9];
+        colonnes[infoIndex]= newData[0][10];
 
       
       lignes[ligneAmodifier] = colonnes.join(';');

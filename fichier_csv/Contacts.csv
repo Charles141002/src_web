@@ -1,6 +1,6 @@
-﻿Société;Réseau;Genre;Nom;Prénom;Adresse e-mail;Ville;Code postal;Pays/région;Dernière Modif
-BONFILS BIEVRE SERVICE;Promodis;;;; bonfils@bonfils-sa.fr;BEAUREPAIRE;38270;France;Tue Jun 27 2023
-AGRIVISION;Promodis;;;; castetis@agrivision.fr;CASTETIS;64300;France;
+﻿Société;Réseau;Genre;Nom;Prénom;Adresse e-mail;Ville;Code postal;Pays/région;Taux;Informations quelconques;Dernière Modif
+BONFILS BIEVRE SERVICE;Promodis;;;; bonfils@bonfils-sa.fr;BEAUREPAIRE;38270;France;ENFIN;lolololo;Wed Jun 28 2023
+AGRIVISION;Promodis;;;; castetis@agrivision.fr;CASTETIS;64300;France;ENFIN
 FAVIER PRO;Dompro;Monsieur;CALLET;Julien; jcallet@favierpro.fr ;FIRMINY;42700;;
 LOOTEN;Socoda;Monsieur;Bailleul;André;a.bailleul@looten.fr;GRANDE SYNTHE CEDEX;59791;;
 DEMOLIN HAUTE NORMANDIE;Manutention;Monsieur;BARRE;Aurelien;a.barre@demolin.fr;LE HAVRE;76064;;
@@ -8,7 +8,7 @@ GENIX;Cofaq;Monsieur;Genix;Pascal;a.bertet@genix.fr;PONT DE BEAUVOISIN;73330;;
 Adelya;Autres;Madame;Bodez;Audrey;a.bodez@cpn.adelya.net;;;;
 MOTELEC;Socoda;Madame;CHAMOT;Astrid;a.chamot@billet-fournier.fr;BELLEGARDE VALS CEDEX;1203;;
 BOULEY;Socoda;Monsieur;CHEVALIER;Alexis;a.chevalier@bouley.fr;LA VAUPALIERE;76150;;
-Alpes Manutention;Autres;Madame;Colin;Aurelie;a.colin@alpes-manutention.com;SAINT BALDOPH;73190;;
+Alpes Manutention;Autres;Madame;Colin;Aurelie;a.colin@alpes-manutention.com;SAINT BALDOPH;73190;;;ee;Tue Jun 27 2023
 cichy-manutention;Manutention;Monsieur;Cornu;Anthony;a.cornu@cichy-manutention.fr;Moneteau;89470;;
 Beauce Materiel;Autres;Monsieur;Croix;Adrien;a.Croix@beauce-materiel.fr;Luce;28111;;
 ADEM (Atelier Dépannage Entretien Manutention);Manutention;Monsieur;PREVOST;Rémy;a.d.e.m@wanadoo.fr;MORTRÉE;61570;;
@@ -36,7 +36,7 @@ RAVATE PROFESSIONNEL;Socoda;Monsieur;RAVATE;Abdoullah;abdoullah.ravate@ravate.co
 Europe Forklift Manutention;Autres;Monsieur;BEDO;;abedoefm@wanadoo.fr;VILLENEUVE LE ROI;94290;;
 Prolians;Descours Prolians;Monsieur;Busuttil;Albert;abusutil@prolians.eu;;;;
 AMS ACCU MANUTENTION SERVICES SARL;Manutention;Monsieur;LOCHON;Jean-Claude;accu.manutention.services@wanadoo.fr;NOGENT LE PHAYE/CHARTRES;28630;;
-GILBERT METHIVIER SAS;Promodis;;;;accueil@groupe-methivier.com;BRAY SAINT AIGNAN;45460;France;
+GILBERT METHIVIER SAS;Promodis;;;;accueil@groupe-methivier.com;BRAY SAINT AIGNAN;45460;France;ENFIN
 Savoie Manutention;Manutention;Madame;;Isabelle;accueil@savoies-manutention.com;Allonzier La Caille;74350;;
 ACEBI;Autres;Monsieur;Moreau;Jean-Pierre;acebi@acebi.com;ST HERBLON;44150;;
 STOCKMAN;Manutention;Monsieur;Cédras;Alexandre;acedras@stockman.fr;Bayonne;64100;;
@@ -57,7 +57,7 @@ ACR;Actiflip;Madame;Lyet;Isabelle;acr@acr21.fr;Chenove;21300;;
 Ocopa Emballage;Autres;Madame;Dubois;Rachel;acs2@ocopa-emballage.com;Orgéres;35230;;
 Action Manutention;Autres;Monsieur;LE BERRE;;action-manutention@wanadoo.fr;BEYCHAC ET CAILLAU;33750;;
 Adetech;Actiflip;Monsieur;DI NATALE;;adetech@adetech.fr;EYBENS;38320;;
-DELOURMEL AGRICULTURE;Promodis;;;;adm@delourmel-agriculture.fr;NOYAL CHATILLON S/SEICHE;35230;France;
+DELOURMEL AGRICULTURE;Promodis;;;;adm@delourmel-agriculture.fr;NOYAL CHATILLON S/SEICHE;35230;France;ENFIN
 INTERMAT;Cofaq;Monsieur;BERLIN;Rodolphe;adm1@bricocenter.mc;MONACO;98013;;
 DELOBEL;Autres;Monsieur;DELOBEL;Alain;admanutention@orange.fr;BAUVIN;59221;;
 Manustock;DDirect;Madame;Darget;Léa;admin1@manustock.fr;Bayonne;64100;;
@@ -67,7 +67,7 @@ AURAMA - CORBRAS;DDirect;Madame;Olmo;Margarita;administration@aurama.fr;GENAS;69
 BOMPART;Cofaq;;;;administration@bompart.fr;CARMAUX;81400;;
 AUTOS-PIECES & INDUSTRIES;DDirect;Madame;mutschen;Laurence;administration@delaisse.be;ATHUS (Bel);6791;;
 Picardie Manutention Service;DDirect;Madame;Vérité;Florine;administration@picardiemanutention.com;Camon;80450;;
-TERRINOV;Promodis;;;;administration@terrinov.fr;SEICHES SUR LE LOIR;49140;France;
+TERRINOV;Promodis;;;;administration@terrinov.fr;SEICHES SUR LE LOIR;49140;France;ENFIN
 AD PERETTI;Orexad;Monsieur;Peretti;Xavier;ad-peretti@adperetti.com;AJACCIO;20090;;
 Orexad;Orexad;Madame;Wallet;Adriane;adriane.wallet@rubix.com;;;;
 Manu manche;Manutention;Monsieur;Boittin;Adrien;adrien.boittin@manumanche.fr;Lolif;50530;;
@@ -94,7 +94,7 @@ ADV ASSISTANCE DEPANNAGE DU VELAY;Autres;Monsieur;VEROT;Daniel;advmanutention@sf
 CENTRE LOGISTIQUE PLOISY;Orexad;Monsieur;Clement;Christian;advsoissons@orexad.com;PLOISY;2200;;
 Lenormant Manutention Amiens;Manutention;Madame;COLSON;;aes.amiens@lenormant.fr;Amiens cedex 2;80046;;
 AFI - Acier Fournitures Industrielles;Dompro;Monsieur;Dore;Denis;afi@afi-normandie.com;SAINT EUSTACHE LA FORET;76210;;
-AGRIVISION;Promodis;;;;ag@agrivision.fr;YZOSSE;40180;France;
+AGRIVISION;Promodis;;;;ag@agrivision.fr;YZOSSE;40180;France;ENFIN
 villebenoit nord;Orexad;Madame;Gaudot;Alexia;a-gaudot@groupe-villebenoit.fr;Sens;89100;;
 Gem;Manutention;Monsieur;Normand;Jean-Sébastien;agen@gem-manutention.com;Castelculier;47240;;
 AEB;Autres;;;;agence.auxy@aeb-branger.fr;AUXY;45340;;
@@ -135,7 +135,7 @@ AGRI BESSIN;Dompro;Monsieur;VILLEDIEU;Jacques;agri.bessin@wanadoo.fr;SAINT MARTI
 AGRI BOCAGE;Dompro;Monsieur;Lemoussu;Jean-François;agri.bocage@wanadoo.fr;SAINT MARTIN DES BESACES;14350;;
 AGRI MELESSE;Cofaq;;;;agri.melesse@wanadoo.fr;MELESSE;35520;;
 AGRI PLEINE FOUGERES;Cofaq;;;;agri.pleine-fougeres@orange.fr;PLEINE-FOUGÈRES;35610;;
-DUCASTEL;Promodis;;;;agriducastel@ducastel.fr;Saint Ouen du Breuil;76890;France;
+DUCASTEL;Promodis;;;;agriducastel@ducastel.fr;Saint Ouen du Breuil;76890;France;ENFIN
 AGRI NORD 44;Cofaq;Monsieur;MARSAC;Gildas;agrinord44@orange.fr;PUCEUL;44390;;
 AGRI NOSTRA;Cofaq;Madame;CHIAPPINI;Angèle;agrinostra@orange.fr;AFA;20167;;
 BIAK - AGRI OTO 64;Cofaq;Monsieur;EYHERABIDE;Jean-Baptiste;agrioto64@orange.fr;OSSÈS;64780;;
@@ -174,7 +174,7 @@ ONE INDUSTRY;DDirect;Monsieur;Mischis;Alain;alain@one-industry.fr;Arsac;33460;;
 SOGEMA;Autres;Monsieur;BOUVARD;Alain;alainbouvard.sogema@orange.fr;VAULX EN VELIN;69120;;
 SOMEFI;Cofaq;Madame;Lamborot;Anouck;alamborot@somefi.fr;Arnas;69400;;
 BRETAGNE MANUTENTION;Fenwick;Madame;Coeffic;Alan;alan.coeffic@bretagne-manutention.fr;Kervignac;56700;;
-ACTIFLIP;Actiflip;Madame;BAEHR;Anne-Lise;albaehr@actiflip.com;LEERS;59115;;
+ACTIFLIP;Actiflip;Madame;BAEHR;Anne-Lise;albaehr@actiflip.com;LEERS;59115;;1000
 jungheinrich;Jungheinrich;Monsieur;JAFFRE;Alban;alban.jaffre@jungheinrich.fr;;;;
 PIGNET;Cofaq;Monsieur;PIGNET;Alban;alban@pignet72.fr;SAINT CALAIS;72120;;
 BERNARD;Cofaq;;;;albernard@etsbernard.fr;SAINT-RAMBERT-D'ALBON;26140;;
@@ -259,7 +259,7 @@ Raja;Autres;Madame;Kessler;Appoline;Appoline.KESSLER@raja.fr;Roissy CDG Cedex;95
 BRANGE ENVIRONNEMENT;Cofaq;Madame;BARBES;Marie-Annick;appro@bfi47.fr;BIAS;47300;;
 SALENTEY;Socoda;Monsieur;Roy;Gérard;approelec@salentey.fr;BEAUVAIS;60000;;
 APT'N EQUIPEMENT INDUSTRIE;Autres;;;;aptn2@wanadoo.fr;MORIGNY CHAMPIGNY;91150;;
-AGRIVISION;Promodis;;;;Aramatis@agrivision.fr;ARAMITS;64570;France;
+AGRIVISION;Promodis;;;;Aramatis@agrivision.fr;ARAMITS;64570;France;ENFIN
 RONDEAU;DDirect;Monsieur;Ravon;Anthony;aravon@rondeau.fr;OLONNE SUR MER;85340;;
 GEDIMO;Socoda;Monsieur;RENAUD;Alain;arenaud@gedimo.com;CARQUEFOU;44470;;
 ARMOR MOTOCULTURE;Cofaq;;;;armor-motoculture@orange.fr;LÉZARDRIEUX;22740;;
@@ -297,9 +297,9 @@ ASMS ARTICLES STOCKAGE MANUTENTION;Autres;Monsieur;Nicou;Pascal;asms2@wanadoo.fr
 Soproda;Autres;Madame;Lazaro;Emilie;ass.materiel@soproda.com>;Coulommiers;77120;;
 Ocopa Emballage;Autres;Madame;Houssais;Véronique;assistante@ocopa-emballage.com;Orgeres;35230;;
 Astic Emballage;Autres;Madame;Viardot;Béatrice;astic26@astic-emballage.com;Montélimar;26200;;
-M.A.C;Promodis;;;;atelier.blain@mac.fr;BLAIN;44130;France;
+M.A.C;Promodis;;;;atelier.blain@mac.fr;BLAIN;44130;France;ENFIN
 LE ROYER et FILS;Cap Alliance;Monsieur;LEROYER;;atelier.leroyer@orange.fr;MAGNY LE DESERT;61600;;
-CONSEIL SERVICE AGRI;Promodis;;;;atplancy@martelsa.com;PLANCY L'ABBAYE;10380;France;
+CONSEIL SERVICE AGRI;Promodis;;;;atplancy@martelsa.com;PLANCY L'ABBAYE;10380;France;ENFIN
 ATR-AUX TRAVAILLEURS RÉUNIS PROTECTION;Cofaq;Monsieur;MEDEAU;Jacques;atr.jmedeau@orange.fr;QUETIGNY;21800;;
 AUX TRAVAILLEURS REUNIS - ATR;Cofaq;;;;atr.quetigny@wanadoo.fr;QUÉTIGNY;21800;;
 AUBRY;Cofaq;;;;aubry.ets@wanadoo.fr;AUNEUIL;60390;;
@@ -432,14 +432,14 @@ Acalime;Autres;Monsieur;Leblon;Bruno;bleblon@acalime.com;Comines;59560;;
 Orexad Aquitaine;Orexad;Monsieur;JAGOT;Olivier;blois@orexad.com;Villebarou;41000;;
 BAUDOUX;Descours Prolians;Monsieur;Martin;Bruno;bmartin@prolians.eu;MEAUX;77100;;
 BOSSU CUVELIER;Descours Prolians;Monsieur;MINEZ;;bminez@prolians.eu;AMIENS;80000;;
-MAZE SOBREMA;Promodis;;;;bodilis@maze-sobrema.fr;BODILIS;29400;France;
+MAZE SOBREMA;Promodis;;;;bodilis@maze-sobrema.fr;BODILIS;29400;France;ENFIN
 BODIN;Cofaq;Monsieur;PIGNET;Alban;bodin.sas@wanadoo.fr;ISSOUDUN;36100;;
 BOESINGER Matériaux et Bricolage;Cofaq;;;;boesinger-sa@wanadoo.fr;SAVERNE;67700;;
 OREFI MARTINE;Orexad;Monsieur;CORBANIE;Jean-Sébastien;bondues@orexad.com;BONDUES Cedex;59588;;
 BORDEAUX SOUDURE;Orexad;;;;bordeaux.soudure@orexad.com;MERIGNAC;33700;;
 BOUBIELA MORET;Autres;Monsieur;LE PALLUD;Laurent;boubiela@boubiela.fr;ST QUENTIN;2100;;
 Fenwick;Fenwick;Madame;Nezdir;Bouchra;bouchra.nezdir@fenwick-linde.fr;Gonnesse cedex;95503;;
-DUCHARNE-AGRIDIFFUSION;Promodis;;;;bourbonlancy@agridiffusion.fr;BOURBON LANCY;71140;France;
+DUCHARNE-AGRIDIFFUSION;Promodis;;;;bourbonlancy@agridiffusion.fr;BOURBON LANCY;71140;France;ENFIN
 FIVA INDUSTRIE;Orexad;Monsieur;GUILLAUME;Benoit;bourges@orexad.com;BOURGES;18000;;
 Solomat;DDirect;Madame;Barbier;Agnès;bourges@solomatlocation.fr;;;;
 DENIAU;Cofaq;Monsieur;BOURGOUIN;Hervé;bourgouinh-ets.deniau@orange.fr;MARIGNAC;17800;;
@@ -450,8 +450,8 @@ LYSADIS-AGRIDEMETER;Cofaq;;;;brecey@lysadis.fr;BRÉCEY;50370;;
 axxel;Manutention;Monsieur;Breger;;breger@axxel.fr;;;;
 Bresse Fourniture Industrielles;Autres;Monsieur;D'Hotelans;Guillaume;bressefi@gmail.com;Illiat;1140;;
 BELLION TAMPLEU CAPPE;Descours Prolians;Monsieur;LEDUSS;Stéphane;brest.btc@dexis.eu;BREST;29200;;
-BRETAGRI-JOSEPH;Promodis;;;;Bret53@bretagri.fr;COSSE LE VIVIEN;53230;France;
-BRETAGRI;Promodis;;;;Bret56@bretagri.fr;LA CHAPELLE CARO;56460;France;
+BRETAGRI-JOSEPH;Promodis;;;;Bret53@bretagri.fr;COSSE LE VIVIEN;53230;France;ENFIN
+BRETAGRI;Promodis;;;;Bret56@bretagri.fr;LA CHAPELLE CARO;56460;France;ENFIN
 BERGERAT MONNOYEUR;Manutention;Monsieur;JURBERT;Brice;brice.jurbert@b-m.fr;BOISSEUIL;87220;;
 BRICO DECO - ETS FABRE;Cofaq;;;;brico.deco.mauriac@wanadoo.fr;MAURIAC;15200;;
 HENRI MAYÈRE;Cofaq;Monsieur;MAYÈRE;Guillaume;brico.mg@orange.fr;CIVRIEUX D'AZERGUES;69380;;
@@ -505,8 +505,8 @@ SAVOIE OUTILLAGE SERVICE;Dompro;Monsieur;Sabounjian;Rouben;bruno@savoieoutillage
 BRINGEL;Cofaq;Monsieur;Bringel;;brunstatt@bigmat-bringel.fr;Brunstatt;68350;;
 BRETAGNE MANUTENTION;Fenwick;Monsieur;Collet;Bryan;bryan.collet@bretagne-manutention.fr;Yffiniac;22120;;
 B.S. INDUSTRIE;Autres;Monsieur;Moreau;Bernard;bs.industrie@cegetel.net;VATAN;36150;;
-MAZE BSA;Promodis;;;;bsa22@bsamotoculture.fr;;;;
-MAZE BSA;Promodis;;;;bsa29@bsamotoculture.fr;;;;
+MAZE BSA;Promodis;;;;bsa22@bsamotoculture.fr;;;;ENFIN
+MAZE BSA;Promodis;;;;bsa29@bsamotoculture.fr;;;;ENFIN
 B.T.V.HYDRAULIQUE;Autres;Monsieur;CHARRON;Didier;btv.hydraulique@orange.fr;BOURNEZEAU;85480;;
 BUISARD;Autres;Monsieur;BOYER;Serge;buisard@buisard.fr;SABLE SUR SARTHE CEDEX;72301;;
 QUEROL JEAN PIERRE;Cofaq;Madame;QUEROL;Brigitte;bureau-querol@hotmail.fr;SAINT-MARTIN-DE-CRAU;13310;;
@@ -527,7 +527,7 @@ Galloréma;Actiflip;Monsieur;LABRUYERE;Christophe;c.labruyere@gallorema.fr;SILLE
 VERCOS MANUTENTION;Actiflip;Monsieur;Lacouture;Christian;c.lacouture@vercosmanutention.com;Cagnes sur Mer;6800;;
 QUALEPI / VAIN;Socoda;Madame;LECOQ;Christèle;c.lecoq@qualepi.fr;DIEPPE;76886;;
 Ouest Rayonnage;Actiflip;Monsieur;Le Masne;Cédric;c.lemasne@ouest-rayonnage.fr;TREILLIERES;44119;;
-LOUDENOT;Promodis;;;;c.loudenot@loudenot.fr;VERDUN SUR LE DOUBS;71350;France;
+LOUDENOT;Promodis;;;;c.loudenot@loudenot.fr;VERDUN SUR LE DOUBS;71350;France;ENFIN
 AURAMA;DDirect;Madame;Maioli;Christine;c.maioli@aurama.fr;;;;
 ADOUR MANUTENTION;Manutention;Monsieur;Marches;Christophe;c.marches@adour-manutention.com;;;;
 MATERIEL DE PRO;Dompro;Monsieur;MENDES;Christophe;c.mendes@materieldepro.com;COURNON D'AUVERGNE;63800;;
@@ -543,7 +543,7 @@ ASS ALPES SAVOIE SERVICES;Cofaq;Monsieur;GENIX;Pascal;c.serre-combe@alpessavoies
 DUBLE AED 49 - OUEST INJECTION;DDirect;Monsieur;Cadeau;Kevin;cadeaukevin@ouestinjection.com;ANGERS;49000;;
 Calisa FI;Autres;Monsieur;Bertet;Christian;calisaficbertet@gmail.com;Four;38080;;
 RONDEAU;DDirect;Monsieur;ALLAIN;Cyril;callain@rondeau.fr;LES HERBIERS Cedex;85505;;
-COMPTOIR AGRICOLE DES MAUGES;Capalliance;Monsieur;Guyard;;cam.mag@cam49.com;OREE D'ANJOU;49270;;
+COMPTOIR AGRICOLE DES MAUGES;Capalliance;Monsieur;Guyard;;cam.mag@cam49.com;OREE D'ANJOU;49270;;Tue Jun 27 2023
 CAMAERO;Manuquip;Monsieur;SERVE;;camaero@manuquip.com;PEAUGRES;7340;;
 CAMAERO EQUIPEMENT;Autres;;;;camaero@orange.fr;SAINT CLAIR;7430;;
 Espace agri;Autres;Monsieur;Dano;Camille;camille.dano@groupe-bernard.com;;;;
@@ -563,7 +563,7 @@ STOCKMAN;Manutention;Madame;Cottebrune;Caroline;caroline.c@stockman.fr;Bayonne;6
 Fenwick;Fenwick;Madame;Drumelle;Caroline;caroline.drumelle@fenwick-linde.fr;Reims;51100;;
 Oraexad;Orexad;Madame;Leiser;Caroline;caroline.leiser@orexad.com;Strasbourg;67200;;
 Orexad;Orexad;Madame;Privat;Caroline;caroline.privat@rubix.com;Strasbourg;37200;;
-AGRIVISION;Promodis;;;;castelnaudary@agrivision.fr;CASTELNAUDARY;11400;France;
+AGRIVISION;Promodis;;;;castelnaudary@agrivision.fr;CASTELNAUDARY;11400;France;ENFIN
 TRAVEL LOGISTIQUE;DDirect;Madame;Godat;Carole;catalogue@travel.fr;VARCES;38760;;
 Wayhz Solutions;Autres;Madame;Comino;Catherine;catherine.comino@wayhz.com;Vence;6140;;
 FENWICK;Fenwick;Madame;Fabre;Catherine;catherine.fabre@fenwick-linde.fr;Trappes;78190;;
@@ -573,7 +573,7 @@ Gliozzo Manutention;DDirect;Madame;Souveyras;Catherine;catherine.souveyras@manul
 RICHE & SEBASTIEN;Autres;Monsieur;CATIMEL;Bruno;catimelb@riche-et-sebastien.com;CLAIROIX;60280;;
 villebenoit nord;Orexad;Monsieur;Aubry;Cédric;c-aubry@groupe-villebenoit.fr;Sens;89100;;
 CAZENAVE MOTOCULTURE;Cofaq;Madame;CAZENAVE;Anne;cazenave.motoculture@orange.fr;ARTHEZ-DE-BÉARN;64370;;
-CMA;Promodis;;;;cazottes@c-m-a.fr;SAINT AFFRIQUE;12400;France;
+CMA;Promodis;;;;cazottes@c-m-a.fr;SAINT AFFRIQUE;12400;France;ENFIN
 AGMS Manutention;Autres;Monsieur;Bonneau;;cbo@agms-manutention.fr;La Verpillière;38290;;
 S.O.F.A.I.R;DDirect;Monsieur;Bossay;Cédric;cbossay@sofair.fr;ROCHEFORT;17300;;
 CIFFREO BONA;Socoda;Monsieur;BOULESTIN;Christian;cboulestin@ciffreobona.fr;NICE;6000;;
@@ -589,7 +589,7 @@ COMPTOIR DES LOGES - ETS BROUSSAL;Cofaq;;;;cdl79@wanadoo.fr;PARTHENAY;79200;;
 BAUDELET Matériels;Cofaq;Madame;Crendal;Cécile;cecile.crendal@baudelet.fr;Hazebrouck;59190;;
 Dic France;Autres;Madame;Gautier;Cécile;cecile@dic-France.fr;Monterau sur le Jard;77950;;
 CHARLES SERVICE;DDirect;Monsieur;Bremard;Cédric;cedric.bremard@charles-service.fr;CHELLES;77500;;
-2C Manutention;Actiflip;Monsieur;Ceyrat;Cédric;cedric.ceyrat@contact-2cmanutention.fr;Pont-d'Ain;1160;;Tue Jun 27 2023
+2C Manutention;Actiflip;Monsieur;Ceyrat;Cédric;cedric.ceyrat@contact-2cmanutention.fr;Pont-d'Ain;1160;;1;lklkl;Tue Jun 27 2023
 jungheinrich;Jungheinrich;Monsieur;DAUBIN;Cedric;cedric.daubin@jungheinrich.fr;;;;
 Fenwick;Fenwick;Monsieur;Dejardin;Cédric;cedric.dejardin@fenwick-linde.fr;;;;
 colvemat;Manutention;Monsieur;Dezecache;Cédric;cedric.dezecache@colvemat.com;Libercourt;62820;;
@@ -623,7 +623,7 @@ Mr Chaigneau Christian;Autres;Monsieur;Chaigneau;Christian;chaigneau.cmei@orange
 FRAMATEQ MANUTENTION Siège Social;Manitou;Monsieur;GALMARD;;chalon@framateq.com;SEVREY;71100;;
 JALLUT;Descours Prolians;Monsieur;Quero;;chambery.jallut@dexis.eu;CHAMBERY;73000;;
 CHAMPSAUR BRICOLAGE;Cofaq;;;;champsaur-bricolage@wanadoo.fr;SAINT-BONNET;5500;;
-CHANSON;Promodis;;;;chanson.agri@wanadoo.fr;SAINT FLOUR;15100;France;
+CHANSON;Promodis;;;;chanson.agri@wanadoo.fr;SAINT FLOUR;15100;France;ENFIN
 LEGRANDCUB;Cofaq;Madame;Menjikoff;Chantal;chantal.menjikoff@legrandcub.fr;Fleury Merogis;91700;;
 CHAPUIS MARSAN SN;Cofaq;;;;chapuis.marsan@wanadoo.fr;NÉRAC;47600;;
 Manustra;Manutention;Monsieur;Chapuis;Thierry;chapuis@galile.fr;;;;
@@ -651,7 +651,7 @@ MARTIAL QUINCAILLERIE;Dompro;Monsieur;PUGLIESI;Mathieu;Monsieurpugliesi@martial-
 MonsieurRIER;Cofaq;Monsieur;FRESSE;Caude;Monsieurrier@Monsieurrier.fr;HEILLECOURT;54180;;
 MonsieurRIER;Cofaq;;;;Monsieurrier@wanadoo.fr;LUNÉVILLE;54302;;
 DELATTRE PATOUX;Socoda;Monsieur;Chevalier;Jean-Raymond;chevalier@delattre-patoux.fr;AVESNES LES BAPAUME;62450;;
-CHEVILLARD BUGEY;Promodis;;;;chevillard-agri@chevillard-agri.com;– VIEU D'IZENAVE;1430;France;
+CHEVILLARD BUGEY;Promodis;;;;chevillard-agri@chevillard-agri.com;– VIEU D'IZENAVE;1430;France;ENFIN
 Orexad;Orexad;Madame;Gerard;Chloé;chloe.gerard@orexad.com;Ludres;54710;;
 BRETAGNE MANUTENTION;Fenwick;Madame;Lefeuvre;Chloé;chloe.lefeuvre@bretagne-manutention.fr;Pace;35742;;
 MALINGE INDUSTRIE;Orexad;Monsieur;Gatard;Arnault;cholet@orexad.com;CHOLET;49300;;
@@ -690,7 +690,7 @@ aprolis;DDirect;Monsieur;Godin;Christophe;christophe.godin@aprolis.com;;;;
 still;Still;Monsieur;Huron;Christophe;christophe.huron@still.fr;;;;
 S.M. RENTAL;DDirect;Monsieur;Imberdis;Christophe;christophe.imberdis@sm-rental.fr;Tremblay En France;93290;;
 aprolis;DDirect;Monsieur;LAGNEAU;Christophe;christophe.lagneau@aprolis.com;;;;
-ACKERMANN;Promodis;;;;Christophe.langbour@ackermann.fr;BOULAY;57220;France;
+ACKERMANN;Promodis;;;;Christophe.langbour@ackermann.fr;BOULAY;57220;France;ENFIN
 Oman - BSM;Manutention;Monsieur;Lebreton;Christophe;christophe.lebreton@oman-France.com;Le Reux Cedex;35652;;
 jungheinrich;Jungheinrich;Monsieur;Lemoine;Christophe;christophe.lemoine@jungheinrich.fr;;;;
 aprolis;DDirect;Monsieur;Lory;Christophe;christophe.lory@aprolis.com;;;;
@@ -715,7 +715,7 @@ aprolis;DDirect;Monsieur;Velex;Christophe;christophe.velex@aprolis.com;;;;
 ABRAM DISTRIBUTION;Cofaq;Monsieur;Nieddu;Christophe;christophe@abram-sas.fr;Manosque;4100;;
 LANGUEDOC OUTILLAGE;Champion;Monsieur;Ibanez;Christophe;christophe@languedoc-outillage.com;;;;
 SUTTERLET;Cofaq;Monsieur;FletMonsieur;Christophe;christophe@sutterlet.fr;Argenteuil;95100;;
-THOUVARD;Promodis;;;;Christophe@thouvard.fr;LA ROCHETTE;73110;France;
+THOUVARD;Promodis;;;;Christophe@thouvard.fr;LA ROCHETTE;73110;France;ENFIN;;Tue Jun 27 2023
 AUDIER ET FILS;Cofaq;;;;christophe-audier@orange.fr;LAMBESC;13410;;
 CIBA OUARY;Cofaq;;;;ciba.achat@ciba-ouary.fr;CANDE;49440;;
 CIPAL;Autres;;;;cipal@cipal.fr;LE BIGNON;44140;;
@@ -728,7 +728,7 @@ manuloc;Manuloc;Monsieur;Miguet;Clarisse;clarisse.miguet@manuloc.fr;Saint Pierre
 Fenwick;Fenwick;Monsieur;Brejaud;Claude;claude.brejaud@fenwick-linde.fr;;;;
 vemat;Manutention;;;;claude@vemat.fr;;;;
 ROUX;Cofaq;Madame;ROUX;Claudie;claudie@bricopro79.fr;AIRVAULT;79600;;
-OUEST MOTOCULTURE;Promodis;;;;claunay@ouest-motoculture.fr;PLOUFRAGAN;22440;France;
+OUEST MOTOCULTURE;Promodis;;;;claunay@ouest-motoculture.fr;PLOUFRAGAN;22440;France;ENFIN
 OREXAD;Orexad;Monsieur;Darses;Clément;clement.darses@orexad.com;Strasbourg;67200;;
 Orexad;Orexad;Monsieur;Delaume;Clément;clement.delaume@rubix.com;Bourges;18000;;
 Orexad;Orexad;Monsieur;Ernoult;Clément;clement.ernoult@orexad.com;;;;
@@ -779,13 +779,13 @@ AT&C;Manutention;Monsieur;Brian;;commercial@atccampari.fr;Montauban;82000;;
 AXXEL MANUTENTION;Manitou;Monsieur;Thetaut;;commercial@axxel.fr;THEIX;56450;;
 QUINCAILLERIE BOISSONNADE;Cofaq;Monsieur;BOISSONNADE;Alain;commercial@boissonnade.fr;VILLENEUVE-LE-ROI;94290;;
 CTA;Autres;;;;commercial@ctafrance.com;VARENNES EN ARGONNE;55270;;
-DEFI-MAT Agriculture;Promodis;;;;commercial@defimat.fr;MEYMAC;19250;France;
+DEFI-MAT Agriculture;Promodis;;;;commercial@defimat.fr;MEYMAC;19250;France;ENFIN
 DEQOB;Cofaq;Madame;Targa;Séverine;commercial@deqob.fr;Sallanches;74700;;
 Etoile Manutention;Autres;Monsieur;CUER;Thierry;commercial@etoilemanutention.com;ETOILE SUR RHÔNE;26800;;
 ETS FERNAGUT;Cofaq;Madame;SALMON;Isabelle;commercial@ets-fernagut.fr;SAINT MICHEL SUR TERNOISE;62130;;
 ETS GUERARD;Cofaq;Monsieur;GUERARD;Jean-Pierre;commercial@ets-guerard.fr;NEUFCHÂTEL-EN-BRAY;76270;;
 FRAMATEQ RHONE-ALPES;Manitou;;;;commercial@framateq.com;ST PRIEST CEDEX;69745;;
-FUTURAGRI;Promodis;;;;commercial@lamouroux.fr;PORT STE MARIE;47130;France;
+FUTURAGRI;Promodis;;;;commercial@lamouroux.fr;PORT STE MARIE;47130;France;ENFIN
 LEFORT;Cofaq;Monsieur;Brun;Stéphane;commercial@lefort-sarl.fr;Limoges;87000;;
 LEGOUEIX;Orexad;;;;commercial@legoueix.com;GENNEVILLIERS CEDEX;92630;;
 loutz;Manutention;;;;commercial@loutz.com;;;;
@@ -819,40 +819,40 @@ OREXAD DEFI TS;Orexad;Monsieur;LEPOT;François;compiegne@orexad.com;COMPIEGNE;60
 BOUDON;Cofaq;Monsieur;BOUDON;Michel;compta.boudon@wanadoo.fr;VITROLLES;13845;;
 Vert Manutention;Autres;Madame;FUMEY;Lucette;compta.vertmanutention07@orange.fr;ROIFFIEUX;7100;;
 EGM;DDirect;Madame;PERRUCHAS;Elodie;compta@egm79.fr;BRESSUIRE;79300;;
-MARCHADIER;Promodis;;;;compta@marchadier-sa.com;ISSOIRE;63500;France;
-"C/ OULMIERE 82""";Promodis;;;;comptabilite@agriql.com;LIZAC;82200;France;
+MARCHADIER;Promodis;;;;compta@marchadier-sa.com;ISSOIRE;63500;France;ENFIN
+"C/ OULMIERE 82""";Promodis;;;;comptabilite@agriql.com;LIZAC;82200;France;ENFIN
 ALTODIS;DDirect;Madame;Albiser;Laëticia;comptabilité@altodis.fr;RIXHEIM;68170;;
-GIRARD SA;Promodis;;;;comptabilite@sa-girard.fr;VILLARS LES DOMBES;1330;France;
+GIRARD SA;Promodis;;;;comptabilite@sa-girard.fr;VILLARS LES DOMBES;1330;France;ENFIN
 VACHOUX;DDirect;Madame;Dorange-Pattoret;Nathalie;comptabilite@vachoux.fr;Pers-Jussy;74930;;
 Quincaillerie Guy Lego;Dompro;Madame;;Virginie;comptoir.dompro@orange.fr;Lesparre Medoc;33340;;
 AFI - ALIZER FOURNITURES INDUSTRIELLES;Cofaq;Monsieur;Beaudelin;Marc;comptoir@afializer.com;Meximieux;1800;;
 Coverpa;Cofaq;Monsieur;;Hamed;comptoir@coverpa.com;Sarlat la Canéda;24200;;
-CHAMPION;Cofaq;;;;contact.ancenis@champion-direct.com;ANCENIS;44150;;
-NOVA;Promodis;;;;contact.arles1@nova-groupe.fr;ARLES;13200;France;
+CHAMPION;Cofaq;;;;contact.ancenis@champion-direct.com;ANCENIS;44150;;;ee;Tue Jun 27 2023
+NOVA;Promodis;;;;contact.arles1@nova-groupe.fr;ARLES;13200;France;ENFIN
 ROCH;Cofaq;Monsieur;BELANGER;Charles;contact.bonneville@champion-direct.com;BONNEVILLE;74134;;
-NOVA;Promodis;;;;contact.carpentras@nova-groupe.fr;CARPENTRAS;84200;France;
+NOVA;Promodis;;;;contact.carpentras@nova-groupe.fr;CARPENTRAS;84200;France;ENFIN
 CESAR DECO;Cofaq;;;;contact.cesardeco@gmail.com;MÉDIS;17600;;
 CHAMPION;Cofaq;;;;contact.chamonix@champion-direct.com;CHAMONIX;74400;;
 CHAMPION;Cofaq;;;;contact.chamonixsud@champion-direct.com;CHAMONIX;74400;;
 CHAMPION;Cofaq;;;;contact.clisson@champion-direct.com;CLISSON;44192;;
-NOVA;Promodis;;;;contact.cogolin@nova-groupe.fr;Cogolin;83310;France;
+NOVA;Promodis;;;;contact.cogolin@nova-groupe.fr;Cogolin;83310;France;ENFIN
 Champion Colmar;Champion;Monsieur;Knellwolf;;contact.colmar@champion-direct.com;COLMAR;68000;;
-NOVA;Promodis;;;;contact.gap@nova-groupe.fr;GAP;5000;France;
+NOVA;Promodis;;;;contact.gap@nova-groupe.fr;GAP;5000;France;ENFIN
 QUINCAILLERIE DU BOCAGE SAS (Guérin);Dompro;Monsieur;Guerin;jean-Yves;contact.lagaubretiere@quincailleriedubocage.fr;LA GAUBRETIERE;85130;;
-NOVA;Promodis;;;;contact.lemuy@nova-groupe.fr;Le Muy;83490;France;
+NOVA;Promodis;;;;contact.lemuy@nova-groupe.fr;Le Muy;83490;France;ENFIN
 QUINCAILLERIE DU BOCAGE SAS (Guérin);Dompro;Monsieur;Guerin;jean-Yves;contact.lesessarts@quincailleriedubocage.fr;LES ESSARTS;85140;;
 CHAPIN SERVICES;Dompro;Monsieur;AUMONT;Stéphane;contact.lorient@chapin-materiel.fr;ST THURIAU;56300;;
-NOVA;Promodis;;;;contact.oraison@nova-groupe.fr;ORAISON;4700;France;
-NOVA;Promodis;;;;contact.pierrelatte@nova-groupe.fr;PIERRELATTE;26700;France;
+NOVA;Promodis;;;;contact.oraison@nova-groupe.fr;ORAISON;4700;France;ENFIN
+NOVA;Promodis;;;;contact.pierrelatte@nova-groupe.fr;PIERRELATTE;26700;France;ENFIN
 PONT D'ISSY INDUSTRIE;Cofaq;;;;contact.pii-Monsieurchemont-cbm@orange.fr;LE PLESSIS-ROBINSON;92354;;
 DREYFUS;Cofaq;Monsieur;Castelan;Hervé;contact.selestat@champion-direct.com;SÉLESTAT;67602;;
-NOVA;Promodis;;;;contact.standre@nova-groupe.fr;ST ANDRÉ DE SANGONIS;34725;France;
-NOVA;Promodis;;;;contact.sthilaire@nova-groupe.fr;ST HILAIRE DE BRETHMAS;30560;France;
+NOVA;Promodis;;;;contact.standre@nova-groupe.fr;ST ANDRÉ DE SANGONIS;34725;France;ENFIN
+NOVA;Promodis;;;;contact.sthilaire@nova-groupe.fr;ST HILAIRE DE BRETHMAS;30560;France;ENFIN
 ROCH;Cofaq;Monsieur;BELANGER;Charles;contact.thonon@champion-direct.com;THONON-LES-BAINS;74200;;
 CHAMPION ATLANTIQUE;Cofaq;;;;contact.vannes@champion-direct.com;VANNES;56000;;
 Centre Ouest Matériel;Manutention;Madame;FRANCOIS;Laurence;contact@abmmanutention.fr;MONTBAZON;37250;;
 Absices;Actiflip;Monsieur;Tronches;Gérard;contact@absices.com;Meyssac;19500;;
-ACS ANDELFINGER;Promodis;;;;contact@acs-andelfinger.fr;OSTHEIM;68150;France;
+ACS ANDELFINGER;Promodis;;;;contact@acs-andelfinger.fr;OSTHEIM;68150;France;ENFIN
 ACTILEV;Manutention;Monsieur;Berneron;Frédéric;contact@actilev.fr;Cognac;16100;;
 ADEQUIP;DDirect;Monsieur;Danner;;contact@adequip.fr;SUNDHOUSE;67920;;
 AFAP;Cofaq;Monsieur;CONTIERO;David;contact@afap.pro;LA TESTE-DE-BUCH;33260;;
@@ -890,7 +890,7 @@ COMPTOIR GENERAL OUTILLAGE;Cofaq;Monsieur;MOUYSSET;Guillaume;contact@cgo-mtb.com
 chamag;Manutention;;;;contact@chamag.fr;;;;
 Chamoux-Vidonne;Cap Alliance;Monsieur;BRASIER;René;contact@chamoux-vidonne.com;AMANCY;74800;;
 chariot-plus;Manutention;;;;contact@chariot-plus.com;;;;
-SERVICE EQUIPEMENT CHOSALLAND;Promodis;;;;contact@chosalland69.com;FLEURIEUX SUR L'ARBRESLE;69210;France;
+SERVICE EQUIPEMENT CHOSALLAND;Promodis;;;;contact@chosalland69.com;FLEURIEUX SUR L'ARBRESLE;69210;France;ENFIN
 COCKAERTS & CO;DDirect;Monsieur;Simonneau;Bruno;contact@cockaerts.be;WATERLOO (Bel);1410;;
 CORDERIE CLEMENT;Autres;;;;contact@corderie-clement.fr;BAGNEUX CEDEX;92222;;
 Coutaud Manutention;Autres;Monsieur;COUTAUD;Jérémie;contact@coutaud-manutention.fr;BREM SUR MER;85470;;
@@ -908,7 +908,7 @@ DIRECT FOURNITURES INDUSTRIELLES - DFI;Cofaq;Monsieur;MONNET;Gabriel;contact@dir
 DISKO METAL;Cofaq;Monsieur;Disko;Jean-Charles;contact@diskometal.fr;CELLES SUR BELLE;79370;;
 CHAMPION;Cofaq;;;;contact@domica.fr;TOULOUSE;31100;;
 DISTRIBUTION SERVICE;Cofaq;;;;contact@d-service.fr;BEAUREPAIRE;38270;;
-DUPUY ET FILS;Promodis;;;;contact@dupuy-agri.com;LAGUIAN MAZOUS;32170;France;
+DUPUY ET FILS;Promodis;;;;contact@dupuy-agri.com;LAGUIAN MAZOUS;32170;France;ENFIN
 ELEC ELEV;Cofaq;Madame;Perrot;Audrey;contact@elec-elev.com;SAINT-DENIS-DE-JOUHET;36230;;
 ELECTROLEV;Autres;Monsieur;RODRIGUES;Carlos;contact@electrolev.fr;PIERRELAYE;95480;;
 EMBAL PRO INDUSTRIE;Autres;Madame;Debouche;;contact@embalpro.fr;Mudaison;34130;;
@@ -917,7 +917,7 @@ ETABLISSEMENTS MAZE;Cofaq;Monsieur;MAZE;Antoine;contact@ets-maze.com;TADEN;22100
 VESTIPRO;Cofaq;;;;contact@excel-vestipro.fr;LE HAVRE;76600;;
 FCE TP;DDirect;Monsieur;Boudier;Thierry;contact@fce-sa.com;SAINT MEMMIE;51470;;
 FIGOMEX;Cofaq;;;;contact@figomex.fr;SAINT-HERBLAIN;44813;;
-FIMAGRI;Promodis;;;;contact@fimagri.fr;SAINT EVARZEC;29170;France;
+FIMAGRI;Promodis;;;;contact@fimagri.fr;SAINT EVARZEC;29170;France;ENFIN
 FOURNITURES INDUSTRIELLES DE L'ONDAINE - FIO;Cofaq;Monsieur;LEDDA;Pierre;contact@fi-ondaine.fr;FIRMINY;42700;;
 F.M. BELLEMON;Cofaq;Monsieur;BELLEMON;Patrick;contact@fm-bellemon.com;MAGNY-EN-VEXIN;95420;;
 FRAMATEQ SUD-EST;Manitou;Monsieur;LOUVION;Hervé;contact@framateq.fr;VITROLLES CEDEX;13845;;
@@ -929,12 +929,12 @@ g-mat;Manutention;;;;contact@g-mat.fr;;;;
 GM MANUTENTION;Manutention;Monsieur;MOLET;Frédéric;contact@gm-manutention.fr;CHOLET;49300;;
 GODET CORDERIE INDUSTRIELLE;Autres;Madame;HOSENALLY;Nasseem;contact@godet.fr;PARIS CEDEX 18;75018;;
 GOUJON LALLEMAND;Cofaq;Monsieur;GOUJON;Jean-Emmanuel;contact@goujonlallemand.fr;DOMPIERRE SUR BESBRE;3290;;
-LECOQ;Promodis;;;;contact@groupe-lecoq.com;ST VICTOR DE BUTHON;28240;France;
+LECOQ;Promodis;;;;contact@groupe-lecoq.com;ST VICTOR DE BUTHON;28240;France;ENFIN
 GEORGES ROUSSEAU;Cofaq;Monsieur;ROUSSEAU;Jérôme;contact@g-rousseau.com;SEDAN;8201;;
 GUEDO;Cofaq;Monsieur;Guedo;;contact@guedo-outillage.fr;Saint-Avé;56890;;
 HAGUENAUER;Cofaq;;;;contact@haguenauer.net;FROIDECONCHE;70300;;
 HAXEL;Cofaq;;;;contact@haxel.fr;ST MIHIEL;55300;;
-JAMS;Promodis;;;;contact@jams-agri.com;LESTREM;62136;France;
+JAMS;Promodis;;;;contact@jams-agri.com;LESTREM;62136;France;ENFIN
 JEANNET DEBIT LOIRE ELEVAGE;Cofaq;;;;contact@jeannet-debit.fr;NEULISE;42590;;
 lam-manutention;Manutention;;;;contact@lam-manutention.fr;;;;
 LANDES PROFESSIONNEL;Cofaq;Monsieur;FOURCADE;Thierry;contact@landesprofessionnel40.fr;SAINT AVIT;40090;;
@@ -953,14 +953,14 @@ Manutention Toulousaine;Manutention;Monsieur;Cavot;Sébastien;contact@manutentio
 MANUTENTION TRICASTINE;Manutention;Monsieur;Oraison;;contact@manutentiontricastine.fr;SAINT PAUL TROIS CHATEAUX;26130;;
 Marcelli;Manutention;Madame;Cognard;Christelle;contact@marcelli.fr;La Batie Montgascon;38110;;
 MARTIN FRERES;Cofaq;Monsieur;BRODSKY;Pascal;contact@martinfreres.com;ARGENTEUIL;95100;;
-MAZE SOBREMA;Promodis;;;;contact@maze-sobrema.fr;PLEYBEN;29190;France;
+MAZE SOBREMA;Promodis;;;;contact@maze-sobrema.fr;PLEYBEN;29190;France;ENFIN
 MDT Rayonnages;Autres;Monsieur;De Temmerman;Alain;contact@mdt-rayonnages.fr;MEUNG SUR LOIRE;45130;;
 MGAV;Cofaq;Madame;Thomas;Amélie;contact@mgav.fr;DOUÉ-LA-FONTAINE;49700;;
-MICARD;Promodis;;;;contact@micard.fr;BELLAC;87300;France;
+MICARD;Promodis;;;;contact@micard.fr;BELLAC;87300;France;ENFIN
 MATERIEL MEDICAL ALSACE BOSSUE;Autres;Monsieur;DENTEL;Marc;contact@mmab.fr;DRULINGEN;67320;;
 MIDI PYRÉNÉES FIXATIONS;Cofaq;Monsieur;LEBEGUE-PIERRE;Vincent;contact@mpf31.com;L'UNION;31240;;
 NODIMAT;Autres;Monsieur;FAGIOLINI;Didier;contact@nodimat.com;CHAUMONT;52000;;
-NOVA;Promodis;;;;contact@nova-groupe.fr;SAINT CANNAT;13760;France;
+NOVA;Promodis;;;;contact@nova-groupe.fr;SAINT CANNAT;13760;France;ENFIN
 ODIT OLIVIER GLEIZE;Cofaq;Monsieur;Gleize;Olivier;contact@oditprotection.fr;SAINT-MARCEL-LÈS-VALENCE;26320;;
 OLEON RAYMOND ET FILS;Cofaq;Monsieur;OLEON;;contact@oleonmotoculture.fr;BRIOUDE;43100;;
 O.M.C. MANUTENTION;Manitou;Monsieur;Lecointe;;contact@omc-manutention.fr;IFS;14123;;
@@ -987,7 +987,7 @@ RISALOC;Autres;Monsieur;CARAVACA;Jean-Claude;contact@risa.fr;CAUSSADE CEDEX;8230
 RODIER EPI;Cofaq;Monsieur;RODIER;Guillaume;contact@rodier-epi.com;SASSENAGE;38360;;
 ROUSSELY 2;Cofaq;Monsieur;ROUSSELY;Pierre;contact@roussely2.fr;AMonsieurES;78260;;
 SAGRA;Cofaq;Monsieur;Jeanetti;;contact@sagra.fr;Rivas;42340;;
-RAYNAL;Promodis;;;;contact@sasraynal.fr;MARVEJOLS;48100;France;
+RAYNAL;Promodis;;;;contact@sasraynal.fr;MARVEJOLS;48100;France;ENFIN
 SAVOYE;Autres;;;;contact@savoye.com;DIJON;21000;;
 SEPRO DISTRIBUTION;Cofaq;Monsieur;VIVIEN;Guillaume;contact@seprodistribution.fr;VILLENEUVE SAINT GERMAIN;2200;;
 SERFIX;Cofaq;Madame;CHAUVIN;Stéphanie;contact@serfix.fr;HERMILLON;73300;;
@@ -1004,7 +1004,7 @@ TEBA MEUDRE DONZEY;Cofaq;;;;contact@teba70.fr;FAVERNEY;70160;;
 TECHNI'MAT Industrie;DDirect;Monsieur;Scorsone;;contact@technimat.fr;L'ARDOISE;30290;;
 TECHNIMAT;DDirect;Monsieur;LECLERC;Zavier;contact@technimat-outillage.fr;Narbonne;11100;;
 TG CONCEPT;Autres;Monsieur;Teboul;Pascal;contact@tgconcept.com;VILLEURBANNE;69100;;
-TOUBOULIC;Promodis;;;;contact@touboulic.fr;;;;
+TOUBOULIC;Promodis;;;;contact@touboulic.fr;;;;ENFIN
 trl-manutention;Manutention;;;;contact@trl-manutention.com;;;;
 TROLLE;Cofaq;;;;contact@trolle.fr;HESDIN-L'ABBÉ;62360;;
 UNIMATE;Cofaq;;;;contact@unimate.fr;BRIGNAIS;69530;;
@@ -1071,7 +1071,7 @@ CHARLES SERVICE;DDirect;Monsieur;De Oliveira;David;d.deoliveira@charles-service.
 OUTILACIER;DDirect;Monsieur;Duval;David;d.duval@outilacier.fr;Vault en Velin;69120;;
 DELTAZUR EQUIPEMENTS;Autres;Monsieur;Foggia;Dominique;d.foggia@deltazur.pro;VITROLLES;13127;;
 AGRIPOL;Cap Alliance;Monsieur;Gallet;Dominique;d.gallet@agripol.fr;CALLENGEVILLE;76270;;
-FIMAGRI;Autres;Monsieur;GUEGUEN;;d.gueguen@fimagri.fr;SAINT-EVARZEC;29170;;
+FIMAGRI;Autres;Monsieur;GUEGUEN;;d.gueguen@fimagri.fr;SAINT-EVARZEC;29170;;ENFIN
 BEAUBELIQUE Industrie;DDirect;Madame;Lambert;Delphine;d.lambert@beaubelique-industrie.fr;Limoge Cedex 9;87020;;
 CHARLES SERVICE;DDirect;Monsieur;Maillard;Dominique;d.maillard@charles-service.fr;Chelles;77500;;
 SOFIBAC;Cofaq;Monsieur;Marchand;Denis;d.marchand@sofibac.fr;;;;
@@ -1136,7 +1136,7 @@ orexad;Orexad;Monsieur;Tournadre;David;david.tournadre@orexad.com;Nimes;30900;;
 Astic Emballage;Autres;Monsieur;Verrier;David;david.verrier@astic-emballage.com;La Chapelle Saint Luc;10600;;
 jungheinrich;Jungheinrich;Monsieur;Wasteels;David;david.wasteels@jungheinrich.fr;;;;
 D3M (Distribution et Maintenance Matériel de Manut;Autres;Monsieur;PORTMANN;David;david@d3m.fr;SAINT LAURENT DE MURE;69720;;
-DAVID;Promodis;;;;david@davidagri.fr;HAUT LIEU;59440;France;
+DAVID;Promodis;;;;david@davidagri.fr;HAUT LIEU;59440;France;ENFIN
 FERNAGUT;Cofaq;Monsieur;Mace;David;david@ets-fernagut.fr;Beuvry;62660;;
 GODEFROY;Cap Alliance;Monsieur;Dekeister;David;david-dekeister@godefroy.fr;LA GORGUE;59253;;
 MANULOC LORRAINE;Manuloc;Monsieur;GOZE;;d-balaj@manuloc.fr;METZ;57063;;
@@ -1223,8 +1223,8 @@ L'ELEOUET;Cofaq;;;;direction@leleouet.fr;GARLAN;29610;;
 MARTIN AGRICULTURE;Cofaq;Monsieur;MARTIN;Frédéric;direction@ma13.fr;CHÂTEAURENARD;13160;;
 MAISON DE LA SECURITE ET DE L'EPI;Cofaq;;;;direction@mse.nc;NOUMÉA;98863;;
 FIXAPRO - DIDIER SAS;Dompro;Monsieur;DIDIER;Thierry;direction@negofix.fr;AUTERIVE;31190;;
-OULMIERE SARL;Promodis;;;;direction@oulmiere.com;ALBI;81000;France;
-POEY AGRIDIS;Promodis;;;;direction@poeyagri.fr;SAINT ETIENNE DE BAIGORRY;64430;France;
+OULMIERE SARL;Promodis;;;;direction@oulmiere.com;ALBI;81000;France;ENFIN
+POEY AGRIDIS;Promodis;;;;direction@poeyagri.fr;SAINT ETIENNE DE BAIGORRY;64430;France;ENFIN
 POISSON SAINT-ELOI;DDirect;Monsieur;Poisson;Christophe;direction@poisson-saint-eloi.fr;SAINT-MAUR CEDEX;94107;;
 TOP PRO MOTEURS LOGISTEC;Dompro;Monsieur;OPET;Ridge;direction@toppro-moteurs.com;Baie Mahault;97122;;
 TECHNIDIS - Docks Maritimes - Saint-Herblain;DDirect;Monsieur;Leclair;Dimitri;dleclair@technidis.com;SAINT-HERBLAIN;44800;;
@@ -1252,10 +1252,10 @@ still;Still;Monsieur;Binse;Dorian;dorian.binse@still.fr;Lesquin;59810;;
 Orexad;Orexad;Madame;Protin;Dorothée;dorothee.protin@rubix.com;;;;
 Taurand;Manutention;Monsieur;Oyman;Deniz;d-oyman@taurand.com;Epiais les louvres;95380;;
 CHAPIN SERVICES;Dompro;Monsieur;AUMONT;Stéphane;dthebault@chapin-services.fr;THEIX-NOYALO;56450;;
-DUCHARNE-AGRIDIFFUSION;Promodis;;;;ducharne.sas@agridiffusion.fr;AUTUN;71400;France;
+DUCHARNE-AGRIDIFFUSION;Promodis;;;;ducharne.sas@agridiffusion.fr;AUTUN;71400;France;ENFIN
 CHAMPION;Cofaq;;;;duchemin.frank@wanadoo.fr;FAUVILLE-EN-CAUX;76640;;
 Duhaut Manutention;Manutention;Madame;DUHAUT;Béatrice;duhaut.manutention@orange.fr;MARNAY;70150;;
-DUMONTAUX;Promodis;;;;dumontaux@wanadoo.fr;DONTREIX;23700;France;
+DUMONTAUX;Promodis;;;;dumontaux@wanadoo.fr;DONTREIX;23700;France;ENFIN
 ESPACE VERT DU LIMOUSIN;Autres;Monsieur;Bilbeau;;dun.evl@nateaagriculture.com;Dun-le-Palestel;23800;;
 DUNIS;Cofaq;;;;dunis.c@wanadoo.fr;FEURS;42110;;
 MTC-MECANORD-NEGOCE;Orexad;Monsieur;Chau Minh Quan;;dunkerque@orexad.com;DUNKERQUE cedex 2;59944;;
@@ -1273,7 +1273,7 @@ MANUTENTION SERVICE;DDirect;Monsieur;Dari;Enzo;e.dari@manutentionservice.fr;;;;
 GERVAIS;Cofaq;Monsieur;Delbert;Emeric;e.delbert@quincailleriegervais.fr;Aurillac;15000;;
 MOGRA;Dompro;Monsieur;MONNET;Emilien;e.monnet@mogra.fr;VESOUL;70000;;
 FCE Manutention;DDirect;Madame;Moreau;Emilie;e.moreau@fce-sa.com;LA VEUVE;51520;;
-BOUCHARD HOLDING (Grpe);Promodis;;;;e.nuyttens@bouchard-agriculture.com;POINCY;77470;France;
+BOUCHARD HOLDING (Grpe);Promodis;;;;e.nuyttens@bouchard-agriculture.com;POINCY;77470;France;ENFIN
 Classotech;Actiflip;Monsieur;Pons;Emmanuel;e.pons@classotech.com;Jonquieres;84150;;
 PORQUET;Socoda;Monsieur;PORQUET;Eric;e.porquet@porquet.com;TOURLAVILLE;50110;;
 Mateo;Autres;Monsieur;Sanfilippo;Eddy;e.sanfilippo_mateo@yahoo.fr;Moineville;54580;;
@@ -1360,7 +1360,7 @@ ESCALES HABITAT - MAT-ADOUR - SOLUMAT;Cofaq;;;;escaleshabitat@gmail.com;SAINT-SE
 ESPACE APICOLE DE L AIN;Autres;Monsieur;RAMBAUD;;espace.apicole01@wanadoo.fr;BETTANT;1500;;
 CHAVANEL SA;Cofaq;;;;espace.rumilly@chavanel.fr;SALES;74150;;
 Multi Chariots;Manuquip;Madame;lescouff;Espéranza;esperanza@multi-chariots.net;Orchies;59358;;
-AGRIVISION;Promodis;;;;espoey@agrivision.fr;ESPOEY;64420;France;
+AGRIVISION;Promodis;;;;espoey@agrivision.fr;ESPOEY;64420;France;ENFIN
 LAURENT MAURICE;Cofaq;;;;estivareilles@sas-maurice-laurent.com;ESTIVAREILLES;42380;;
 E.T.I.;Orexad;;;;etidieppe@orexad.com;DIEPPE;76379;;
 MONTENOT ETIENNE;Cofaq;;;;etienne.montenot@outlook.fr;SAINTE-COLOMBE-SUR-SEINE;21400;;
@@ -1370,14 +1370,14 @@ bonnet materiels;Autres;Madame;DEZAPY;Aurélie;ets.bonnet.jerome@orange.fr;ERNEM
 CROUZY & CIE;Cofaq;;;;ets.crouzy@wanadoo.fr;JOIGNY;89300;;
 DELPRAT;Cofaq;Monsieur;DELPRAT;Eric;ets.delprat@wanadoo.fr;AVALLON;89200;;
 ETS DUFRESNE;Cofaq;;;;ets.dufresne@wanadoo.fr;VILLEPERDUE;37260;;
-ESCURAT;Promodis;;;;ets.escurat@wanadoo.fr;USSEL;19200;France;
+ESCURAT;Promodis;;;;ets.escurat@wanadoo.fr;USSEL;19200;France;ENFIN
 FAUMonsieur;Cap Alliance;Monsieur;MARLEIX;Marc;ets.fauMonsieur.magasin@wanadoo.fr;MERINCHAL;23420;;
 FLORENTIN ETS;Autres;;;;ets.florentin@wanadoo.fr;COHADE;43100;;
 SOMMABERE ETS;Cofaq;Monsieur;SOMMABERE;David;ets.sommabere@orange.fr;CONDOM;32100;;
 ETABLISSEMENT CHALAN;Cofaq;Madame;VERGNIAUD;Sarah;etschalan@orange.fr;LAPALUD;84840;;
 ETABLISSEMENT CHALAN;Cofaq;;;;etschalan@wanadoo.fr;LAPALUD;84840;;
 DELINGETTE;Cofaq;;;;etsdelingette@delingette.fr;LIGNY-LE-CHÂTEL;89144;;
-GASSUAN;Promodis;;;;ets-gassuan@wanadoo.fr;SARE;64310;France;
+GASSUAN;Promodis;;;;ets-gassuan@wanadoo.fr;SARE;64310;France;ENFIN
 LIEUBRAY;Cofaq;;;;etslieubray@wanadoo.fr;BUCHY;76750;;
 ROUSSEL;Cap Alliance;;;;etsroussel@etsroussel.com;Saint Martin lez Tatinghem;62500;;
 EUGENE ET DESCHAMPS;Cofaq;Monsieur;DEVAUX;Richard;eugeneetdeschamps@orange.fr;TORCY;71210;;
@@ -1389,7 +1389,7 @@ MANULOC NORD-PAS-DE-CALAIS;Manuloc;;;;e-vandenabeele@manuloc.fr;TEMPLEMARS;59175
 MVR MATERIAUX;Cofaq;Monsieur;Lefebvre;;evreux@bigmatmvr.fr;Évreux;27000;;
 ALBAUT - CARRIERE;Orexad;Madame;Chevalier;Béatrice;evreux@orexad.com;EVREUX;27000;;
 LECLERC & Cie;Manutention;Monsieur;BARLOT;Florian;f.barlot.getim@wanadoo.fr;PORT DU BOUC;13110;;
-Bouchard Agriculture;Promodis;Monsieur;Béné;Frédéric;F.bene@bouchard-agriculture.com;Saint Brice;77160;;
+Bouchard Agriculture;Promodis;Monsieur;Béné;Frédéric;F.bene@bouchard-agriculture.com;Saint Brice;77160;;ENFIN
 BOUCHARD MANUTENTION;Manitou;Monsieur;Broutard;François;f.broutard@bouchard-manutention.com;;;;
 lm-manutention;DDirect;;;;f.dacosta@lm-manutention.com;;;;
 NEUFVILLE;Cap Alliance;Monsieur;Demonchy;Frédéric;f.demonchy@neufvilleagri.fr;OUAINVILLE;76450;;
@@ -1437,7 +1437,7 @@ still;Still;Monsieur;ROT;Fabrice;fabrice.rot@still.fr;;;;
 FARBOS;Socoda;Monsieur;AUDOUBERT;Laurent;farbos.sa@wanadoo.fr;MONT DE MARSAN;40000;;
 RONDEAU;DDirect;Monsieur;Arnaud;Françis;farnaud@rondeau.fr;MOUILLERON LE CAPTIF;85000;;
 still;Still;Madame;Planckaert;Fatima;fatima.planckaert@still.fr;;;;
-CHEVILLARD FAUCIGNY;Promodis;;;;faucigny@chevillard-agri.com;BONNEVILLE;74130;France;
+CHEVILLARD FAUCIGNY;Promodis;;;;faucigny@chevillard-agri.com;BONNEVILLE;74130;France;ENFIN
 axxel;Manutention;Monsieur;Fauvel;;fauvel@axxel.fr;;;;
 FBE CONCEPT;DDirect;Monsieur;Baude;Frédéric;fbeconcept@orange.fr;BRETEUIL;60120;;
 orexad;Orexad;Monsieur;Belliard;;fbelliard@orexad.com;;;;
@@ -1473,7 +1473,7 @@ OREXAD FIMATEC;Orexad;;;;fimatecorleans@orexad.com;ST JEAN DE LA RUELLE CEDEX;45
 FIMM;Autres;Monsieur;CATTIN;Roland;fimm@fimm.fr;JOIGNY CEDEX;89303;;
 FIPRO 86;Dompro;Monsieur;Baillargeaux;Christophe;fipro86@orange.fr;INGRANDES SUR VIENNE;86220;;
 F.I. ET SERVICES PLUS;Cofaq;Monsieur;SOUCANY;Patrick;fisplus@orange.fr;Mitry Mory;77290;;
-ACKERMANN;Promodis;;;;Flavien.Gonesse@ackermann.fr;AY SUR MOSELLE;57300;France;
+ACKERMANN;Promodis;;;;Flavien.Gonesse@ackermann.fr;AY SUR MOSELLE;57300;France;ENFIN
 l2m-grandouest;Manutention;;;;flemarchand@l2m-grandouest.fr;;;;
 ETS CHESNEAU;Cofaq;Madame;Bournisien;Florence;florence.bournisien@chesneau-agritech.fr;NOYANT-DE-TOURAINE;37800;;
 MGAA;DDirect;Madame;Arnoult;Florence;florencearnoult15@orange.fr;GIEN;45500;;
@@ -1486,7 +1486,7 @@ Manuchar;Fenwick;Monsieur;Rebeyrol;Florent;florent.rebeyrol@manuchar.fr;Limoges 
 still;Still;Monsieur;TRITTO;Florent;florent.tritto@still.fr;;;;
 still;Still;Monsieur;VERBRUGGHE;Florent;florent.verbrugghe@still.fr;Lesquin;59810;;
 BOUILLIER MATERIAUX;Cofaq;Monsieur;Bouillier;;florent@bouillier.fr;Saint-Amour;39160;;
-CHEVAL;Promodis;;;;florent-care@cheval-sa.com;CHAUVONCOURT;55300;France;
+CHEVAL;Promodis;;;;florent-care@cheval-sa.com;CHAUVONCOURT;55300;France;ENFIN
 jungheinrich;Jungheinrich;Monsieur;Klein;Florian;florian.klein@jungheinrich.fr;;;;
 Fenwick;Fenwick;Monsieur;Pierson;Florian;florian.pierson@fenwick-linde.fr;Geispolsheim;67118;;
 manuloc;Manuloc;Monsieur;MAEGHT;Freddy;f-maeght@manuloc.fr;;;;
@@ -1524,7 +1524,7 @@ RUBION;Cofaq;Monsieur;Doineau;Franck;franck.doineau@rubion.fr;VITRE;35500;;
 Mateloc;Manutention;Monsieur;Durand;Franck;franck.durand@mateloc.com;;;;
 Champion Direct;Champion;Monsieur;Garcia;Franck;franck.garcia@champion-direct.com;Selestat;67600;;
 Loire Océan Manutention;Fenwick;Monsieur;Gauvrit;Franck;franck.gauvrit@loire-ocean-manutention.fr;Cholet;49300;;
-JARNY MVS SERVICES;Promodis;;;;Franck.launay@jarny.com;BAZOGES EN PAREDS;85390;France;
+JARNY MVS SERVICES;Promodis;;;;Franck.launay@jarny.com;BAZOGES EN PAREDS;85390;France;ENFIN
 orexad;Orexad;Monsieur;Lauriere;Franck;franck.lauriere@orexad.com;Lastrene;33360;;
 MAISONNIER;Cofaq;Monsieur;Maisonnier;Franck;franck.maisonnier@maisonnier.fr;BOURESSE;86410;;
 Jungheinrich;Jungheinrich;Monsieur;Meunier;Franck;franck.meunier@jungheinrich.fr;;;;
@@ -1585,7 +1585,7 @@ ALTODIS;DDirect;Monsieur;Henry;Frederic;frederic.henry@altodis.fr;;;;
 Fi - Loc - Manutention;Autres;Monsieur;IRIG;Frédéric;frederic.irig.loc-manut@wanadoo.fr;BENNWIHR GARE;68126;;
 LOPPIN & JEAN;Socoda;Monsieur;JEAN;Frédéric;frederic.jean@loppinetjean.com;TROYES;10000;;
 orexad;Orexad;Monsieur;Lavenu;Frédéric;frederic.lavenu@orexad.com;;;;
-FUTURAGRI - SAMIM;Promodis;;;;frederic.lodetti@futuragri.fr;CASTELCULIER;47240;France;
+FUTURAGRI - SAMIM;Promodis;;;;frederic.lodetti@futuragri.fr;CASTELCULIER;47240;France;ENFIN
 jungheinrich;Jungheinrich;Monsieur;Millard;Frederic;frederic.millard@jungheinrich.fr;;;;
 still;Still;Monsieur;POTIRON;Frédéric;frederic.potiron@still.fr;;;;
 aprolis;DDirect;Monsieur;Poublanc;Frederic;frederic.poublanc@aprolis.com;;;;
@@ -1602,7 +1602,7 @@ l2m-grandouest;Manutention;;;;frua@l2m-grandouest.fr;;;;
 Galliance dinde;Autres;;;;fsauze@galliance.fr;;;;
 Thome;Orexad;Monsieur;Scheffer;Fabrice;f-scheffer@thome.fr;;;;
 Prolians;Descours Prolians;Monsieur;Serre;Fabrice;fserre@prolians.eu;;;;
-FAURE MOTOCULTURE MODERNE;Promodis;;;;ftardieu@faure-et-fils.fr;CHATEAUNEUF DU RHONE;26780;France;
+FAURE MOTOCULTURE MODERNE;Promodis;;;;ftardieu@faure-et-fils.fr;CHATEAUNEUF DU RHONE;26780;France;ENFIN
 RONDEAU VACQUIER;DDirect;Monsieur;Teillet;Francis;fteillet@rondeau.fr;LES HERBIERS;85505;;
 manuloc;Manuloc;Madame;Thiebaud;Florence;f-thiebaud@manuloc.fr;Chaudefontaine;25640;;
 FIV - D&C SAVOIE;Descours Prolians;;;;ftournier@prolians.eu;BELLEGARDE;1200;;
@@ -1611,7 +1611,7 @@ TECHNIDIS - Docks Maritimes;DDirect;Monsieur;Villa;Florent;fvilla@technidis.com;
 Prolians;Descours Prolians;Monsieur;Villani;Fabrice;fvillani@prolians.eu;Vénissieux;69200;;
 manuloc;Manuloc;Madame;VOGEL;Florence;f-vogel@manuloc.fr;;;;
 Batipro;Socoda;Monsieur;Wingert;Fabien;fwingert@batipro.lu;Thionville;57100;;
-DOUILLET;Promodis;;;;fx.douillet@douillet.fr;Maresché;72170;France;
+DOUILLET;Promodis;;;;fx.douillet@douillet.fr;Maresché;72170;France;ENFIN
 SUARD BELLEMON;Socoda;Monsieur;Bellemon;Gérard;g.bellemon@suard-bellemon.com;VILLEMANDEUR CEDEX;45701;;
 HUBERT QUINCAILLERIE;Dompro;Monsieur;DEFRANCE;Grégory;g.defrance@faille.fr;RIVERY;80136;;
 LM MANUTENTION;DDirect;Madame;Du Penhoat;Guyonne;g.dupenhoat@lm-manutention.com;LE MANS;72000;;
@@ -1662,7 +1662,7 @@ OPS;Autres;Madame;Ballesio;Ghislaine;ghislaine.ballesio@ops.fr;MONTESTRUC SUR GE
 jungheinrich;Jungheinrich;Madame;PELLISSIER;Ghislaine;ghislaine.pellissier@jungheinrich.fr;Saint-Etienne du Rouvray;76800;;
 Giffard Manurention Concess. Exclusif;Manutention;Madame;DOUCET;Caroline;giffard.manutention@giffardmanutention.fr;CAUDAN;56850;;
 Fenwick;Fenwick;Monsieur;Sinzelle;Gildas;gildas.sinzelle@fenwick-linde.fr;Ormes;45140;;
-CMA;Cofaq;Monsieur;BAILLARGEAT;Gilles;gilles.baillargeat@groupechavigny.fr;SAINT PIERRE DES CORPS;37700;;
+CMA;Cofaq;Monsieur;BAILLARGEAT;Gilles;gilles.baillargeat@groupechavigny.fr;SAINT PIERRE DES CORPS;37700;;ENFIN
 aprolis;DDirect;Monsieur;CLERGET;Gilles;gilles.clerget@aprolis.com;;;;
 SODEM;Autres;Monsieur;DESMARS;Gilles;gilles.desmars@manut.com;ANCENIS;44151;;
 Fenwick;Fenwick;Monsieur;HUART;Gilles;gilles.huart@fenwick-linde.fr;;;;
@@ -1739,7 +1739,7 @@ Manustra;Manutention;Monsieur;Habert;Philippe;habert@galile.fr;Taluyers;69440;;
 barthelemy-manutention;Fenwick;Monsieur;BEJI;Halim;halim.beji@barthelemy-manutention.fr;Vitrolles;13745;;
 LOURIOU ETS;Cap Alliance;Monsieur;HARDOUIN;Stéphane;hardouin-stephane@louriou.fr;CHEPTAINVILLE;91630;;
 SOCIETE HARDY ET FILS;Cofaq;;;;hardyjeanlouis@gmail.com;CARENTAN;50500;;
-CHEVILLARD HAUT JURA;Promodis;;;;hautjura@chevillard-agri.com;– MORBIER;39400;France;
+CHEVILLARD HAUT JURA;Promodis;;;;hautjura@chevillard-agri.com;– MORBIER;39400;France;ENFIN
 BERNARD PAGES;Descours Prolians;Monsieur;CHAPERON;Hervé;hchaperon@prolians.eu;ALBI;81000;;
 manuloc;Manuloc;Monsieur;DRIE;Herve;h-drie@manuloc.fr;;;;
 still;Still;Madame;Hochin;Héléna;helena.hochin@still.fr;;;;
@@ -1807,7 +1807,7 @@ Buroclass;Actiflip;Monsieur;Berardi;Raphael;info@buroclass.fr;Clermont Ferrand;6
 CARLES;Dompro;Monsieur;CARLES;Denis;info@carles-France.com;LUDON MEDOC;33290;;
 CARL STAHL;Autres;Monsieur;WEIGEL;Alain;info@carlstahl.fr;MUNDOLSHEIM CEDEX;67458;;
 CCMB;Manitou;Monsieur;LELIEVRE;Aldéric;info@ccmb.fr;MONTREUIL-JUIGNE;49460;;
-CHARENTAISE DE MOTOCULTURE;Promodis;;;;info@charentaise-motoculture.com;SALLES D'ANGLES;16130;France;
+CHARENTAISE DE MOTOCULTURE;Promodis;;;;info@charentaise-motoculture.com;SALLES D'ANGLES;16130;France;ENFIN
 CLOUE;Cap Alliance;Monsieur;Carrat;Denis;info@cloue.com;BOURGES;18000;;
 Delrez et Lourtie;Actiflip;Monsieur;Debruche;Johan;info@delrez-lourtie.be;Milmort;4041;Belgique;
 DESROLEST;Dompro;Monsieur;ZOUARI;;info@desrolest.fr;COLMAR;68000;;
@@ -1835,14 +1835,14 @@ Clark Martin Manutention Concessionnaire;Manutention;;;;info@martinmanutention.c
 Mecapro;Autres;Monsieur;SIMOES;Amilcar;info@mecapro.com;CHENNEVIERES SUR MARNE;94430;;
 MILLON;Cofaq;Monsieur;MILLION;;info@millon-sas.fr;LILLE;59160;;
 MOUCHOTTE BRICO PRO;Cofaq;;;;info@mouchotte.com;BOURBONNE-LES-BAINS;52400;;
-Marc Van Ackere & co;Actiflip;Monsieur;Van Ackere;Emmanuel;info@mva.be;Gent;9000;Belgique;
+Marc Van Ackere & co;Actiflip;Monsieur;Van Ackere;Emmanuel;info@mva.be;Gent;9000;Belgique;1000
 MV TEC;DDirect;Monsieur;Moreira;Victor;info@mvtec.net;BAIE MAHAUT (Guadeloupe);97122;;
 NACQUI HYPRO;Socoda;Monsieur;Metayer;Pascal;info@nacqui-hypro.fr;MARSEILLE CEDEX 15;13343;;
-NIESS AGRICULTURE;Promodis;;;;info@niessagriculture.fr;MARLENHEIM;67520;France;
-NIESS MAE;Promodis;;;;info@niessmae.fr;FÉNÉTRANGE;57930;France;
-OUVRARD SAS NORD;Promodis;;;;info@ouvrard.com;LES HERBIERS CEDEX;85504;France;
+NIESS AGRICULTURE;Promodis;;;;info@niessagriculture.fr;MARLENHEIM;67520;France;ENFIN
+NIESS MAE;Promodis;;;;info@niessmae.fr;FÉNÉTRANGE;57930;France;ENFIN
+OUVRARD SAS NORD;Promodis;;;;info@ouvrard.com;LES HERBIERS CEDEX;85504;France;ENFIN
 PRODEMMIA;Autres;;;;info@prodemmia.fr;BONNIERES SUR SEINE;78270;;
-GRUNDERCO;Promodis;;;;info@promodis-suisse.ch;;;SUISSE;
+GRUNDERCO;Promodis;;;;info@promodis-suisse.ch;;;SUISSE;ENFIN
 PROXIMAT;Cofaq;Monsieur;ANTZ;Aldo;info@proximat.fr;CHENNEVIÈRES-SUR-MARNE;94430;;
 PUYBARET;Socoda;Monsieur;Puybaret;Jacques;info@puybaret.com;USSEL CEDEX;19203;;
 REVERT SAS;Cofaq;;;;info@revert.fr;VERSAILLES;78000;;
@@ -1854,7 +1854,7 @@ SUTTERLET;Cofaq;Monsieur;SUTTERLET;Franck;info@sutterlet.fr;SARTROUVILLE;78500;;
 AT Optimat 63;Autres;;;;info@toueix.com;COURNON D'AUVERGNE;63800;;
 Valentinoise de Pesage;Autres;;;;info@valentinoise-de-pesage.fr;VALENCE;26000;;
 vemat;Manutention;;;;info@vemat.fr;;;;
-AGRI-DISTRIBUTION SA;Promodis;;;;info@wowey.eu;;;Luxembourg;
+AGRI-DISTRIBUTION SA;Promodis;;;;info@wowey.eu;;;Luxembourg;ENFIN
 loutz;Manutention;;;;info2@loutz.com;;;;
 SOUDAGE UNIVERSAL;Cofaq;Madame;Gendrin;Jennifer;info2@suf.fr;Herblay;95220;;
 Infors;Autres;Monsieur;Winter;Jacques;infors.fr@infors-ht.com;Massy;91300;;
@@ -1883,8 +1883,8 @@ SOG;Cofaq;Monsieur;Krajewicz;Jacques;j.krajewicz@sog-larrue.fr;Cergy Pontoise Ce
 liftop;Manutention;;;;j.lecrivain@liftop.fr;;;;
 LEPINE MATERIEL;Socoda;Monsieur;LEPINE;Joseph;j.lepine@lepine-materiel.com;ST-CHRISTOPHE DU BOIS;49280;;
 OUTILACIER;DDirect;Monsieur;LEVY;Jérémy;j.levy@outilacier.fr;Vaulx en Velin;69120;;
-Bouchard Agriculture;Promodis;Monsieur;Lopez;Jérèmy;j.lopez@bouchard-agriculture.com;Saint Brice;77160;;
-MARCHADIER;Promodis;;;;j.malaqui@marchadier-sa.com;SURAT;63720;France;
+Bouchard Agriculture;Promodis;Monsieur;Lopez;Jérèmy;j.lopez@bouchard-agriculture.com;Saint Brice;77160;;ENFIN
+MARCHADIER;Promodis;;;;j.malaqui@marchadier-sa.com;SURAT;63720;France;ENFIN
 vitamotor;Manuquip;;;;j.obe@vitamotor.fr;;;;
 CLENET MANUTENTION;Manitou;Monsieur;Perilliat;Julien;j.perilliat@clenet-manutention.fr;SAINT-JEAN-DE-LINIERES;49070;;
 AURAMA;DDirect;Monsieur;Perrin;Julien;j.perrin@aurama.fr;;;;
@@ -1895,7 +1895,7 @@ CHARLES SERVICE;DDirect;Monsieur;Risbec;Jean;j.risbec@charles-service.fr;Chelles
 Pellenc;Cofaq;Monsieur;SILVESTRE;Jérémy;j.silvestre@pellenc-bc.com;LIBOURNE-NEAC;33500;;
 Pellenc;Cofaq;Monsieur;THEVEVIAULT;Jérémy;j.theveniault@pellenc-bc.com;PEUJARD;33240;;
 AURAMA;DDirect;Monsieur;Thevenon;Jérome;j.thevenon@aurama.fr;Genas;69740;;
-A 2 C;Autres;Monsieur;TROCCON;Emmanuel;j.troccon@a2c-fr.com;LE PETIT ABERGEMENT;1260;;
+A 2 C;Autres;Monsieur;TROCCON;Emmanuel;j.troccon@a2c-fr.com;LE PETIT ABERGEMENT;1260;;Tue Jun 27 2023
 Still;Still;Monsieur;Murray;Jack;jack.murray@still.fr;Toulouse;31100;;
 Bonnet Jack;Autres;Monsieur;JACKBONNET;Jack;jack-bonnet-sa@wanadoo.fr;SALINDRES;30340;;
 jungheinrich;Jungheinrich;Monsieur;Runel;Jacky;jacky.runel@jungheinrich.fr;;;;
@@ -1912,7 +1912,7 @@ MOTOBRIE;Cofaq;Monsieur;ANTOINE;Julien;jantoine@motobrieprovins.fr;CRÉPY-EN-VAL
 MANUTENTION SERVICE;DDirect;Monsieur;Perrin;Jean-Baptiste;jb.perrin@manutentionservice.fr;Courmont D'auvergne Cedex;63808;;
 SOCOMENAL;Dompro;Monsieur;BARTHEL;Jérôme;jbarthel@socomenal.com;ECKBOLSHEIM;67201;;
 OREXAD JBDI;Orexad;;;;jbdi@orexad.com;NARROSSE;40180;;
-BRETAGRI;Promodis;Monsieur;Beaudouin;Jacques;jbeaudouin@bretagri.fr;SAINT GILLES;35590;France;
+BRETAGRI;Promodis;Monsieur;Beaudouin;Jacques;jbeaudouin@bretagri.fr;SAINT GILLES;35590;France;ENFIN
 manuloc;Manuloc;Monsieur;GHILARDINI;Jean Baptiste;jb-ghilardini@manuloc.fr;Aucamville;31140;;
 AM2;Manutention;Monsieur;Bouillonnec;Jordan;jbouillonnec@am2.fr;LE PERRAY EN YVELINES;78610;;
 l2m-grandouest;Manutention;;;;jbreant@l2m-grandouest.fr;;;;
@@ -2041,8 +2041,8 @@ Alpes Manutention;Manutention;Monsieur;Monin;Jean-François;jf.monin@alpes-manut
 GODARD;Socoda;Monsieur;FACCA;Julien;jfacca@godardpro.fr;MIGENNES;89400;;
 manuloc;Manuloc;Monsieur;DUBUIS;Jean-François;jf-dubuis@manuloc.fr;;;;
 TROLLE;Cofaq;Monsieur;FIEVE;Jhonny;jfieve@trolle.fr;Hesdin l'Abbe;62360;;
-GABILLET;Promodis;;;;jgabillet@gabillet-agri.com;CRACH;56950;France;
-GARNIER MOTOCULTURE;Promodis;;;;jgarnier@garnier69.fr;SAINT JEAN LA BUSSIERE;69550;France;
+GABILLET;Promodis;;;;jgabillet@gabillet-agri.com;CRACH;56950;France;ENFIN
+GARNIER MOTOCULTURE;Promodis;;;;jgarnier@garnier69.fr;SAINT JEAN LA BUSSIERE;69550;France;ENFIN
 ROBOLACTIS;Cofaq;;;;JGinisty@vlp.lelycenter.com;VILLEDIEU-LES-POËLES;50800;;
 ANDERSON;Dompro;Monsieur;Godard;Jean;jgodard@groupeanderson.fr;SAINT FIEL;23000;;
 QEGS;Socoda;Monsieur;GOMBAUD-SAINTONGE;Jocelyn;jgsaintonge@qegs.fr;BAIE-MAHAULT;97122;;
@@ -2060,7 +2060,7 @@ SOMATEC MANUTENTION;Manitou;Monsieur;MILLEE;Jean-Marc;jm.millee@somatec.fr;BEAUD
 CEKA PRODIFFUSION;Dompro;Monsieur;MILLET;Jean-Michel;jm.millet@prodiffusion.com;LONS LE SAUNIER;39006;;
 PATOUX EQUIPAGRI;Cofaq;Monsieur;TURBELIN;Jean-Marie;jm.turbelin@patoux.fr;WARGNIES-LE-GRAND;59144;;
 SA ARDENN DIESEL MANUT;Manutention;Monsieur;MARTINI;;jmartini@admanut.fr;CHARLEVILLE MEZIERES CEDEX;8004;;
-FIMAGRI;Promodis;;;;jmaze.rgoas@wanadoo.fr;PLOUDANIEL;29260;France;
+FIMAGRI;Promodis;;;;jmaze.rgoas@wanadoo.fr;PLOUDANIEL;29260;France;ENFIN
 SUDALPES -Siège Social;Manitou;;;;jmbdirection@sudalpes.com;NICE;6200;;
 CRIBALLET;Autres;Monsieur;DECUC;Jean-Marc;jmdecuc@criballet.com;BEZIERS;34500;;
 UDSOM;Autres;Monsieur;FOUMonsieur;Jean-Michel;jmfouMonsieur@wanadoo.fr;VAULX EN VELIN;69120;;
@@ -2104,7 +2104,7 @@ SDM PRO;Cofaq;;;;jouvance@orange.fr;PONTS SOUS AVRANCHES;50300;;
 Merial;Actiflip;Monsieur;Bouffard;Jean-Philippe;jp.bouffard@merial-fr.fr;Toulouse;31100;;
 NORMOFI;Dompro;Monsieur;CARRE;Jean-Pierre;jp.carre@normofi.com;COLOMBELLES;14460;;
 SOUDAGE EQUIPEMENT ,AZOTE LIQUIDE SERVICE;Socoda;Monsieur;CARREAUD;Jean-Pierre;jp.carreaud@soudage-equipement.com;Hoerdt;67720;;
-CHAMBON;Promodis;;;;jp.chambon@chambon-sa.fr;;;;
+CHAMBON;Promodis;;;;jp.chambon@chambon-sa.fr;;;;ENFIN
 locarmor;Manutention;;;;jp.degueille@locarmor.com;;;;
 lm-manutention;DDirect;;;;j-p.devaux@lm-manutention.com;;;;
 RYO - AGRI SUD BRETAGNE;Cofaq;;;;jp.ryo@wanadoo.fr;QUESTEMBERT;56231;;
@@ -2202,7 +2202,7 @@ orexad;Orexad;Monsieur;Person;;landry.person@orexad.com;;;;
 LANGE SAS;Cofaq;;;;lange.sarl@wanadoo.fr;SAINT-FLORENTIN;89600;;
 LAURENT MAURICE;Cofaq;;;;langeac@sas-maurice-laurent.com;LANGEAC;43300;;
 LAURENT MAURICE;Cofaq;;;;langogne@sas-maurice-laurent.com;LANGOGNE;48600;;
-AGRIVISION;Promodis;;;;lannemezan@agrivision.fr;LANNEMEZAN;65300;France;
+AGRIVISION;Promodis;;;;lannemezan@agrivision.fr;LANNEMEZAN;65300;France;ENFIN
 FOURNITURES INDUSTRIELLES DE LA COTIERE;Cofaq;Monsieur;ARGOUD;Laurent;largoud@fi-cotiere.fr;DAGNEUX;1120;;
 Dexis;Descours Prolians;Monsieur;BARD;François;laroche.fti@dexis.eu;LA ROCHE SUR YON;85000;;
 JP LAROCHE SARL;Dompro;Monsieur;LAROCHE;Francis;larochejp@wanadoo.fr;ST GEORGES DES COTEAUX;17810;;
@@ -2215,7 +2215,7 @@ jungheinrich;Jungheinrich;Monsieur;CASSEZ;Laurent;laurent.cassez@jungheinrich.fr
 SODICA;Autres;Monsieur;CAZELLES;Laurent;laurent.cazelles@sodica.net;CARCASSONNE;11000;;
 jungheinrich;Jungheinrich;Monsieur;CHARBONNIER;Laurent;laurent.charbonnier@jungheinrich.fr;;;;
 OREXAD;Orexad;Monsieur;Charpaud;Laurent;laurent.charpaud@orexad.com;Amiens;80000;;
-M.A.C;Promodis;;;;laurent.clouet@mac.fr;;;;
+M.A.C;Promodis;;;;laurent.clouet@mac.fr;;;;ENFIN
 ROUSSELY;Champion;Monsieur;Creton;Laurent;laurent.creton@champion-direct.com;Les Mureaux;78130;;
 labrosse Equipement;Fenwick;Monsieur;Delannoy;Laurent;laurent.delannoy@labrosse-equipement.fr;;;;
 Ferron;Dompro;Monsieur;Fesselier;Laurent;laurent.fesselier@ferron.fr;Vitre;35500;;
@@ -2330,7 +2330,7 @@ COLVEMAT;Manutention;Monsieur;Tassin;Loïc;loic.tassin@colvemat.com;Libercourt;6
 aprolis;DDirect;Monsieur;Touzé;Loic;loic.touze@aprolis.com;;;;
 LOMATYS;Cofaq;;;;lomatys-bricopro@orange.fr;CHARNY ORÉE DE PUISAYE;89120;;
 Poncelet R.;Autres;Monsieur;PONCELET;;longsols@rponcelet.com;LONGSOLS;10240;;
-AGRIVISION;Promodis;;;;Lons@agrivision.fr;LONS;64140;France;
+AGRIVISION;Promodis;;;;Lons@agrivision.fr;LONS;64140;France;ENFIN
 dexis;Descours Prolians;;;Cécilia, Olivier, Jérôme et Yoann;lorient@dexis.eu;Lorient;56100;;
 HARTEREAU;Orexad;Madame;LE FORMAL;Christine;lorient@orexad.com;LANESTER;56600;;
 Fenwick;Fenwick;Madame;Sibuet;Lou;lou.sibuet@fenwick-linde.fr;Saint Martin d'Hères;38400;;
@@ -2338,7 +2338,7 @@ HARTEREAU;Orexad;Monsieur;Berthet;Olivier;loudeac@orexad.com;LOUDEAC;22600;;
 manuloc;Manuloc;Monsieur;GUTIERREZ;Louis;louis.gutierrez@manuloc.fr;Avignon;84000;;
 LOUMAT;Autres;Monsieur;Brunet;Seraphyn;loumat05@wanadoo.fr;BIANCON;5100;;
 Mateloc;Manutention;Monsieur;Thibaud;Lowan;lowan.thibaud@mateloc.com;Cholet cedex;49303;;
-LOZERE MOTOCULTURE;Promodis;;;;Lozere-motoculture@sasraynal.fr;BANASSAC;48500;France;
+LOZERE MOTOCULTURE;Promodis;;;;Lozere-motoculture@sasraynal.fr;BANASSAC;48500;France;ENFIN
 HERTIG;Cofaq;Monsieur;BERGEONNEAU;Laurent;lpbg@quincailleriepro.fr;CHATELLERAULT;86100;;
 GRANDBLAISE ET LEROY SA;Orexad;Monsieur;Rémy;Lionel;lremy@grandblaise-leroy.fr;Epinal;88000;;
 SOMEFI;Cofaq;Monsieur;Reynaud;Laurend;lreynaud@somefi.fr;Arnas;69400;;
@@ -2348,7 +2348,7 @@ Fenwick;Fenwick;Monsieur;Abraham;Luc;luc.abraham@fenwick-linde.fr;Sausheim;68390
 orexad;Orexad;Monsieur;Bussiere;Luc;luc.bussiere@orexad.com;Clermont Ferrand;63100;;
 BONNEFON SOUDURE;Dompro;Monsieur;Krzykowski;Luc;luc.krzykowski@bonnefon.fr;Bouguenais;44340;;
 Techprodis;Autres;Monsieur;Liard;Luc;luc.liard@techprodis.com;Chezy Sur Marne;2570;;
-ACS ANDELFINGER;Promodis;;;;luc@acs-andelfinger.fr;WALDIGHOFFEN;68640;France;
+ACS ANDELFINGER;Promodis;;;;luc@acs-andelfinger.fr;WALDIGHOFFEN;68640;France;ENFIN
 Fenwick;Fenwick;Monsieur;Fortelli;Lucas;lucas.fortelli@fenwick-linde.fr;Chaponnay;69970;;
 jungheinrich;Jungheinrich;Monsieur;Souply;Lucas;lucas.souply@jungheinrich.fr;Roissy en France Cedex;95956;;
 OREXAD;Orexad;Madame;Boiron;Lucie;lucie.boiron@rubix.com;Luisant;28600;;
@@ -2367,11 +2367,11 @@ still;Still;Monsieur;VALADES;Luis;luis.valades@still.fr;;;;
 LEGRANDCUB;Cofaq;Madame;Chea;Lundi;lundi.chea@legrandcub.fr;Fleury Merogis;91700;;
 TECHNIDIS;DDirect;Madame;Urfalino;Laëtitia;lurfalino@technidis.com;Saint Nazaire;;;
 LUSAGRI;Cofaq;;;;lusagri86@gmail.com;LUSIGNAN;86600;;
-ABS;Autres;Madame;Vasram;Liliane;lvabs@balanceabs.fr;Aubervilliers;93300;;
+ABS;Autres;Madame;Vasram;Liliane;lvabs@balanceabs.fr;Aubervilliers;93300;;NONO
 MGAV;Cofaq;;;;lvd49@hotmail.fr;CHALONNES-SUR-LOIRE;49290;;
 MATERIAUX REUNIS;Cofaq;;;;lveclin@matreunis.com;SAINT DENIS EN VAL;45560;;
 AURAMA - CORBAS;DDirect;Madame;Alfano;Manon;m.alfano@aurama.fr;GENAS;69747;;
-BOUCHARD HOLDING (Grpe);Promodis;;;;m.beaudouin@bouchard-agriculture.com;MORMANT;77720;France;
+BOUCHARD HOLDING (Grpe);Promodis;;;;m.beaudouin@bouchard-agriculture.com;MORMANT;77720;France;ENFIN
 SIGNAMAT SAS;Dompro;Madame;Bezaud;Marine;m.bezaud@signamat.com;Montélimar;26200;;
 Azur Technologies;Manutention;Monsieur;Bizon;Michel;m.bizon@azurtechnologies.fr;magny en Vexin;95420;;
 CHARLES SERVICE;DDirect;Monsieur;Boguet;Marc;m.boguet@charles-service.fr;CHELLES;77500;;
@@ -2423,7 +2423,7 @@ LORRAINE AGRI SERVICE;Cap Alliance;Monsieur;MARQUIS;Jean-Marie;magasin.las@orang
 Manustock;DDirect;Monsieur;Bernard;Sébastien;magasin.mdm@manustock.fr;Saint Avit;40090;;
 LESIEUR;Cap Alliance;Monsieur;JACQUELINE;David;magasin.parce@lesieur-sa.fr;PARCE SUR SARTHE;72300;;
 BRICOTECH;Cofaq;;;;magasin.r@bricotech-esd.fr;RUY;38300;;
-BONFILS;Promodis;;;;magasin.ruy@bonfils-sa.fr;RUY;38300;France;
+BONFILS;Promodis;;;;magasin.ruy@bonfils-sa.fr;RUY;38300;France;ENFIN
 MAZEAU;Manitou;;;;magasin.saintes@mazeau.fr;SAINTES;17100;;
 MAZEAU;Manitou;;;;magasin.vaux@mazeau.fr;VAUX SUR MER;17640;;
 3 MMM - GARDEN DECO;Cofaq;;;;magasin@3mmm.fr;RUFFEC;16700;;
@@ -2453,18 +2453,18 @@ FOYER-BELLARD;Cofaq;;;;magasin@quincailleriefoyer.fr;VIHIERS;49310;;
 Siem;Manutention;Madame;Savot;Marie;magasin@siem-services.fr;Macon;71000;;
 SOVETRAG;Cap Alliance;Monsieur;FAYOLLES;Hubert;magasin@sovetrag.fr;VENDENESSE LES CHAROLLES;71120;;
 STOCKMAN;Manutention;Madame;Sery;Audrey;magasin@stockman.fr;Bayonne;64100;;
-THOUVARD;promodis;Monsieur;Fabre;Laurent;magasin@thouvard.fr;La Rochette;73110;;
+THOUVARD;promodis;Monsieur;Fabre;Laurent;magasin@thouvard.fr;La Rochette;73110;;ENFIN
 loutz;Manutention;Monsieur;Finot;Grégoire;magasin2@loutz.com;Bonsecours;76240;;
 BMS 72;Cofaq;Monsieur;BERNY;Max;magasin72@bernyms.com;VOIVRES-LÈS-LE-MANS;72210;;
 BMS 72;Cofaq;;;;magasin72-3@bernyms.com;SAINT-CALEZ-EN-SAOSNOIS;72600;;
 COLINET;Cofaq;Monsieur;COLINET;Bertrand;magasinaml@colinet.fr;SAINT-MARTIN-EN-HAUT;69850;;
 COLINET;Cofaq;Monsieur;COLINET;Bertrand;magasinap@colinet.fr;LONGES;69420;;
-AGRIVISION;Promodis;;;;magasincarcassonne@agrivision.fr;CARCASSONNE;11000;France;
+AGRIVISION;Promodis;;;;magasincarcassonne@agrivision.fr;CARCASSONNE;11000;France;ENFIN
 AGRI SERVICES CHANTELOUP;Cofaq;Monsieur;RENAUX;Jérôme;magasin-chanteloup@agriasa.fr;LOUDUN;86200;;
 CLOUE - PRO CULTURE EQUIPEMENT;Cap Alliance;Madame;BARSELOT;Anne;magasindeols@cloue.com;DEOLS;36130;;
 FAVIER L'HUILLIER;Cap Alliance;Monsieur;COLIN;Claude;magasin-flsa@orange.fr;RAUCOURT;54610;;
 CLOUE;Cap Alliance;Monsieur;FONTENAS;Lilian;magasingehee@cloue.com;GEHEE;36240;;
-OUEST MOTOCULTURE;Promodis;;;;magasinplanc@ouest-motoculture.fr;PLANCOET;22130;France;
+OUEST MOTOCULTURE;Promodis;;;;magasinplanc@ouest-motoculture.fr;PLANCOET;22130;France;ENFIN
 CLOUE;Cap Alliance;Monsieur;Garreau;Philippe;magasinpouant@cloue.com;POUANT;86200;;
 COLINET;Cofaq;Monsieur;COLINET;Bertrand;magasinsab@colinet.fr;VILLIÉ-MORGON;69910;;
 DEPLA SAUVAIRE;Cap Alliance;Monsieur;PSAUVAIRE;Pascal;magasinsoignolles@depla.fr;SOIGNOLLES EN BRIE;77111;;
@@ -2500,7 +2500,7 @@ still;Still;Monsieur;CHAMPAINNE;Marc;marc.champainne@still.fr;;;;
 orexad;Orexad;Monsieur;Choppin;;marc.choppin@orexad.com;;;;
 Virly;Fenwick;Monsieur;Cussac;Marc;marc.cussac@virly.fr;CAVAILLON;84300;;
 aprolis;DDirect;Monsieur;DELERIVE;Marc;marc.delerive@aprolis.com;;;;
-Jarny;Promodis;Monsieur;Dubois;Marc;marc.dubois@jarny.com;Concourson sur Layon;49700;;
+Jarny;Promodis;Monsieur;Dubois;Marc;marc.dubois@jarny.com;Concourson sur Layon;49700;;ENFIN
 still;Still;Monsieur;Dumont;Marc;marc.dumont@still.fr;Marne La Vallée Cedex 4;77716;;
 Multi Chariots;Manuquip;Monsieur;Lambinet;Marc;marc.lambinet@wanadoo.fr;ORCHIES;59310;;
 Fenwick;Fenwick;Monsieur;MONTMAYEUR;Marc;marc.montmayeur@fenwick-linde.fr;Saint Martin D'Heres;38400;;
@@ -2542,7 +2542,7 @@ DEQOB EPI;Cofaq;;;;masterpro@deqob.fr;SALLANCHES;74700;;
 QUINCAILLERIE ILE DE FRANCE;Cofaq;Monsieur;ELBAZ;William;masterpro93350@gmail.com;Villepinte;93420;;
 SADEF MASTER PRO;Cofaq;Monsieur;DACOSTA;Mario;masterprochambry@orange.fr;LAON;2000;;
 ESCALES HABITAT - MAT-ADOUR - SOLUMAT;Cofaq;;;;matadour@wanadoo.fr;GOUSSE;40465;;
-MAT AGRI 74;Promodis;;;;matagri74@chevillard-agri.com;ALLONZIER LA CAILLE;74350;France;
+MAT AGRI 74;Promodis;;;;matagri74@chevillard-agri.com;ALLONZIER LA CAILLE;74350;France;ENFIN
 MATELEV;Manuquip;;;;matelev@manuquip.com;TONNEINS;47400;;
 BAUDELET Matériels;Cofaq;Monsieur;MORDACQ;Benoît;materiels@baudelet.fr;HAZEBROUCK;59190;;
 Mat Force Normandie - Siège Social;Autres;Monsieur;MAHIEUX;Nicolas;matforcenormandie@orange.fr;MonsieurBOURG OCTEVILLE;50100;;
@@ -2660,12 +2660,12 @@ DELAGNES MANUTENTION & SERVICES;DDirect;Monsieur;Leite;Marcel;mleite@delagnes.co
 MLSI;Autres revendeurs;Monsieur;MOUGEL;Francis;MLSI88@orange.fr;Anould;88650;;
 schoettle;Orexad;Madame;Morais;;mmorais@schoettle68.fr;;;;
 Orexad;Orexad;Monsieur;M'Hadhbi;Mohamed;mohamed.mhadhbi@orexad.com;Fleury sur Orne;14123;;
-MOLLE;Promodis;;;;molle@wanadoo.fr;LANTENOT;70200;France;
-MOLLE;Promodis;;;;molle06@orange.fr;CHASSEY LES MONTBOZON;70230;France;
+MOLLE;Promodis;;;;molle@wanadoo.fr;LANTENOT;70200;France;ENFIN
+MOLLE;Promodis;;;;molle06@orange.fr;CHASSEY LES MONTBOZON;70230;France;ENFIN
 MILER;Socoda;Monsieur;MONACO;Pierre-Antoine;monaco.pa@miler.fr;BAR LE DUC;55000;;
 Moncey Philippe;Autres;Monsieur;Moncey;Philippe;moncey.philippe2@wanadoo.fr;CRUGNY;51170;;
 LECOUFLE - TAMPLEU SPRIET;Descours Prolians;Monsieur;ARCHENOULT;;mondeville.lecoufle@prolians.eu;MONDEVILLE;14120;;
-CHEVILLARD AGRI;Promodis;;;;moniquelachat@chevillard-agri.com;ST JEAN DE GONVILLE;1630;France;
+CHEVILLARD AGRI;Promodis;;;;moniquelachat@chevillard-agri.com;ST JEAN DE GONVILLE;1630;France;ENFIN
 Orexad;Orexad;;;;montargis@rubix.com;Villemandeur;45700;;
 OREXAD APS;Orexad;;;;montigny.aps@orexad.com;MONTIGNY LE BRETONNEUX;78180;;
 OREFI;Orexad;;;;montlucon@orexad.com;MONTLUCON;3100;;
@@ -2778,7 +2778,7 @@ Lecoufle;Descours Prolians;Monsieur;Lamache;Nicolas;nlamache@prolians.eu;;;;
 lenormant;Manutention;Monsieur;Lanzini;Nicolas;nlanzini@lenormant.fr;Montataire;60160;;
 Giffard Manutention;Manutention;Monsieur;Louvet;;nlouvet@giffardmanutention.fr;LE MANS;72000;;
 DESENFANS;Socoda;Monsieur;Mugnier;Nicolas;nmugnier@desenfans.com;CAMBRAI;59400;;
-NODIMAT-NV;Promodis;;;;nodimat@nodimat.com;LONGEAULT;21110;France;
+NODIMAT-NV;Promodis;;;;nodimat@nodimat.com;LONGEAULT;21110;France;ENFIN
 NOEL MATERIAUX - LEMOINE;Cofaq;;;;noel-materiaux@wanadoo.fr;SAINTE-MENEHOULD;51800;;
 orexad;Orexad;Madame;Lebris;Noémie;noemie.lebris@orexad.com;;;;
 NOIROT MANUTENTION;Autres;Monsieur;Krin;Julien;noirot.manut@orange.fr;NEUILLY L EVEQUE;52360;;
@@ -2786,7 +2786,7 @@ Noralsa Manutention;Autres;Madame;NEUMAYER;;noralsamanutention@orange.fr;HAGUENA
 FENWICK Annecy;Fenwick;Monsieur;Dallemagne;Norbert;norbert.dallemagne@fenwick-linde.fr;ALLONZIER LA CAILLE;74350;;
 Orexad;Orexad;Monsieur;Guerin;Norbert;norbert.guerin@rubix.com;Beaucouzé;49070;;
 Fenwick;Fenwick;Monsieur;Martins;Norbert;norbert.martins@fenwick-linde.fr;;;;
-MILLAMON;Promodis;;;;nordausques@millamon.com;NORDAUSQUES;62890;France;
+MILLAMON;Promodis;;;;nordausques@millamon.com;NORDAUSQUES;62890;France;ENFIN
 Néo Pak'Europe;Manutention;;;;normandiesav@neopakeurope.com;MAROMME;76150;;
 LYSADIS;Cofaq;;;;noyal-chatillon@lysadis.fr;NOYAL CHATILLON SUR SEICHE;35230;;
 TECHNIDIS - Docks Maritimes;DDirect;Madame;Pensec;Nathalie;npensec@technidis.com;Saint Nazaire Cedex;44601;;
@@ -2834,7 +2834,7 @@ Sima;DDirect;Monsieur;Mouchel;Olivier;olivier.mouchel@groupe-odis.fr;Martinvast;
 QUINCAILLERIE IND. BERROISE;Socoda;Monsieur;Moutel;Olivier;olivier.moutel@ortec.fr;BERRE L'ETANG CEDEX;13131;;
 jungheinrich;Jungheinrich;Monsieur;Papini;Olivier;olivier.papini@jungheinrich.fr;;;;
 still;Still;Monsieur;PENA;Olivier;olivier.pena@still.fr;;;;
-CMA;Cofaq;Monsieur;RODRIGUEZ;Olivier;olivier.rodriguez@groupechavigny.fr;METTRAY;37390;;
+CMA;Cofaq;Monsieur;RODRIGUEZ;Olivier;olivier.rodriguez@groupechavigny.fr;METTRAY;37390;;ENFIN
 PROFIL INDUSTRIE;DDirect;Monsieur;Sanson;Olivier;olivier.sanson@profil-industrie.fr;CHÂTEAU L'HERMITAGE;72510;;
 jungheinrich;Jungheinrich;Monsieur;Saracen;Olivier;olivier.saracen@jungheinrich.fr;;;;
 STILL MEDITERRANNEE;Still;Monsieur;Six;Olivier;olivier.six@still-fr.com;AIX EN PROVENCE;13790;;
@@ -2848,11 +2848,11 @@ Fenwick;Fenwick;Monsieur;LEAL;Orlando;orlando.leal@fenwick-linde.fr;;;;
 Groupe Godet;Autres;Madame;Malevialle;Aude;ouest@godet.fr;Saint-Nazaire;44600;;
 MICHAUD-CHAILLY;Cofaq;Monsieur;Poéta;Gérald;outillage@michaud-chailly.fr;Saint Priest;69800;;
 OUTIPRO;Manuquip;Monsieur;Nadreau;Philippe;outipro@manuquip.com;N/DAME DE GRAVENCHON;76330;;
-OUVRARD  CHARENTES;Promodis;;;;ouvrard.charentes@ouvrard.com;JONZAC;17500;France;
-OUVRARD TOURAINE;Promodis;;;;ouvrard.touraine@ouvrard.com;BEAUMONT LA RONCE;37360;France;
+OUVRARD  CHARENTES;Promodis;;;;ouvrard.charentes@ouvrard.com;JONZAC;17500;France;ENFIN
+OUVRARD TOURAINE;Promodis;;;;ouvrard.touraine@ouvrard.com;BEAUMONT LA RONCE;37360;France;ENFIN
 OREXAD FIM;Orexad;;;;oyonnax@orexad.com;OYONNAX;1100;;
 BOULEY;Socoda;Monsieur;Bergeret;Pascal;p.bergeret@bouley.fr;La Vaupaliere;76150;;
-DACHARD;Promodis;;;;p.chaveroche@dachard-sa.com;ST BENIN D'AZY;58270;France;
+DACHARD;Promodis;;;;p.chaveroche@dachard-sa.com;ST BENIN D'AZY;58270;France;ENFIN
 LYOMAT;Autres;Monsieur;RENTE;David;p.coquard@lyomat.fr;PIERRE BENITE CEDEX;69491;;
 SOFIBAC;Cofaq;Monsieur;Couet;Pierre;p.couet@sofibac.fr;Saint Malo;35400;;
 SCHMIT SAICA;Socoda;Monsieur;DUPONT;Pascal;p.dupont@schmit-saica.fr;THIONVILLE;57102;;
@@ -2880,7 +2880,7 @@ SUARD BELLEMON;Socoda;Monsieur;TCHIJOUK;Patrick;p.tchijouk@suard-bellemon.com;VI
 BOUCHARD MANUTENTION;Manutention;Monsieur;Vambre;Pascal;p.vambre@bouchard-Manutention.com;Mormant;77720;;
 BAILLARGEAT Quincaillerie;Dompro;Monsieur;Villars;Pascal;p.villars@bailpro.fr;La test de Buch;33260;;
 Poids Lourds Albenassiens;Autres;Monsieur;MAZET;Pierre;palleysson@mazet.fr;AUBENAS;7202;;
-AGRIVISION;Promodis;;;;Pamiers@agrivision.fr;PAMIERS;9100;France;
+AGRIVISION;Promodis;;;;Pamiers@agrivision.fr;PAMIERS;9100;France;ENFIN
 HC DISTRIBUTION;Cofaq;;;;pamies.pro@orange.fr;MÂCON;71000;;
 PAMIES PRO;Cofaq;Monsieur;CRIBEL;Henri;pamies@chavy.fr;MACON;71000;;
 BEAUVISAGE TOULLET - P.A.M.M;Cap Alliance;Monsieur;ROUSSEL;;pamm.toullet@orange.fr;NOUVION en PONTHIEU;80860;;
@@ -2932,7 +2932,7 @@ SPA DESTRIBAT;Socoda;Monsieur;HUMBERT;Patrick;patrick.humbert@spa-destribats.fr;
 Virly;Fenwick;Monsieur;Lemaire;Patrick;Patrick.LEMAIRE@Virly.fr;Moneteau;89740;;
 Habrial Manutention;Actiflip;Monsieur;Lhelguen;Patrick;patrick.lhelguen@habrial.fr;CHANGE;72560;;
 Fenwick;Fenwick;Monsieur;Moulin;Patrick;patrick.moulin@fenwick-linde.fr;Saint Etienne;42000;;
-DAVID EST;Promodis;Monsieur;Perin;Patrick;patrick.perin@davidagri.fr;SAULT LÈS RETHEL;8300;France;
+DAVID EST;Promodis;Monsieur;Perin;Patrick;patrick.perin@davidagri.fr;SAULT LÈS RETHEL;8300;France;ENFIN
 OPS;Autres;Madame;Ragot;Aline;patrick.pillon@ops.fr;MONTESTRUC SUR GERS;32390;;
 sofima;Manitou;Monsieur;Prevost;Patrick;patrick.prevost@sofima.fr;;;;
 VELAY MATERIAUX;Cofaq;Monsieur;Velay;Patrick;patrick.velay@velaymateriaux.com;Saint-Hippolyte-du-Fort;30170;;
@@ -2958,11 +2958,11 @@ BOSSU CUVELIER;Descours Prolians;Monsieur;Delache;Patrick;pdelache@prolians.eu;L
 FACDEM EQUIPEMENTS;Autres;Monsieur;Denizart;Philippe;pdenizart@facdem.net;Roncq;59223;;
 Prolians;Descours Prolians;Madame;DUGELAY;Patricia;pdugelay@prolians.eu;Perreux;42120;;
 ARMOR MANUTENTION;Manutention;Monsieur;Duguy;Pierre;pduguy@armormanutention.fr;Aigrefeuille Sur Marne;44140;;
-DEFI-MAT Agriculture;Promodis;;;;pduport@defimat.fr;MAURIAC;15200;France;
+DEFI-MAT Agriculture;Promodis;;;;pduport@defimat.fr;MAURIAC;15200;France;ENFIN
 MICHAUD-CHAILLY;Cofaq;Monsieur;Pean;Eric;peane@michaud-chailly.fr;;;;
 AVIPOLE;Autres;Monsieur;PENVERNE;François;penverne.francois@avipole.re;SAINT LOUIS;97425;;
 Fenwick;Fenwick;Monsieur;Fernandez;Pepito;pepito.fernandez@fenwick-linde.fr;;;;
-LEBEURRIER;Promodis;;;;percy@lebeurrier.com;DUCEY;50220;France;
+LEBEURRIER;Promodis;;;;percy@lebeurrier.com;DUCEY;50220;France;ENFIN
 PEREZ;Dompro;Monsieur;Perez;Nicolas;perez-peinture@orange.fr ;BEZIERS;34500;;
 DUCLOS BOIS ET MATERIAUX;Cofaq;;;;perigny@duclosmateriaux.com;PÉRIGNY;17180;;
 orexad;Orexad;Monsieur;Merle;Patrick;perigueux@orexad.compatrick.merle@rubix.com;MARSAC SUR L'ISLE;24430;;
@@ -2972,7 +2972,7 @@ BAURES;Descours Prolians;Monsieur;Fages;Philippe;pfages@prolians.eu;AGDE;34300;;
 MOTELEC;Socoda;Monsieur;BORDET;Pierre-Gilles;pg.bordet@sogap.fr;OYONNAX CEDEX;1103;;
 ENERIA;Manutention;Monsieur;HERNANDEZ;;phernandez@eneria.com;MONTHERY;91311;;
 PHILIP & CANETTI;Dompro;Madame;LEMOUZY;Fabienne;philipetcanetti@orange.fr;MONTAUBAN;82001;;
-ACKERMANN;Promodis;Monsieur;Ackermann;Philippe;philippe.ackermann@groupeackermann.fr;PONTOY;57420;France;
+ACKERMANN;Promodis;Monsieur;Ackermann;Philippe;philippe.ackermann@groupeackermann.fr;PONTOY;57420;France;ENFIN
 COMAI - AGROTECH - COMAGRI - SOULE - VIGNES;Cofaq;Monsieur;Baudonnet;Philippe;philippe.baudonnet@comai.fr;CASTELSARRASIN;82100;;
 still;Still;Monsieur;BERNIER;Philippe;philippe.bernier@still.fr;;;;
 Fenwick;Fenwick;Monsieur;Boussaert;Philippe;philippe.boussaert@fenwick-linde.fr;;;;
@@ -3010,7 +3010,7 @@ habrial;Actiflip;Monsieur;Simon;Philippe;philippe.simon@habrial.fr;Change;72560;
 Fenwick;Fenwick;Monsieur;Vein;Philippe;Philippe.Vein@fenwick-linde.fr;Messein;54850;;
 QUINCAILLERIE ROCHE;Cofaq;;;;philippe@rochefi.fr;MONTBRISON;42600;;
 APPRO Services;DDirect;Monsieur;Grenier;Philippe;philippe-grenier@appro-services.fr;;;;
-MILLAMON;Promodis;;;;Phouvet@millamon.com;THEROUANNE;62129;France;
+MILLAMON;Promodis;;;;Phouvet@millamon.com;THEROUANNE;62129;France;ENFIN
 Mitsubishi 4 P Manutention Concessionnaire;Manutention;Monsieur;Picardie;Patrice;picardie.patrice@neuf.fr;LA GARDE;83130;;
 neopakeurope;Manutention;;;;pieces.comptoir@neopakeurope.com;Phalempin;59133;;
 axxel;Manutention;;;;pieces@axxel.fr;;;;
@@ -3043,7 +3043,7 @@ HARTEREAU;Orexad;Monsieur;ANDRE;Gilles;ploufragan@orexad.com;PLOUFRAGAN;22440;;
 RUBION;Cofaq;Monsieur;GOVEN;Thierry;plouigneau@rubion.fr;PLOUIGNEAU;29610;;
 NACQUI HYPRO;Socoda;Monsieur;METAYER;Pascal;pmetayer@nacqui-hypro.fr;MARSEILLE Cedex 15;13343;;
 PMG;Dompro;Monsieur;PICART;;pmg08@orange.fr;VRIGNE AUX BOIS;8330;;
-MICARD;Promodis;;;;pmicard@micard.fr;GUERET CEDEX 4;23004;France;
+MICARD;Promodis;;;;pmicard@micard.fr;GUERET CEDEX 4;23004;France;ENFIN
 DESCOURS&CABAUD RHONE ALPES AUVERGNE;Descours Prolians;Monsieur;MICHELET;Philippe;pmichelet@prolians.eu;BOURGOIN JALLIEU;38300;;
 DARMON;Descours Prolians;Monsieur;Mondelice;;pmondelice@prolians.eu;BOULOGNE-BILLANCOURT;92100;;
 ACTIFLIP;Actiflip;Monsieur;morel;Pascal;pmorel@actiflip.com;LEERS;59115;;
@@ -3052,7 +3052,7 @@ POINT 6;Autres revendeurs;Monsieur;LE GALLIC;Yann;point6@wanadoo.fr;LA CHEVROLIE
 BRIFFAZ QUINCAILLERIE;Cofaq;;;;pointp-megeve@saint-gobain.com;MEGEVE;74120;;
 OREFI;Orexad;Monsieur;Berger;Bruno;poitiers@orexad.com;POITIERS;86000;;
 poitou rayonnage;Actiflip;Monsieur;Bellefet;Bruno;poitou.rayonnages@gmail.com;Nouaillé Maupertuis;86340;;
-DURET;Promodis;;;;pole.commandes@duret.fr;AUNEAU;28700;France;
+DURET;Promodis;;;;pole.commandes@duret.fr;AUNEAU;28700;France;ENFIN
 WIAME;Autres;;;;polemat@wanadoo.fr;LA FERTE SOUS JOUARRE CEDEX;77261;;
 Porquet;Socoda;Monsieur;Brault;;porquet@porquet.com;Tourlaville;50110;;
 VA-FIV;Orexad;Monsieur;PEETERS;Pierre;p-peeters@a-d.fr;TRAPPES CEDEX;78192;;
@@ -3067,8 +3067,8 @@ PRO MAT';Dompro;Monsieur;Le Page;Franck;pro.mat.lepage@gmail.com;AURILLAC;15000;
 PROCHARIOT;Autres;Monsieur;ROUGEYRON;Patrice;prochariot@wanadoo.fr;CHATEAUGAY;63119;;
 Giffard Manutention;Manutention;Monsieur;Roger;;proger@giffardmanutention.fr;PARCAY MESLAY;37210;;
 PROLEV;Autres;Monsieur;GIROLD;;prolev@prolev.fr;ROSHEIM;67560;;
-AGRI 25;Promodis;;;;Promodis25@agridiffusion.fr;VALDAHON;25800;France;
-AGRI MONTS JURA;Promodis;;;;Promodisjura@agridiffusion.fr;CHAMPAGNOLE;39300;France;
+AGRI 25;Promodis;;;;Promodis25@agridiffusion.fr;VALDAHON;25800;France;ENFIN
+AGRI MONTS JURA;Promodis;;;;Promodisjura@agridiffusion.fr;CHAMPAGNOLE;39300;France;ENFIN
 MANUQUIP - MEI;Manuquip;Madame;Martin;Séverine;provence@manuquip.com;Six Fours Les Plages;83140;;
 DELAGNES MANUTENTION & SERVICES;DDirect;Monsieur;Sauvage;Philippe;psauvage@delagnes.com;Toulouse;31200;;
 MECACOUPE;Autres;Monsieur;Thiais;Philippe;pthiais@mecacoupe.com;SAINT DOULCHARD;18230;;
@@ -3112,7 +3112,7 @@ QUINCAILLERIE MEDITERRANEENNE;Cofaq;Monsieur;Pignoco;;quincamed@nerim.net;La Pen
 GILBERT Sté des Ets;Dompro;Monsieur;Gilbert;Guillaume;quinq.gilbert@wanadoo.fr;MARSEILLE;13012;;
 AMS;Manutention;Monsieur;Blavot;Raphaël;r.blavot@ams-manutention.com;Nogent le Phaye;28630;;
 alpes savoie services;Champion;Monsieur;Bognard;Rémi;r.bognard@alpessavoieservices.fr;VOGLANS;73420;;
-WILLEMAND;Promodis;;;;r.carpentier@wanadoo.fr;BLANGY SUR TERNOISE;62770;France;
+WILLEMAND;Promodis;;;;r.carpentier@wanadoo.fr;BLANGY SUR TERNOISE;62770;France;ENFIN
 MANUHAVRE;DDirect;Monsieur;Dorbeaux;Roger;r.dorbeaux@manuhavre.fr;LE HAVRE;76600;;
 ACTEMIS;Autres;Monsieur;FARKAS;Raymond;r.farkas@actemis-manutention.com;VITROLLES CEDEX;13747;;
 gallorema;Manutention;Monsieur;Gaspard;Rudy;r.garspard@gallorema.fr;;;;
@@ -3205,7 +3205,7 @@ orexad;Orexad;;;;rouen@rubix.com;St Etienne du Rouvray;76800;;
 ROULIN;Autres;Monsieur;Paquet;Joël;roulin.joel@wanadoo.fr;ST JACQUES DE LANDE;35136;;
 ROULIN;Autres;Monsieur;ROULIN;Jacques;roulin.sarl@wanadoo.fr;ST JACQUES DE LANDE;35136;;
 ROUSSELOT;Socoda;Monsieur;ROUSSELOT;Philippes;rousselotphil@wanadoo.fr;BRESSUIRE CEDEX;79304;;
-CMA;Promodis;;;;routaboul@c-m-a.fr;RODEZ;12000;France;
+CMA;Promodis;;;;routaboul@c-m-a.fr;RODEZ;12000;France;ENFIN
 ROY PASCAL;Cofaq;;;;roy.ets@wanadoo.fr;BONNEUIL-MATOURS;86210;;
 DESCOURS&CABAUD RHONE ALPES AUVERGNE;Descours Prolians;Monsieur;Perret;Régis;rperret@prolians.eu;SALAISE SUR SANNE;38150;;
 DESCOURS&CABAUD ILE DE FRANCE;Descours Prolians;Monsieur;Perseille;Raphael;rperseille@prolians.eu;BONNEUIL-SUR-MARNE;94380;;
@@ -3260,7 +3260,7 @@ VERCOS MANUTENTION;Actiflip;Madame;Picard;Samantha;s.picard@vercosmanutention.co
 FCE Manutention;DDirect;Monsieur;Police;Simon;s.police@fce-sa.com;LA VEUVE;51520;;
 POUTOU MANUTENTION;Manutention;Monsieur;Quellet;Sébastien;s.quellet@poutou.fr;Limoges;87006;;
 OUTILACIER;DDirect;Monsieur;Royon;Sébastien;s.royon@outilacier.fr;VAULX EN VELIN;69120;;
-BOUCHARD COTE D'IVOIRE;Promodis;;;;s.sanogo@bouchard-cotedivoire.com;;;COTE IVOIRE;
+BOUCHARD COTE D'IVOIRE;Promodis;;;;s.sanogo@bouchard-cotedivoire.com;;;COTE IVOIRE;ENFIN
 ACTEMIS;Autres;Monsieur;Tosi;Stéphane;s.tosi@actemis-manutention.com;VITROLLES CEDEX;13747;;
 ETN EQUIPT TECHN. DU NORD;Socoda;Monsieur;TURLOTTE;Sébastien;s.turlotte@equipement-technique-du-nord.fr;SAINT ANDRE CEDEX;59872;;
 LEGRANDCUB;Cofaq;Madame;Gervais;Sabine;sabine.gervais@legrandcub.fr;Fleury Merogis;91700;;
@@ -3306,7 +3306,7 @@ BCHM;Autres;Monsieur;GOMEZ;Emmanuel;sarlbchm@orange.fr;SAINT CYR SUR MENTHON;138
 BH MAT;Cofaq;;;;sarlbhmat@wanadoo.fr;BRAY-SUR-SOMME;80340;;
 BRIKOLUZ;Cofaq;;;;sarl-brikoluz@orange.fr;SAINT-JEAN-DE-LUZ;64500;;
 BROSSARD;Cofaq;;;;sarlbrossard@wanadoo.fr;CHAMPDENIERS;79220;;
-CASTEL AGRI;Promodis;;;;sarlcastelagri@wanadoo.fr;CHATEAUBRIANT CEDEX;44143;France;
+CASTEL AGRI;Promodis;;;;sarlcastelagri@wanadoo.fr;CHATEAUBRIANT CEDEX;44143;France;ENFIN
 FIAF;Cofaq;Monsieur;LEMERCIER;Philippe;sarlfiaf@free.fr;FOUGERES CEDEX;35304;;
 ETS JEAN BEAUVAIS;Cofaq;Monsieur;BEAUVAIS;Jean-Marc;sarl-jean-beauvais-et-fils@wanadoo.fr;SAINT-CHRISTOPHE-EN-BOUMonsieurIE;36400;;
 Mazoyer;Manutention;Monsieur;RIVET;David;sarl-mazoyer@wanadoo.fr;BROCHON;21220;;
@@ -3320,7 +3320,7 @@ SOUCHET;Cofaq;Monsieur;HASSANALY;Shaoukatoussen;sas-souchet@wanadoo.fr;LE PERREU
 LAURENT MAURICE;Cofaq;;;;saugues@sas-maurice-laurent.com;SAUGUES;43170;;
 DUCLOS BOIS ET MATERIAUX;Cofaq;;;;saujon@duclosmateriaux.com;SAUJON;17600;;
 axxel;Manutention;Monsieur;Sauté;Rodolphe;saute@axxel.fr;;;;
-FUTURAGRI;Promodis;;;;Sav.condom@futuragri.fr;CONDOM;32100;France;
+FUTURAGRI;Promodis;;;;Sav.condom@futuragri.fr;CONDOM;32100;France;ENFIN
 Savim;Manutention;Monsieur;Guiral;Frédéric;sav.montpellier@savim.com;Servian;34290;;
 ABRAM DISTRIBUTION;Cofaq;Monsieur;;Olivier;sav.outillage@abram-sas.fr;;;;
 AGRI SAINT MARTIN;Cap Alliance;Monsieur;LETOURNEAU;Loïc;sav@agri-saint-martin.fr;SAINT MARTIN DE CONNEE;53160;;
@@ -3372,7 +3372,7 @@ still;Still;Monsieur;QUADRAO;sébastien;sebastien.quadrao@still.fr;;;;
 BERGERAT MONNOYEUR;Manutention;Monsieur;REBY;Sébastien;sebastien.reby@b-m.fr;BOISSEUIL;87220;;
 still;Still;Monsieur;ROUXEL;Sébastien;sebastien.rouxel@still.fr;;;;
 Fenwick;Fenwick;Monsieur;Sinquin;Sébastien;sebastien.sinquin@fenwick-linde.fr;;;;
-SUREAU AGRICULTURE;Promodis;;;;sebastien.sureau@orange.fr;AVALLON;89200;France;
+SUREAU AGRICULTURE;Promodis;;;;sebastien.sureau@orange.fr;AVALLON;89200;France;ENFIN
 SECURAC;DDirect;Monsieur;Tesoro;Sébastien;sebastien.tesoro@securac-France.fr;Somain;59490;;
 COCKAERTS & CO;DDirect;Monsieur;Vandercuylen;Sébastien;sebastien.v@skynet.be;WATERLOO (Bel);1410;;
 g2a;Manutention;Monsieur;Mourgues;Sébastien;sebastien@g2amanutention.com;Monteux;84170;;
@@ -3382,12 +3382,12 @@ sebramat;Manutention;Monsieur;Brandt;Sébastien;sebramat@sebramat.fr;;62620 RUIT
 SECA;Autres;Monsieur;GAILLARD;Thierry;seca@s-e-c-a.fr;POITIERS CEDEX 9;86061;;
 Apie Logistique;DDirect;Madame;Guinand;Emeline;secretariat@apie-logistic.fr;Bourg en Bresse;1000;;
 GOUJON LALLEMAND;Cofaq;Monsieur;Gamot;Pascal;Secretariat@GoujonLallemand.fr;DOMPIERRE SUR BESBRE;3290;;
-M.A.C (Matériel Agricole Castelbriantais);Promodis;;;;secretariat@mac.fr;CHATEAUBRIANT CEDEX;44141;France;
+M.A.C (Matériel Agricole Castelbriantais);Promodis;;;;secretariat@mac.fr;CHATEAUBRIANT CEDEX;44141;France;ENFIN
 SOC LANDAISE DE VERINS HYDRAULIQUES;Autres;Monsieur;DUPIELLET;Placide;secretariat@slvhy.fr;LACQUY;40120;;
 SOCIETE D'EXPLOITATION DES ETS LAMATHE;Cofaq;Monsieur;LAMATHE;Raymond;see.lamathe@orange.fr;LOUEY;65290;;
-SEMA;Promodis;;;;sema-marolles@cheval-sa.com;MAROLLES;51300;France;
-SEMA;Promodis;;;;sema-roches@cheval-sa.com;ROCHES SUR MARNE;52410;France;
-SEMAT;Promodis;;;;semat@ouvrard.com;ST LEGER S/S CHOLET;49280;France;
+SEMA;Promodis;;;;sema-marolles@cheval-sa.com;MAROLLES;51300;France;ENFIN
+SEMA;Promodis;;;;sema-roches@cheval-sa.com;ROCHES SUR MARNE;52410;France;ENFIN
+SEMAT;Promodis;;;;semat@ouvrard.com;ST LEGER S/S CHOLET;49280;France;ENFIN
 SEMIM;Manutention;Monsieur;DROUET;;semim@semim.fr;CONCARNEAU;29900;;
 Loutz West Africa;Manutention;Monsieur;Fernand;David;senegal@loutz.com;Dakar;;Senegal;
 Orexad;Orexad;Monsieur;Bergero;Jean-Luc;sens@orexad.com;SENS Cedex;89104;;
@@ -3425,7 +3425,7 @@ BOSSU CUVELIER;Descours Prolians;Monsieur;HAVEZ;;siege.bossu-cuvelier@reseau-pro
 SIGNAMAT SAS;Dompro;Monsieur;COSMA;Philippe;signamat@wanadoo.fr;MONTELIMAR;26200;;
 orexad;Orexad;Monsieur;Alves;Simao;simao.alves@rubix.com;Chavelot;88150;;
 Fenwick;Fenwick;Monsieur;Guedj;Simon;simon.guedj@fenwick-linde.fr;;;;
-habrial;Actiflip;Monsieur;Tracol;Simon;simon.tracol@habrial.fr;Changé;72560;;
+habrial;Actiflip;Monsieur;Tracol;Simon;simon.tracol@habrial.fr;Changé;72560;;1000
 SIMON MATERIAUX;Cofaq;;;;simonmateriaux@orange.fr;SAINT-AOÛT;36120;;
 a-d;Manutention;Monsieur;Durand;;s-industriethouars@a-d.fr;;;;
 SISAM;Manuquip;Monsieur;BOURSINHAC;;sisam@manuquip.com;TOULOUSE;31094;;
@@ -3444,11 +3444,11 @@ SMI 64 - Sud Maintenance Industrie 64;Cofaq;Monsieur;VILHEM;Régis-Hubert;smi64@
 SMI 65 - Sud Maintenance Industrie 65;Cofaq;Monsieur;VILHEM;Régis-Hubert;smi65@orange.fr;LOURDES;65100;;
 SUD MAINTENANCE INDUSTRIE;Cofaq;Monsieur;BARZANTI;Eric;smi65@wanadoo.fr;LOURDES;65100;;
 Autodistribution;Orexad;Monsieur;Michellon;Simon;s-michellon@autodistribution.com;Gap;5000;;
-ST NABORD AGRICOLE;Promodis;;;;snagricole@wanadoo.fr;SAINT NABORD;88200;France;
+ST NABORD AGRICOLE;Promodis;;;;snagricole@wanadoo.fr;SAINT NABORD;88200;France;ENFIN
 SN DE LEON FIGUERES;Cofaq;Monsieur;GOMEZ;;sndlf@wanadoo.fr;PERPIGNAN;66000;;
 SOCIETE NOUVELLE TRONSSON-GRENIER;Cofaq;;;;sntg@orange.fr;BAYEUX;14400;;
 OTS;Autres;;;;societe.ots@gmail.com;MERIEL;95630;;
-SOCODIMAT;Promodis;;;;socodimat@wanadoo.fr;GHISONACCIA;20245;France;
+SOCODIMAT;Promodis;;;;socodimat@wanadoo.fr;GHISONACCIA;20245;France;ENFIN
 SOCOMA;Manitou;;;;socoma.millau@socoma-service.fr;MILLAU;12100;;
 SODIME;Autres;Monsieur;BALLESTER;Bernard;sodime@wanadoo.fr;LEZIGNAN CORBIERES;11200;;
 SOFIP'OISE;Socoda;Monsieur;PILON;Florent;sofipoise@orange.fr;RIBECOURT DESLINCOURT;60170;;
@@ -3549,7 +3549,7 @@ FABRE MANUTENTION;DDirect;Madame;DELAHAYES;Sylvie;sylvie.delahayes@fabre-manuten
 orexad;Orexad;Madame;Ravoux;Sylvie;sylvie.ravoux@rubix.com;Chenove;;;
 ALGAN - SIREC;DDirect;Monsieur;Cadeville;Thierry;t.cadeville@algan-sirec.fr;CHARBUY;89113;;
 AURAMA;Manutention;Monsieur;Cassaz;Thomas;t.cassaz@aurama.fr;Syssinet Pariset;38170;;
-AVENIR MOTOCULTURE;Promodis;;;;t.geeraerts@avenirmotoculture.fr;ARC SUR TILLE;21560;France;
+AVENIR MOTOCULTURE;Promodis;;;;t.geeraerts@avenirmotoculture.fr;ARC SUR TILLE;21560;France;ENFIN
 VERCOS MANUTENTION;Actiflip;Monsieur;Jeandesboz;Thomas;t.jeandesboz@vercosmanutention.com;Cagnes sur Mer;6800;;
 Mercurys;Autres;Monsieur;LEUPE;Thierry;t.leupe@gmail.com;LE HAVRE;76600;;
 LACAN;Cap Alliance;Monsieur;Long;Thierry;t.long@lacan.fr;REQUISTA;12170;;
@@ -3558,7 +3558,7 @@ QUINCAILLERIE MOREL;Dompro;Monsieur;Morel;Thomas;t.morel@quincailleriemorel.fr;D
 PHILOMAT-PILLAUD;Socoda;Monsieur;ROGER;Théo;t.roger@pillaud.fr;CHÂTEAU-THIERRY;2405;;
 GILLOT LARMonsieur;Cofaq;Monsieur;Suchet;Thomas;t.suchet@gillot-larMonsieur.fr;Le Havre Cedex;76059;;
 VIOUX DUBOIS;Manitou;Monsieur;Verdier;Thierry;t.verdier@vioux-dubois.com;POITIERS;86000;;
-T3M CASE;Promodis;;;;t3m@groupet3m.com;ST SORNIN LAVOLPS;19230;France;
+T3M CASE;Promodis;;;;t3m@groupet3m.com;ST SORNIN LAVOLPS;19230;France;ENFIN
 BRETAGNE MANUTENTION;Fenwick;Monsieur;Pautonnier;Tankred;tankred.pautonnier@bretagne-manutention.fr;SAINTE MARIE DE REDON;35600;;
 l2m-grandouest;Manutention;Monsieur;Bacon;Tony;tbacon@l2m-grandouest.fr;Giberville;14730;;
 manuloc;Manuloc;Monsieur;BRUYAS;Tristan;t-bruyas@manuloc.fr;Saint Pierre de Chandieu;69780;;
@@ -3693,7 +3693,7 @@ RUBION;Cofaq;;;;vezin@rubion.fr;VEZIN-LE-COQUET;35132;;
 VEZINAT MATERIAUX;Cofaq;;;;vezinatmateriaux@orange.fr;THORS;17160;;
 TRUMEL/ST INDUSTRIE;;;;;;;;;
 "OREFI EST GRANDS COMPTES""";Orexad;Monsieur;Gauthier;Vincent;vgauthier@orexad.com;SAUSHEIM;68390;;
-ALLIN AGRI;Promodis;;;;vharo-gc@allin-agri.com;COULONGES SUR L'AUTIZE;79160;France;
+ALLIN AGRI;Promodis;;;;vharo-gc@allin-agri.com;COULONGES SUR L'AUTIZE;79160;France;ENFIN
 orexad;Orexad;Monsieur;Deschamps;Victor;victor.deschamps@rubix.com;Saint Etienne du Rouvray;76800;;
 CHAMPION;Champion;Monsieur;Le Gall;Victor;victor.legall@champion-direct.com;Guerande;44350;;
 aprolis;DDirect;Monsieur;Pires;Victor;victor.pires@aprolis.com;;;;
@@ -3730,7 +3730,7 @@ Ferron;Dompro;Madame;Bahu;Virginie;virginie.bahu@ferron.fr;Vitré;35500;;
 Fenwick;Fenwick;Madame;Baudry;Virginie;virginie.baudry@fenwick-linde.fr;;;;
 orexad;Orexad;Madame;Danos;Virginie;virginie.danos@rubix.com;Tours;37100;;
 VERCOS MANUTENTION;Manutention;Madame;Laurens;Virginie;virginie.laurens@vercosmanutention.com;Cagnes sur Mer;6800;;
-VROMMAN;Promodis;;;;virginie.saupeur@vromman.fr;BURY;60250;France;
+VROMMAN;Promodis;;;;virginie.saupeur@vromman.fr;BURY;60250;France;ENFIN
 CHAMPION;Champion;Madame;Trutet;Virginie;virginie.trutet@champion-direct.com;Guérande;44350;;
 FIMA;Socoda;Madame;PAINS;Virginie;virginie@fimaindustrie.fr;FALAISE;14700;;
 VITAMOTOR;Manuquip;Monsieur;JEANNE;;vitamotor@manuquip.com;ST PIERRE DES CORPS;37702;;
@@ -3766,7 +3766,7 @@ Hudry;Descours Prolians;Monsieur;Noiray;Xavier;xnoiray@dexis.eu;;;;
 Pellenc;Cofaq;Monsieur;BORREGA;Yann;y.borrega@pellenc-bc.com;ROUILLAC;16170;;
 semac;Cap Alliance;Monsieur;Bretignol;Yohann;y.bretignol@semac.fr;Les Rosiers sur Loire;49350;;
 BOUTARD;Dompro;Monsieur;Chauvet;Yannick;y.chauvet@boutardsa.fr;ST OUEN;41100;;
-BOUCHARD HOLDING (Grpe);Promodis;;;;y.delrue@bouchard-agriculture.com;ORMOY VILLERS;60800;France;
+BOUCHARD HOLDING (Grpe);Promodis;;;;y.delrue@bouchard-agriculture.com;ORMOY VILLERS;60800;France;ENFIN
 SOFIBAC;Cofaq;Monsieur;Floch;Yohann;y.floch@sofibac.fr;Saint Malo;35400;;
 Astic Emballage;Autres;Monsieur;Ledroit;Yan;yan.ledroit@astic-emballage.com;;;;
 jungheinrich;Jungheinrich;Monsieur;BOUCHET;Yann;yann.bouchet@jungheinrich.fr;;;;
@@ -3797,9 +3797,9 @@ aprolis;DDirect;Monsieur;Momi;Yoann;yoann.momi@aprolis.com;;;;
 jungheinrich;Jungheinrich;Monsieur;Vivier;Yohan;yohan.vivier@jungheinrich.fr;;;;
 aprolis;DDirect;Monsieur;GARCIA;Yohann;yohann.garcia@aprolis.com;;;;
 Virly;Fenwick;Monsieur;Piat;Yohann;yohann.piat@virly.fr;Monneteau;89470;;
-DICOMAT;Promodis;;;;yohanna.neyret@dicomat-corse.fr;BORGO;20290;France;
+DICOMAT;Promodis;;;;yohanna.neyret@dicomat-corse.fr;BORGO;20290;France;ENFIN
 Thomé;Orexad;Monsieur;Oliger;Yannick;y-oliger@partech.lu;Longwy;54400;;
-YONNE AGRI;Promodis;;;;yonneagri@groupe-methivier.com;JOIGNY;89300;France;
+YONNE AGRI;Promodis;;;;yonneagri@groupe-methivier.com;JOIGNY;89300;France;ENFIN
 JOUCLA;DDirect;Monsieur;Zarrouk;Youssef;youssef.zarrouk@jmmanut.fr;;;;
 Komatsu AM2 Concess.;Manutention;Madame;Teyssier;;yteyssier@am2.fr;LE PERRAY EN YVELINES;78610;;
 B2M;DDirect;Madame;Yung;Nadège;yung@galile.fr;Le Pontet;84130;;
@@ -3811,4 +3811,4 @@ LEGO (SAS LEGO GUY Quinc.);Dompro;Monsieur;LEGO;Yves;yves.lego@wanadoo.fr;LESPAR
 POLYMAT;Cofaq;;;;yves.lopez@polymat.corsica;PORTO-VECCHIO;20137;;
 BOUILLIER MATERIAUX;Cofaq;Monsieur;Bouillier;Yves;yves@bouillier.fr;Bletterans;39140;;
 ZEFIR;Dompro;Monsieur;Flauridas;David;zefir2008@free.fr;ANDILLY;95580;;
-orexad;Orexad;Monsieur;Ouassim;Zineb;Zineb.ouassim@rubix.com;Rodez;12000;;
+orexad;Orexad;Monsieur;Ouassim;Zineb;Zineb.ouassim@rubix.com;Rodez;12000;;;12000;;0;;;12000;;000;;

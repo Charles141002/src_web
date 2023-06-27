@@ -56,7 +56,7 @@ function VoirClientsReseau(props){
         }
       };
 
-    
+    console.log(liste_clients_du_reseau);
 
     return (
       <div className="container">
@@ -82,6 +82,5 @@ function VoirClientsReseau(props){
 }
 
 export default VoirClientsReseau;
-
 
 
