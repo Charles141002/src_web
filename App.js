@@ -13,6 +13,7 @@ import VoirClientsReseau from './App_fichiers/voir_clients_reseau';
 import BarreRechercheClientsReseau from './App_fichiers/barre_recherche_clients_reseau';
 import { Retrouver_ligne_clients } from './App_fichiers/liste';
 import { AjoutClient }  from './App_fichiers/ajout_client';
+import ExportEnVCF from './App_fichiers/bouton_exporter_en_vcf';
 
 function App() {
 

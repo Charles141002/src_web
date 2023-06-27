@@ -9,10 +9,12 @@ import BarreRecherche from './barre_de_recherche';
 import Menu2 from './menu_deroulant';
 import { SupprimerClient } from './ajout_client';
 import { AjoutClient } from './ajout_client';
+import ExportEnVCF from './bouton_exporter_en_vcf';
 
 
 function Fiche(props) {
 
+console.log(props);
 
 
 // MODIFICATION FICHE
@@ -178,6 +180,11 @@ function modifierFichierCSV() {
 
       <button className="rounded-button" onClick={() => modifierFichierCSV()}>
 Tester chagement info fiche      </button>
+
+<p className="newline"></p>
+
+<ExportEnVCF entite={props.entite}/>
+
 
 <p className="newline"></p>
 <SupprimerClient ligne={ligneAmodifier}/>

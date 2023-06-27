@@ -91,7 +91,7 @@ function Menu2(props){
                       return <div key={client_agence}><h3 onClick={() => {
                         const element = <EviterBug entite={Retrouver_infos_clients(client_agence)} />;
                         ReactDOM.render(element, document.getElementById('root'));
-                      }}><FontAwesomeIcon icon={faCircle} /> {Retrouver_infos_clients(client_agence)["Nom"]}{Retrouver_infos_clients(client_agence)["Prénom"]}</h3></div>;
+                      }}><FontAwesomeIcon icon={faCircle} /> {Retrouver_infos_clients(client_agence)["Nom"]} {Retrouver_infos_clients(client_agence)["Prénom"]}</h3></div>;
                     } else {
                       return <div key={client_agence}><h3 onClick={() => {
                         const element = <EviterBug entite={Retrouver_infos_clients(client_agence)} />;

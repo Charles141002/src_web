@@ -157,7 +157,7 @@ fs.readFile(filePath, 'utf8', (err, data) => {
   return (
 
     <div>
-      <button onClick={() => modifierFichierCSV(ligne)} >Supprimer le client</button>
+      <button className="rounded-button" onClick={() => modifierFichierCSV(ligne)} >Supprimer le client</button>
     </div>
 
 
