@@ -36,7 +36,7 @@ export function AjoutClient(){
       document.getElementById('Adresse e-mail').value + ";" +
       document.getElementById('Ville').value + ";" +
       document.getElementById('Code postal').value + ";" +
-      document.getElementById('Pays/région\r').value
+      document.getElementById('Pays/région').value
     
 
       // Ajout de la nouvelle ligne au contenu existant

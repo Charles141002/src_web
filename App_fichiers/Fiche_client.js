@@ -51,7 +51,7 @@ function modifierFichierCSV() {
     const codepostalIndex = entetes.indexOf('Code Postal');
     const adressemailIndex = entetes.indexOf('Adresse e-mail');
     const societeIndex = entetes.indexOf("﻿Société");
-    const paysIndex = entetes.indexOf('Pays/région\r')
+    const paysIndex = entetes.indexOf('Pays/région')
     const reseauIndex = entetes.indexOf('Réseau');
     const genreIndex = entetes.indexOf('Genre');
 
@@ -72,7 +72,7 @@ function modifierFichierCSV() {
                 document.getElementById('Code postal').value,
                 document.getElementById('Adresse e-mail').value,
                 document.getElementById("﻿Société").value,
-                document.getElementById('Pays/région\r').value,
+                document.getElementById('Pays/région').value,
                 document.getElementById('Réseau').value,
                 document.getElementById('Genre').value,
             ]
@@ -143,6 +143,60 @@ function modifierFichierCSV() {
         return null;
     }
   };
+
+
+  // CHANGER L HEURE DE CONSULTATION DE LA FICHE
+
+  var currentDate = new Date();
+  var dateString = currentDate.toDateString(); // Convertir la date en une représentation de chaîne de caractères
+
+
+  console.log(dateString);
+
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Une erreur s\'est produite lors de la lecture du fichier CSV :', err);
+      return;
+    }
+
+    const lignes = data.split('\n');
+    const entetes = lignes[0].split(';');
+
+    const modifIndex = entetes.indexOf('Dernière Modif\r');
+
+    console.log(modifIndex);
+
+            // Ajouter les nouvelles données à la feuille de calcul
+            const newData = [
+              [
+                dateString
+            ]
+            ];
+    
+      const colonnes = lignes[ligneAmodifier].split(';');
+
+      colonnes[modifIndex] =newData[0][0];
+
+      lignes[ligneAmodifier] = colonnes.join(';');
+
+      console.log(lignes[ligneAmodifier]);
+      console.log(colonnes);
+
+  
+    const fichierModifie = lignes.join('\n');
+
+
+
+    // Écrire les données modifiées dans le fichier CSV
+    fs.writeFile(filePath, fichierModifie, 'utf8', (err) => {
+      if (err) {
+        console.error('Une erreur s\'est produite lors de l\'écriture du fichier CSV :', err);
+        return;
+      }
+      console.log('Le fichier CSV a été modifié avec succès.');
+    });
+  });
+
 
 
 
