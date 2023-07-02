@@ -205,7 +205,7 @@ function modifierFichierCSV() {
     });
   });
 
-
+  const listeDonnee = Object.entries(props.entite);
 
 
 
@@ -225,11 +225,42 @@ function modifierFichierCSV() {
 
     {renderActivePage()}
     <div className="fiche">
+      <h1>FICHE CLIENT </h1>
       <form className="fiche-modifiable" >
-        {Object.entries(props.entite).map(([key, value]) => (
-          <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />
-        ))}
-        <input type="submit" value="Sauvegarder" />
+         <div className='ligne'>
+          {listeDonnee.slice(2,5).map(([key, value]) => (
+          <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />))}  
+        </div>
+        <div className='ligne'>
+          {listeDonnee.slice(0,2).map(([key, value]) => (
+          <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />))}
+        </div>
+       
+        <div className='below'>
+            <div className='left'>
+              <div className='ligne'>
+              
+          <Information key={listeDonnee[5][0]} name={listeDonnee[5][0]} value={listeDonnee[5][1]} line={props.entite.__rowNum__} />
+          <Information key={listeDonnee[9][0]} name={listeDonnee[9][0]} value={listeDonnee[9][1]} line={props.entite.__rowNum__} />
+              </div>
+              <div className='ligne'>
+              {listeDonnee.slice(6,8).map(([key, value]) => (
+          <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />))}
+              </div>
+              <div className='ligne'>
+              <Information key={listeDonnee[8][0]} name={listeDonnee[8][0]} value={listeDonnee[8][1]} line={props.entite.__rowNum__} />
+              <Information key={listeDonnee[11][0]} name={listeDonnee[11][0]} value={listeDonnee[11][1]} line={props.entite.__rowNum__} />
+              </div>
+              
+            
+            </div>
+            <div className='right'>
+              <div>
+              <Information key={listeDonnee[10][0]} name={listeDonnee[10][0]} value={listeDonnee[10][1]} line={props.entite.__rowNum__} />
+              </div>
+            </div>
+        </div>
+        <input id="save" type="submit" value="Sauvegarder" />
       </form>
       <p className="newline"></p>
 

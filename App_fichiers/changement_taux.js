@@ -86,9 +86,9 @@ function ChangementTauxNiveauReseau(props){
 
 
     return(
-        <div className="fiche">
+        <div className="fiche-taux">
 
-            <form className="fiche-modifiable" >
+            <form >
                 <label >Taux du réseau :  </label>
                 <input class="info" type="text"  onChange={handleChange} value={value} id="Taux"/>
                 <input type="submit" value="Sauvegarder" />

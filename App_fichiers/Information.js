@@ -1,5 +1,8 @@
 import { useState } from "react";
-
+import Entreprise from "./entreprise";
+import root from "root";
+import Reseau from "./reseau";
+import ReactDOM from "react-dom";
 
 function Information (props) {
     
@@ -9,16 +12,41 @@ function Information (props) {
         e.preventDefault();
         setValue(e.target.value);
     }
+
+    const buttonNav = () => {
+        if (props.name == '﻿Société') {
+            return  (<button onClick={() => {ReactDOM.render(<Entreprise entreprise={props.value}/>, document.getElementById('root')) }}>Voir</button>)
+        } else if (props.name == "Réseau") {
+            return (<button onClick={() => {ReactDOM.render(<Reseau reseau={props.value}/>, document.getElementById('root')) }}>Voir</button>)
+        } else {
+            return null
+        }
+    }
     
+    if (props.name == "Informations quelconques") {
+        return (
+            <div >
+            <label for={props.name}>{props.name}   </label>
+            <textarea class="info" type="text" name={props.name} id={props.name} onChange={handleChange} value={value}></textarea>
+
+
+
+        </div>
+        )
+    } else {
+        return(
+            <div>
+                <label for={props.name}>{props.name}   </label>
+                <div className="input-button">
+                <input class="info" type="text" name={props.name} id={props.name} onChange={handleChange} value={value}/>
+                {buttonNav()}
+                </div>
+            </div>
+        );
+    }
     
 
-    return(
-        <div class="bloc_info">
-            <label for={props.name}>{props.name} :  </label>
-            <input class="info" type="text" name={props.name} id={props.name} onChange={handleChange} value={value}/>
-            
-        </div>
-    );
+    
 }
 
 
