@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import BarreRechercheClients from "./barre_recherche_client";
 import { Liste_entreprises, Dictionnaire_reseaux_entreprises } from "./liste";
 import App from "../App";
 import  ReactDOM  from "react-dom";
@@ -14,8 +13,6 @@ import BarreRecherche from "./barre_recherche_clients_reseau";
 
 
 function VoirClientsReseau(props){
-
-    console.log('EEE')
 
     const reseau = props.reseau;
     const liste_entreprises = Liste_entreprises();
@@ -55,8 +52,6 @@ function VoirClientsReseau(props){
             return null;
         }
       };
-
-    console.log(liste_clients_du_reseau);
 
     return (
       <div className="container">

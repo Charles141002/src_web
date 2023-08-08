@@ -3,14 +3,12 @@ import Information from './Information';
 import jsonData from './fichier_csv';
 import App from '../App';
 import ReactDOM from 'react-dom';
-import CreerListe from './creer_liste';
-import { Retrouver_ligne_clients } from './liste';
 import BarreRecherche from './barre_de_recherche';
-import Menu2 from './menu_deroulant';
+import { fichier_csv } from './fichier_csv';
 
 
 // Chemin du fichier CSV
-const filePath = 'src/fichier_csv/Contacts.csv';
+const filePath = fichier_csv;
 
 
 const fs = require('fs');
@@ -27,16 +25,27 @@ export function AjoutClient(){
       }
 
       const newData = 
-
-      document.getElementById("﻿Société").value + ";" +
+      document.getElementById("﻿ID")?.value + ";" +
+      document.getElementById("Société").value + ";" +
       document.getElementById('Réseau').value + ";" +
       document.getElementById('Genre').value + ";" +
       document.getElementById('Nom').value + ";" +
       document.getElementById('Prénom').value + ";" +
       document.getElementById('Adresse e-mail').value + ";" +
+      document.getElementById('Intitulé du poste').value + ";" +
+      document.getElementById('Téléphone professionnel').value + ";" +
+      document.getElementById('Téléphone mobile').value + ";" +
+      document.getElementById('Catalogue').value + ";" +
+      document.getElementById('Adresse').value + ";" +
+      document.getElementById('Adresse 2').value + ";" +
       document.getElementById('Ville').value + ";" +
       document.getElementById('Code postal').value + ";" +
-      document.getElementById('Pays/région').value
+      document.getElementById('Pays/région').value + ";" +
+      document.getElementById('Page Web').value + ";" +
+      document.getElementById('Notes').value + ";" +
+      document.getElementById('Pièces jointes').value + ";" +
+      document.getElementById('Retrait Mailing').value + ";" +
+      document.getElementById('Taux')?.value
     
 
       // Ajout de la nouvelle ligne au contenu existant

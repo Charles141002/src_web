@@ -29,8 +29,6 @@ function BarreRecherche (donnees) {
     
         setOptions(optionTemp);
       }, [donnees.donnees]);
-
-      console.log(options);
     
     
     const FindObject = (e) => {
@@ -59,12 +57,9 @@ function BarreRecherche (donnees) {
             }
             
         //setTableauFiches([]);
-        //console.log(tableauFiches)
         setTableauFiches(fichesTrouvees);
 
     };
-
-    console.log(tableauFiches);
 
     const handleSearch = () => {
         setTableauFiches([]);

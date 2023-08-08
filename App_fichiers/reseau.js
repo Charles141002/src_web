@@ -9,10 +9,10 @@ import Entreprise from "./entreprise";
 import Menu2 from "./menu_deroulant";
 import BarreRecherche from "./barre_de_recherche";
 import ChangementTauxNiveauReseau  from "./changement_taux";
+import { AjoutClient } from "./ajout_client";
 
 function Reseau(props){
 
-    console.log('EEE')
 
     const reseau = props.reseau;
     const liste_entreprises = Liste_entreprises();
@@ -46,6 +46,8 @@ function Reseau(props){
         switch (activePage) {
           case 'afficherBarreRecherche':
             return <BarreRecherche donnees={jsonData}/>
+            case 'afficherAjoutlient':
+              return <AjoutClient />
           default:
             return null;
         }
@@ -57,6 +59,8 @@ function Reseau(props){
       <div className="container">
       <div id="menu">
         <button onClick={() => handleClick('afficherBarreRecherche')}>Afficher Barre de Recherche</button>
+        <button onClick={() => handleClick('afficherAjoutlient')}> Ajout Client</button>
+
         <Menu2 datas={jsonData}/>
         
       </div>

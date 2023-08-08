@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Entreprise from "./entreprise";
-import root from "root";
 import Reseau from "./reseau";
 import ReactDOM from "react-dom";
 
@@ -14,16 +13,16 @@ function Information (props) {
     }
 
     const buttonNav = () => {
-        if (props.name == '﻿Société') {
+        if (props.name === 'Société') {
             return  (<button onClick={() => {ReactDOM.render(<Entreprise entreprise={props.value}/>, document.getElementById('root')) }}>Voir</button>)
-        } else if (props.name == "Réseau") {
+        } else if (props.name === "Réseau") {
             return (<button onClick={() => {ReactDOM.render(<Reseau reseau={props.value}/>, document.getElementById('root')) }}>Voir</button>)
         } else {
             return null
         }
     }
     
-    if (props.name == "Informations quelconques") {
+    if (props.name === "Informations quelconques") {
         return (
             <div >
             <label for={props.name}>{props.name}   </label>

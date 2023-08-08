@@ -1,4 +1,3 @@
-import { useState} from "react";
 import jsonData from "./fichier_csv"
 
 
@@ -44,7 +43,7 @@ export function Liste_entreprises(){
         const entreprises = new Set(); // Utilisation d'un Set pour éliminer les doublons
         
         tableauDonnees.forEach((ligne) => {
-        const entreprise = ligne["﻿Société"];
+        const entreprise = ligne["Société"];
         if (entreprise) {
             entreprises.add(entreprise);
         }
@@ -101,7 +100,7 @@ export function Dictionnaire_reseaux_entreprises(){
     
         tableauDonnees.forEach((ligne) => {
         const reseau = ligne.Réseau;
-        const entreprise = ligne["﻿Société"];
+        const entreprise = ligne["Société"];
     
         if (reseau && entreprise) {
             if (!dictionnaire[reseau]) {
@@ -135,7 +134,7 @@ export function Dictionnaire_entreprises_clients(){
         const dictionnaire = {};
     
         tableauDonnees.forEach((ligne) => {
-        const entreprise = ligne["﻿Société"];
+        const entreprise = ligne["Société"];
         const mail = ligne["Adresse e-mail"];
     
         if (mail && entreprise) {

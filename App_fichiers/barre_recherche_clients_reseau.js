@@ -1,5 +1,4 @@
 import jsonData from "./fichier_csv";
-import { Liste_reseaux, Liste_clients_agences, Dictionnaire_entreprises_clients, Liste_entreprises, Dictionnaire_reseaux_entreprises } from "./liste";
 import {useState} from 'react';
 import {useEffect} from 'react';
 import PetiteFiche from './Petite_fiche';
@@ -34,7 +33,6 @@ function BarreRecherche (props) {
         setOptions(optionTemp);
       }, [jsonData]);
 
-      console.log(options);
     
     
     const FindObject = (e) => {
@@ -63,12 +61,10 @@ function BarreRecherche (props) {
             }
             
         //setTableauFiches([]);
-        //console.log(tableauFiches)
         setTableauFiches(fichesTrouvees);
 
     };
 
-    console.log(tableauFiches);
 
     const handleSearch = () => {
         setTableauFiches([]);

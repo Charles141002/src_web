@@ -1,20 +1,11 @@
 import { Retrouver_ligne_clients } from "./liste";
 import React, { useState, useEffect, useRef } from "react";
-import BarreRechercheClients from "./barre_recherche_client";
 import { Liste_entreprises, Dictionnaire_reseaux_entreprises } from "./liste";
-import App from "../App";
-import  ReactDOM  from "react-dom";
 import { Liste_clients_agences, Dictionnaire_entreprises_clients } from "./liste";
-import BarreRechercheClientsReseau from "./barre_recherche_clients_reseau";
-import { Retrouver_infos_clients } from "./liste";
-import PetiteFiche from "./Petite_fiche";
-import Menu2 from "./menu_deroulant";
-import jsonData from "./fichier_csv";
-import BarreRecherche from "./barre_recherche_clients_reseau";
-
+import { fichier_csv } from "./fichier_csv";
 
 const fs = require('fs');
-const filePath = 'src/fichier_csv/Contacts.csv';
+const filePath = fichier_csv;
 
 
 
@@ -41,7 +32,6 @@ function ChangementTauxNiveauReseau(props){
         
             let modifIndex = entetes.indexOf('Taux');
         
-            console.log(modifIndex);
         
                     // Ajouter les nouvelles données à la feuille de calcul
                     const newData = [
@@ -55,9 +45,6 @@ function ChangementTauxNiveauReseau(props){
               colonnes[modifIndex] =newData[0][0];
         
               lignes[ligneAmodifier] = colonnes.join(';');
-        
-              console.log(lignes[ligneAmodifier]);
-              console.log(colonnes);
         
   }
   const fichierModifie = lignes.join('\n');
@@ -77,7 +64,6 @@ function ChangementTauxNiveauReseau(props){
 }
 
     const [value, setValue] = useState('');
-    console.log(value);
     const handleChange = (e) => {
         e.preventDefault();
         setValue(e.target.value);
@@ -112,7 +98,6 @@ export default ChangementTauxNiveauReseau;
 
 function voirClientsReseauRetourneListeMail(reseau){
 
-    console.log('EEE')
   
     const liste_entreprises = Liste_entreprises();
     const dictionnaireReseauxEntreprises = Dictionnaire_reseaux_entreprises();
@@ -136,9 +121,7 @@ function voirClientsReseauRetourneListeMail(reseau){
       
     
 
-  
-console.log(liste_clients_du_reseau);
-  
+    
   return (liste_clients_du_reseau);
   
     }

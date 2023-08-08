@@ -1,9 +1,8 @@
-import { useState , useEffect } from "react";
+import { useState  } from "react";
 import { Liste_reseaux, Liste_entreprises, Liste_clients_agences, Dictionnaire_reseaux_entreprises, Dictionnaire_entreprises_clients, Retrouver_infos_clients } from "./liste.js";
 import Reseau from "./reseau.js";
 import ReactDOM from 'react-dom';
 import Entreprise from "./entreprise.js";
-import Fiche from "./Fiche_client.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faCircle, faBuilding} from '@fortawesome/free-solid-svg-icons';
 import EviterBug from "./eviter_le bug.js";
@@ -81,7 +80,7 @@ function Menu2(props){
             </div>
             {liste_entreprises.map(entreprise => {
               if (dictionnaireReseauxEntreprises[reseau].includes(entreprise) && entreprisesFiltrees.includes(entreprise) && open && selectedReseau==reseau) {
-                return <div key={entreprise}><h2 onDoubleClick={() => handleOnDoubleClickEntreprise(entreprise)} onClick={() => {
+                return <div key={entreprise}><h2 onClick={() => handleOnDoubleClickEntreprise(entreprise)} onDoubleClick={() => {
                   const element = <Entreprise entreprise={entreprise} />;
                   ReactDOM.render(element, document.getElementById('root'));
                 }}><FontAwesomeIcon icon={faBuilding} /> {entreprise}</h2>

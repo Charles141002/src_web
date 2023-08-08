@@ -3,28 +3,24 @@ import Information from './Information';
 import jsonData from './fichier_csv';
 import App from '../App';
 import ReactDOM from 'react-dom';
-import CreerListe from './creer_liste';
 import { Retrouver_ligne_clients } from './liste';
 import BarreRecherche from './barre_de_recherche';
 import Menu2 from './menu_deroulant';
 import { SupprimerClient } from './ajout_client';
 import { AjoutClient } from './ajout_client';
 import ExportEnVCF from './bouton_exporter_en_vcf';
+import { fichier_csv } from './fichier_csv';
 
 
 function Fiche(props) {
-
-console.log(props);
 
 
 // MODIFICATION FICHE
 
 const fs = require('fs');
-const csv = require('csv-parser');
-const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
 // Chemin du fichier CSV à modifier
-const filePath = 'src/fichier_csv/Contacts.csv';
+const filePath = fichier_csv;
 
 // Ligne spécifique que vous souhaitez modifier
 const ligneAmodifier = Retrouver_ligne_clients(props.entite["Adresse e-mail"]); // Retrouver_ligne_clients(props.entite["Adresse e-mail"])
@@ -32,9 +28,6 @@ const ligneAmodifier = Retrouver_ligne_clients(props.entite["Adresse e-mail"]); 
 // Fonction pour modifier le fichier CSV
 function modifierFichierCSV() {
 
-
-  console.log(document.getElementById('Code postal').value);
-  console.log(document.getElementById('Nom').value);
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
       console.error('Une erreur s\'est produite lors de la lecture du fichier CSV :', err);
@@ -45,68 +38,107 @@ function modifierFichierCSV() {
     const lignes = data.split('\n');
     const entetes = lignes[0].split(';');
 
+    const idIndex = entetes.indexOf("﻿ID");
     const nomIndex = entetes.indexOf('Nom');
     const prenomIndex = entetes.indexOf('Prénom');
     const villeIndex = entetes.indexOf('Ville');
-    const codepostalIndex = entetes.indexOf('Code Postal');
+    const codepostalIndex = entetes.indexOf('Code postal');
     const adressemailIndex = entetes.indexOf('Adresse e-mail');
-    const societeIndex = entetes.indexOf("﻿Société");
+    const societeIndex = entetes.indexOf("Société");
     const paysIndex = entetes.indexOf('Pays/région')
     const reseauIndex = entetes.indexOf('Réseau');
     const genreIndex = entetes.indexOf('Genre');
     const tauxIndex = entetes.indexOf('Taux');
-    const infoIndex = entetes.indexOf('Informations quelconques');
+    const notesIndex = entetes.indexOf('Notes');
+    const intposteIndex = entetes.indexOf('Intitulé du poste');
+    const telproIndex = entetes.indexOf('Téléphone professionnel');
+    const telmobIndex = entetes.indexOf('Téléphone mobile');
+    const catalogueIndex = entetes.indexOf('Catalogue');
+    const adresseIndex = entetes.indexOf('Adresse');
+    const adresse2Index = entetes.indexOf('Adresse 2');
+    const pagewebIndex = entetes.indexOf('Page Web');
+    const piecesIndex = entetes.indexOf('Pièces jointes');
+    const retraitIndex = entetes.indexOf('Retrait Mailing');
+
+
+
+console.log(tauxIndex);
+console.log(document.getElementById('Taux'));
 
 
 
 
 
 
-
-
-
-    console.log(nomIndex);
 
             // Ajouter les nouvelles données à la feuille de calcul
             const newData = [
               [
-                document.getElementById('Nom').value,
-                document.getElementById('Prénom').value,
-                document.getElementById('Ville').value,
-                document.getElementById('Code postal').value,
-                document.getElementById('Adresse e-mail').value,
-                document.getElementById("﻿Société").value,
-                document.getElementById('Pays/région').value,
+                document.getElementById("﻿ID")?.value,
+                document.getElementById("Société").value,
                 document.getElementById('Réseau').value,
                 document.getElementById('Genre').value,
-                document.getElementById('Taux').value,
-                document.getElementById('Informations quelconques').value,
+                document.getElementById('Nom').value,
+                document.getElementById('Prénom').value,
+                document.getElementById('Adresse e-mail').value,
+                document.getElementById('Intitulé du poste').value,
+                document.getElementById('Téléphone professionnel').value,
+                document.getElementById('Téléphone mobile').value,
+                document.getElementById('Catalogue').value,
+                document.getElementById('Adresse').value,
+                document.getElementById('Adresse 2')?.value,
+                document.getElementById('Ville')?.value,
+                document.getElementById('Code postal')?.value,
+                document.getElementById('Pays/région')?.value,
+                document.getElementById('Page Web')?.value,
+                document.getElementById('Notes')?.value,
+                document.getElementById('Pièces jointes')?.value,
+                document.getElementById('Retrait Mailing')?.value,
+                document.getElementById('Taux')?.value
+
+                //document.getElementById('Nom').value, //
+                //document.getElementById('Prénom').value, //
+                //document.getElementById('Ville').value, //
+                //document.getElementById('Code postal').value, //
+                //document.getElementById('Adresse e-mail').value, //
+                //document.getElementById("﻿Société").value, //
+                //document.getElementById('Pays/région').value, //
+                //document.getElementById('Réseau').value, //
+                //document.getElementById('Genre').value, //
+                //document.getElementById('Taux').value,
+                //document.getElementById('Informations quelconques').value,
             ]
             ];
     
-            console.log(newData[0][0]);
-            console.log(newData);
     
     
       const colonnes = lignes[ligneAmodifier].split(';');
 
-
-        colonnes[nomIndex] =newData[0][0];
-        colonnes[prenomIndex] = newData[0][1];
-        colonnes[villeIndex] = newData[0][2];
-        colonnes[codepostalIndex] = newData[0][3];
-        colonnes[adressemailIndex]= newData[0][4];
-        colonnes[societeIndex]= newData[0][5];
-        colonnes[paysIndex]= newData[0][6];
-        colonnes[reseauIndex]= newData[0][7];
-        colonnes[genreIndex]= newData[0][8];
-        colonnes[tauxIndex]= newData[0][9];
-        colonnes[infoIndex]= newData[0][10];
+        colonnes[idIndex] =newData[0][0];
+        colonnes[societeIndex]= newData[0][1];
+        colonnes[reseauIndex]= newData[0][2];
+        colonnes[genreIndex]= newData[0][3];
+        colonnes[nomIndex] =newData[0][4];
+        colonnes[prenomIndex] = newData[0][5];
+        colonnes[adressemailIndex]= newData[0][6];
+        colonnes[intposteIndex]= newData[0][7];
+        colonnes[telproIndex]= newData[0][8];
+        colonnes[telmobIndex]= newData[0][9];
+        colonnes[catalogueIndex]= newData[0][10];
+        colonnes[adresseIndex]= newData[0][11];
+        colonnes[adresse2Index]= newData[0][12];
+        colonnes[villeIndex] = newData[0][13];
+        colonnes[codepostalIndex] = newData[0][14];
+        colonnes[paysIndex]= newData[0][15];
+        colonnes[pagewebIndex]= newData[0][16];
+        colonnes[notesIndex]= newData[0][17];
+        colonnes[piecesIndex]= newData[0][18];
+        colonnes[retraitIndex]= newData[0][19];
+        colonnes[tauxIndex]= newData[0][20];
 
       
       lignes[ligneAmodifier] = colonnes.join(';');
 
-      console.log(newData[0][4])
       console.log(lignes[ligneAmodifier]);
   
 
@@ -159,8 +191,6 @@ function modifierFichierCSV() {
   var dateString = currentDate.toDateString(); // Convertir la date en une représentation de chaîne de caractères
 
 
-  console.log(dateString);
-
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
       console.error('Une erreur s\'est produite lors de la lecture du fichier CSV :', err);
@@ -170,9 +200,7 @@ function modifierFichierCSV() {
     const lignes = data.split('\n');
     const entetes = lignes[0].split(';');
 
-    const modifIndex = entetes.indexOf('Dernière Modif\r');
-
-    console.log(modifIndex);
+    const modifIndex = entetes.indexOf('Dernière Modif');
 
             // Ajouter les nouvelles données à la feuille de calcul
             const newData = [
@@ -187,10 +215,6 @@ function modifierFichierCSV() {
 
       lignes[ligneAmodifier] = colonnes.join(';');
 
-      console.log(lignes[ligneAmodifier]);
-      console.log(colonnes);
-
-  
     const fichierModifie = lignes.join('\n');
 
 
@@ -209,8 +233,10 @@ function modifierFichierCSV() {
 
 
 
-  return (
 
+    return (
+
+    
 
     <div className="container">
     <div id="menu">
@@ -228,37 +254,47 @@ function modifierFichierCSV() {
       <h1>FICHE CLIENT </h1>
       <form className="fiche-modifiable" >
          <div className='ligne'>
-          {listeDonnee.slice(2,5).map(([key, value]) => (
+          {listeDonnee.slice(0,3).map(([key, value]) => (
           <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />))}  
         </div>
         <div className='ligne'>
-          {listeDonnee.slice(0,2).map(([key, value]) => (
+          {listeDonnee.slice(3,6).map(([key, value]) => (
           <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />))}
         </div>
        
         <div className='below'>
             <div className='left'>
+            <div className='ligne'>
+          {listeDonnee.slice(6,9).map(([key, value]) => (
+          <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />))}
+        </div>
+       
               <div className='ligne'>
-              
-          <Information key={listeDonnee[5][0]} name={listeDonnee[5][0]} value={listeDonnee[5][1]} line={props.entite.__rowNum__} />
-          <Information key={listeDonnee[9][0]} name={listeDonnee[9][0]} value={listeDonnee[9][1]} line={props.entite.__rowNum__} />
-              </div>
-              <div className='ligne'>
-              {listeDonnee.slice(6,8).map(([key, value]) => (
+              {listeDonnee.slice(9,12).map(([key, value]) => (
           <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />))}
               </div>
               <div className='ligne'>
-              <Information key={listeDonnee[8][0]} name={listeDonnee[8][0]} value={listeDonnee[8][1]} line={props.entite.__rowNum__} />
-              <Information key={listeDonnee[11][0]} name={listeDonnee[11][0]} value={listeDonnee[11][1]} line={props.entite.__rowNum__} />
-              </div>
+          {listeDonnee.slice(12,15).map(([key, value]) => (
+          <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />))}
+        </div>
+        <div className='ligne'>
+          {listeDonnee.slice(15,18).map(([key, value]) => (
+          <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />))}
+        </div>
+        <div className='ligne'>
+          {listeDonnee.slice(18,21).map(([key, value]) => (
+          <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />))}
+        </div>
+        <div className='ligne'>
+          {listeDonnee.slice(21,22).map(([key, value]) => (
+          <Information key={key} name={key} value={value} line={props.entite.__rowNum__} />))}
+        </div>
+       
+       
               
             
             </div>
-            <div className='right'>
-              <div>
-              <Information key={listeDonnee[10][0]} name={listeDonnee[10][0]} value={listeDonnee[10][1]} line={props.entite.__rowNum__} />
-              </div>
-            </div>
+
         </div>
         <input id="save" type="submit" value="Sauvegarder" />
       </form>
@@ -288,6 +324,7 @@ Tester chagement info fiche      </button>
     </div>
 
   );
+
 }
 
 export default Fiche;

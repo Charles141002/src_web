@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import jsonData from './fichier_csv';
+import { useState, useEffect } from 'react';
+
 
 function CreerListe(props) {
-    console.log(props);
   const [reseaux, setReseaux] = useState([]); // État pour stocker les réseaux
   const [entreprises, setEntreprises] = useState([]); // État pour stocker les entreprises correspondantes
   const [clients, setClients] = useState([]); // État pour stocker les clients des entreprises
@@ -41,7 +40,7 @@ function CreerListe(props) {
 
     tableauDonnees.forEach((ligne) => {
       const reseau = ligne.Réseau;
-      const entreprise = ligne["﻿Société"];
+      const entreprise = ligne["Société"];
 
       if (reseau && entreprise) {
         if (!dictionnaire[reseau]) {
@@ -64,7 +63,7 @@ function CreerListe(props) {
     const dictionnaire = {};
 
     tableauDonnees.forEach((ligne) => {
-      const entreprise = ligne["﻿Société"];
+      const entreprise = ligne["Société"];
       const client = ligne["Nom"];
 
       if (client && entreprise) {
@@ -82,10 +81,6 @@ function CreerListe(props) {
 
     return dictionnaire;
   }
-
-  console.log(reseaux);
-  console.log(dictionnaireEntreprisesClients);
-  console.log(dictionnaireReseauxEntreprises);
 
   return [dictionnaireReseauxEntreprises, dictionnaireEntreprisesClients]; // Remplacez null par le contenu JSX que vous souhaitez rendre
 }

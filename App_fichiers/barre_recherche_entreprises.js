@@ -1,6 +1,5 @@
 import {useState, useEffect} from "react";
-import jsonData from "./fichier_csv";
-import { Liste_reseaux, Liste_entreprises, Dictionnaire_reseaux_entreprises } from "./liste";
+import { Liste_entreprises, Dictionnaire_reseaux_entreprises } from "./liste";
 import ReactDOM from "react-dom";
 import Entreprise from "./entreprise";
 
@@ -8,8 +7,6 @@ import Entreprise from "./entreprise";
 function BarreRechercheEntreprises(props){
 
     const dictionnaireReseauxEntreprises = Dictionnaire_reseaux_entreprises();
-
-    console.log(dictionnaireReseauxEntreprises[props.reseau]);
 
     const liste_entreprises = Liste_entreprises();
 
@@ -63,7 +60,6 @@ function BarreRechercheEntreprises(props){
             }
             
         //setTableauFiches([]);
-        //console.log(tableauFiches)
         setTableauEntreprises(entreprisesTrouvees);
 
     };

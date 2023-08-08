@@ -17,7 +17,6 @@ for (var info in client) {
       
   
     vcfContent += "END:VCARD";
-    console.log(vcfContent);
     var blob = new Blob([vcfContent], { type: "text/vcard" });
     var url = URL.createObjectURL(blob);
   
@@ -36,11 +35,8 @@ for (var info in client) {
     document.body.removeChild(link);
   
   };
-  console.log(props.entite);
-  console.log(client);
+
   
-
-
 
     return (
       <div>

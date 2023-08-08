@@ -1,13 +1,10 @@
 import {useState, useEffect} from "react";
-import jsonData from "./fichier_csv";
-import { Liste_reseaux, Liste_clients_agences, Dictionnaire_entreprises_clients } from "./liste";
+import { Liste_clients_agences, Dictionnaire_entreprises_clients } from "./liste";
 
 
 function BarreRechercheClients(props){
 
     const dictionnaireEntreprisesClients = Dictionnaire_entreprises_clients();
-
-    console.log(dictionnaireEntreprisesClients[props.entreprise]);
 
     const liste_client_agences = Liste_clients_agences();
 
@@ -61,7 +58,6 @@ function BarreRechercheClients(props){
             }
             
         //setTableauFiches([]);
-        //console.log(tableauFiches)
         setTableauClients(clientsagencesTrouves);
 
     };

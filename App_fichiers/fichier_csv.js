@@ -1,4 +1,4 @@
-const fichier_csv = 'src/fichier_csv/Contacts.csv'
+export const fichier_csv = '/Users/charlespelong/Desktop/peba/src/fichier_csv/Contacts.csv'
 
 const fs = require('fs');
 const XLSX = require('xlsx');
@@ -9,8 +9,6 @@ const csv = require('csv-parser');
 const csvContent = fs.readFileSync(fichier_csv, 'utf-8');
 
 const jsonData = csvToJson(csvContent);
-
-console.log(jsonData);
 
 
 function csvToJson(csvContent) {
