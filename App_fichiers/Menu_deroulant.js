@@ -14,6 +14,8 @@ import EviterBug from "./eviter_le bug.js";
 function Menu2(props){
 
 
+
+
   const liste_reseaux = Liste_reseaux();
   const dictionnaireReseauxEntreprises = Dictionnaire_reseaux_entreprises();
   const liste_entreprises = Liste_entreprises();
@@ -41,6 +43,7 @@ function Menu2(props){
   };
 
 
+  console.log(dictionnaireReseauxEntreprises['Autres']);
 
   const [clientsFiltrees, setClientsFiltrees] = useState([]);
   const [open_clients, setOpenClients] = useState(false);
@@ -79,13 +82,15 @@ function Menu2(props){
 }}><FontAwesomeIcon icon={faGlobe} /> {reseau} </h1>
             </div>
             {liste_entreprises.map(entreprise => {
-              if (dictionnaireReseauxEntreprises[reseau].includes(entreprise) && entreprisesFiltrees.includes(entreprise) && open && selectedReseau==reseau) {
+              if (dictionnaireReseauxEntreprises[reseau]?.includes(entreprise) && entreprisesFiltrees?.includes(entreprise) && open && selectedReseau==reseau) {
+                console.log('AAAA');
+                console.log(dictionnaireReseauxEntreprises['Autres']);
                 return <div key={entreprise}><h2 onClick={() => handleOnDoubleClickEntreprise(entreprise)} onDoubleClick={() => {
                   const element = <Entreprise entreprise={entreprise} />;
                   ReactDOM.render(element, document.getElementById('root'));
                 }}><FontAwesomeIcon icon={faBuilding} /> {entreprise}</h2>
                   {liste_client_agences.map(client_agence => {
-                    if (dictionnaireEntreprisesClients[entreprise].includes(client_agence) && clientsFiltrees.includes(client_agence) && open) {
+                    if (dictionnaireEntreprisesClients[entreprise]?.includes(client_agence) && clientsFiltrees?.includes(client_agence) && open) {
                       if (Retrouver_infos_clients(client_agence)["Nom"] && Retrouver_infos_clients(client_agence)["Prénom"]){
                       return <div key={client_agence}><h3 onClick={() => {
                         const element = <EviterBug entite={Retrouver_infos_clients(client_agence)} />;

@@ -9,7 +9,7 @@ const csv = require('csv-parser');
 const csvContent = fs.readFileSync(fichier_csv, 'utf-8');
 
 const jsonData = csvToJson(csvContent);
-
+console.log(jsonData);
 
 function csvToJson(csvContent) {
 

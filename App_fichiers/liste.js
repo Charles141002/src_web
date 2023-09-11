@@ -15,15 +15,20 @@ export function Liste_reseaux(){
         
         tableauDonnees.forEach((ligne) => {
         const reseau = ligne.Réseau;
-        if (reseau) {
+        if (reseau && reseau != '02 32 84 10 64' && reseau != '22603' && reseau != '97122' && reseau != reseau.toUpperCase()) {
             reseaux.add(reseau);
         }
         });
+
+
         
         const reseauxTries = Array.from(reseaux).sort(); // Tri des réseaux par ordre alphabétique
         return reseauxTries;
 
+
     }
+    console.log(reseaux);
+
 
     return reseaux;
 

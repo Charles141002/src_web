@@ -191,43 +191,43 @@ console.log(document.getElementById('Taux'));
   var dateString = currentDate.toDateString(); // Convertir la date en une représentation de chaîne de caractères
 
 
-  fs.readFile(filePath, 'utf8', (err, data) => {
-    if (err) {
-      console.error('Une erreur s\'est produite lors de la lecture du fichier CSV :', err);
-      return;
-    }
+ // fs.readFile(filePath, 'utf8', (err, data) => {
+   // if (err) {
+     // console.error('Une erreur s\'est produite lors de la lecture du fichier CSV :', err);
+   //   return;
+   // }
 
-    const lignes = data.split('\n');
-    const entetes = lignes[0].split(';');
+  //  const lignes = data.split('\n');
+   // const entetes = lignes[0].split(';');
 
-    const modifIndex = entetes.indexOf('Dernière Modif');
+    //const modifIndex = entetes.indexOf('Dernière Modif');
 
             // Ajouter les nouvelles données à la feuille de calcul
-            const newData = [
-              [
-                dateString
-            ]
-            ];
+    //       const newData = [
+     //         [
+      //          dateString
+      //      ]
+    //        ];
     
-      const colonnes = lignes[ligneAmodifier].split(';');
+    //  const colonnes = lignes[ligneAmodifier].split(';');
 
-      colonnes[modifIndex] =newData[0][0];
+     // colonnes[modifIndex] =newData[0][0];
 
-      lignes[ligneAmodifier] = colonnes.join(';');
+     // lignes[ligneAmodifier] = colonnes.join(';');
 
-    const fichierModifie = lignes.join('\n');
+    //const fichierModifie = lignes.join('\n');
 
 
 
     // Écrire les données modifiées dans le fichier CSV
-    fs.writeFile(filePath, fichierModifie, 'utf8', (err) => {
-      if (err) {
-        console.error('Une erreur s\'est produite lors de l\'écriture du fichier CSV :', err);
-        return;
-      }
-      console.log('Le fichier CSV a été modifié avec succès.');
-    });
-  });
+ //   fs.writeFile(filePath, fichierModifie, 'utf8', (err) => {
+  //    if (err) {
+   //     console.error('Une erreur s\'est produite lors de l\'écriture du fichier CSV :', err);
+    //    return;
+   //   }
+   //   console.log('Le fichier CSV a été modifié avec succès.');
+  //  });
+ // });
 
   const listeDonnee = Object.entries(props.entite);
 
